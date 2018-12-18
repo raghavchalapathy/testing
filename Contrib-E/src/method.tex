@@ -1,0 +1,96 @@
+% !TEX root=../main.tex
+\section{Problem and Model Formulation} \label{sec:method}
+%\subsection
+{\bf Problem Definition:} 
+{  The following formulation follows the problem definition introduced in %Toth and Chawla \cite{MySurvey}
+Section \ref{Sec:Problem}.  
+Suppose groups %$\mathcal{G} = \big\{  {\bf G}_m \big\} _{ m=1 }^M  $
+$ \big\{  {\bf G}_1, {\bf G}_2,\dots, {\bf G}_M \big\}   $ are observed where $M$ is the number of groups and the $m$th group has group size  
+$N_m$ with $V$-dimensional observations, that is 
+ ${\bf G}_m = \big( X_{mnv}\big)
+ \in \mathbb{R}^{N_m \times V} $. 
+} 
+ In GAD, the statistical properties of the $m$th group is captured by a characterisation function denoted by $f:  \mathbb{R}^{N_m \times V} \to \mathbb{R}^{D}$ where $D$ is the dimensionality on a transformed feature space. After a characterisation function is applied to a training dataset,  group information is combined using an aggregation function $g: \mathbb{R}^{M \times D} \to \mathbb{R}^{D}$.  A group reference is composed of characterisation and aggregation functions applied with 
+\begin{align}
+\mathcal{G}^{(ref)} = g \Big[ \big\{ f({\bf G}_{m} ) \big\}_{m=1}^M \Big]
+\label{eqn:Gref}
+\end{align}
+Then a distance metric $d(\cdot,\cdot) \ge 0  $ is applied to measure the deviation of a particular group from the group reference function. The distance score $  d\Big(\mathcal{G}^{(ref)}  , {\bf G}_{m} \Big )$  quantifies the deviance of the $m$th group from the expected group pattern where larger values are associated with more anomalous groups.  
+Group anomalies are effectively detected when characterisation function $f$ and aggregation function $g$  respectively capture properties of group distributions and appropriately combine information into a group reference. For example in an variational autoencoder setting, an encoder function $f$ characterises mean and standard deviation  of group distributions whereas {  decoder function $g$ reconstructs the original sample.
+ %with $f\big( {\bf G}_m \big) = ( {\mu}_m,{\sigma}_m)   $ for $ m = 1,2,\dots,M $.
+ Further descriptions of functions $f$ and $g$ for VAE and AAE are provided in Algorithm \ref{algo:gadVae}.
+ }
+ 
+  
+
+\vspace{4mm}
+% Algorithm
+\begin{algorithm}[t]
+\DontPrintSemicolon
+\SetAlgoLined
+\SetKwInOut{Input}{Input}\SetKwInOut{Output}{Output}
+\Input{ Groups $  \big\{  { \bf G}_1, { \bf  G}_2,\dots,  {\bf  G}_M \big \}  $  where  ${\bf G}_m  =\big( X_{mnv}\big) \in \mathbb{R}^{N_m \times V} $
+%\big( X_{ij}\big) Set of points \bf{X} = ${\{x_1,...,x_N\}}$, known groups $\mathcal{G} = \big( {\bf G}(m)  \big)_{ m \in \{ 1,2,\dots,M \} }  $}
+}
+\BlankLine
+\Output{Group anomaly scores \textbf{S}  }
+\BlankLine
+%$f_\phi,g_\psi \gets $
+Train AAE and VAE to obtain encoder $f_\phi$ and decoder $g_\psi$    \;
+\BlankLine
+  \Begin{
+        \Switch{C}{
+            \Case{(VAE)}{
+%              \For{(m = 1 to M)}{
+ %   			\BlankLine
+      				$(\mu_m,\sigma_m) \sim f_\phi(z|{\bf G}_m)$  for $m=1,2,\dots,M$ \;
+  %              }
+           $(\mu,\sigma) = \frac{1}{M}\sum_{m=1}^{M}      (\mu_m,\sigma_m$)\;
+               \BlankLine
+    draw a sample from $z \sim \mathcal{N}(\mu,\,\sigma)$\;
+  %  reconstruct sample using decoder $\mathcal{G}^{(ref)}=    g_\psi(\mathcal{G}|z)$\;
+            }
+            \Case{(AAE)}{
+%                 \For{(m = 1 to M)}{
+%     			\BlankLine
+%       				$z_m =  f_\phi(G_m)$\;
+%                     }
+          draw a latent representation $z \sim f_\phi(z|{\bf G}_m)$ \; for $m=1,2,\dots,M$
+           }
+          }
+             \For{(m = 1 to M)}{
+              reconstruct sample using decoder $\mathcal{G}^{(ref)}=    g_\psi( {\bf G}_m|z)$\;   
+            compute the score
+        ${ s}_m =d\Big(\mathcal{G}^{(ref)}, {\bf G}_{m}   \Big ) $
+
+        \BlankLine
+    }
+     sort scores in descending order  
+     \textbf{S}$= \{s_{(M)} >\dots>s_{(1)} \}$\;
+     %$\{s_{(m)} \}_{m=1}^M  $
+%     \; with  $s_{(M)} >s_{(M-1)}  > ...>s_{(1)} $\;
+higher scores indicate more anomalous groups
+%    groups with higher scores,  are more anomalous.\;  
+     % that are further away from $\mathcal{G}^{(ref)}$ 
+   
+        \textbf{return S}
+    }
+\caption{Group anomaly detection using deep generative models}
+\label{algo:gadVae}
+\end{algorithm}
+
+
+%
+\subsection{Training the model}
+\label{sec:training}
+The variational and adversarial autoencoder are trained according to the objective function given in Equation ~(\ref{eqn:vaeloss}), (\ref{eqn:aaeloss}) respectively. The objective functions of DGMs are optimised using the standard backpropagation algorithm. Given known  group memberships, AAE is fully trained on input groups to obtain a  representative group reference $\mathcal{G}^{(ref)}$ described in Equation (\ref{eqn:Gref}). While in case of VAE, $\mathcal{G}^{(ref)}$ is obtained by drawing samples using mean and standard deviation parameters that are inferred from group distributions as illustrated in Algorithm~\ref{algo:gadVae}.
+
+%
+\subsection{Predicting with the model}
+In order to identify  group anomalies, the distance of a group from  the group reference   $\mathcal{G}^{(ref)}$ is computed. The output scores are sorted according to descending order where groups that are furthest from $\mathcal{G}^{(ref)}$ are considered most anomalous. One convenient property of DGMs is that the anomaly detector will be inductive, i.e.  it can generalise to unseen observations. One can interpret the model as learning a robust representation of  group distributions. An appropriate characterisation of groups results in more accurate detection  where any unseen  observations  either  lie within the reference group manifold or deviate from the expected group pattern. % within that group.
+
+
+
+
+
+

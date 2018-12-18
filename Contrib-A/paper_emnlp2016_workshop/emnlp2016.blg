@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: emnlp2016.aux
+The style file: emnlp2016.bst
+Database file #1: emnlp2016.bib
+I was expecting a `,' or a `}'---line 38 of file emnlp2016.bib
+ :  
+ :  page={}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 23 entries,
+            2490 wiz_defined-function locations,
+            687 strings with 9232 characters,
+and the built_in function-call counts, 11358 in all, are:
+= -- 1171
+> -- 562
+< -- 7
++ -- 201
+- -- 198
+* -- 915
+:= -- 1806
+add.period$ -- 92
+call.type$ -- 23
+change.case$ -- 190
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 430
+empty$ -- 788
+format.name$ -- 224
+if$ -- 2344
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 22
+newline$ -- 141
+num.names$ -- 69
+pop$ -- 192
+preamble$ -- 1
+purify$ -- 212
+quote$ -- 0
+skip$ -- 342
+stack$ -- 0
+substring$ -- 637
+swap$ -- 115
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 184
+warning$ -- 0
+while$ -- 91
+width$ -- 25
+write$ -- 322
+(There was 1 error message)

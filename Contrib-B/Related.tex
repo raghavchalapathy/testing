@@ -1,0 +1,63 @@
+\section{Related Work}
+\label{Sec:Related}
+
+ Most of the research to date have formulated CE as a sequence labelling NER problem employing various supervised and semi-supervised ML algorithms employing focussed domain-dependent attributes and specialized text features~\cite{uzuner20112010}. Similarly hybrid models obtained by cascading CRF and SVM algorithms along with several pattern matching rules are shown to produce effective results~\cite{boagcliner}. The efficacy of including pre-processing technique (such as truecasing and annotation combination) along with CRF based NER system to improve concept extraction performace was exemplified by \cite{fu2014improving}. The best performing system for 2010 i2b2/VA concept extract task adopted unsupervised feature representations  derived from unlabeled corpora using Brown clustering technique along with semi-supervised Markov HMM models~\cite{de2011machine}. However, the unsupervised one-hot word feature representations derived from Brown clustering fails to capture multiple aspect relation between words. Subsequently~\cite{jonnalagadda2012enhancing} demonstrated that random indexing model with distributional word representations  improve clinical concept extraction. With recent success of incorporating word embeddings derived from the entire English wikipedia in various NER task \cite{collobert2011natural}, binarized word embeddings derived from domain specific copora (Eg: Monitoring in Intensive Care (MIMIC) II corpus)  has improved performance of CRF based concept extraction system~\cite{wu2015study}. In the broader field of machine learning, the recent years have witnessed proliferation of  deep neural networks, with unprecedented results in tasks such as visual, speech and NER. One of the main advantages of neural networks is that they learn features automatically thus avoiding laborious feature engineerin. Given these promising results obtained the main goal of this paper is to employ bidirectional LSTM CRF intialized with general off-the-shelf unsupervised word embeddings derived from Glove and Word2Vec models and evaluate its performance. The experimental results obtained on 2010 i2b2/VA reference standard corpora without use of any extensive feature engineering  and domain specific resources is very encouraging.
+
+
+
+ %
+ % The following footnote without marker is needed for the camera-ready
+ % version of the paper.
+ % Comment out the instructions (first text) and uncomment the 8 lines
+ % under "final paper" for your variant of English.
+ %
+ % \blfootnote{
+ %     %
+ %     % for review submission
+ %     %
+ %     \hspace{-0.65cm}  % space normally used by the marker
+
+ %     %
+ %      % final paper: en-uk version (to license, a licence)
+
+
+ % }
+
+ \begin{table*}[ht]
+    \small
+    \centering
+
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline \bf Sentence & \textit{His}& \textit{HCT} & \textit{had}& \textit{dropped} & \textit{from} &\textit{36.7} &\textit{despite} &\textit{2U} &\textit{PRBC} &\textit{and} &\textit{3U-FFP} \\
+        \hline \textbf{Concept class}& \textit{B-test}& \textit{I-test}& \textit{O} & \textit{O}& \textit{O} & \textit{O} & \textit{ O} & \textit{B-treatment} & \textit{I-treatment} & \textit{O} & \textit{O}\\
+        \hline
+    \end{tabular}
+    \caption{Example sentence in a CE task with concept classes represented in IOB format.}
+    \label{table1}
+ \end{table*}
+
+
+
+ \begin{table*}[ht]
+    \centering
+
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \multirow{3}{*}{} &
+            \multicolumn{2}{c|}{\bf {\small 2010 i2b2/VA}} \\
+            \cline{2-3}
+
+            & Training for CE task & Test for CE \\
+            \hline
+            notes &$170$ &$256$  \\
+            sentences &$16315$&$27626$\\
+            \hline
+            problem  & $7073$   & $12592$  \\
+            test&  $4608$ & $9225$\\
+            treatment& $4844$ & $9344$\\
+             \hline
+        \end{tabular}
+        \caption{Statistics of training and test datasets used for 2010-i2b2 concept extraction.}
+        \label{table2}
+    \end{table*}
+

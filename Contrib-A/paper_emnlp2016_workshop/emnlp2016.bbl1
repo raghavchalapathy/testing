@@ -1,0 +1,55 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Abacha \bgroup et al.\egroup }2015]{abacha2015text}
+Asma~Ben Abacha, Md~Faisal~Mahbub Chowdhury, Aikaterini Karanasiou, Yassine
+  Mrabet, Alberto Lavelli, and Pierre Zweigenbaum.
+\newblock 2015.
+\newblock Text mining for pharmacovigilance: Using machine learning for drug
+  name recognition and drug--drug interaction extraction and classification.
+\newblock {\em Journal of biomedical informatics}, 58:122--132.
+
+\bibitem[\protect\citename{Collobert \bgroup et al.\egroup
+  }2011]{collobert2011natural}
+Ronan Collobert, Jason Weston, L{\'e}on Bottou, Michael Karlen, Koray
+  Kavukcuoglu, and Pavel Kuksa.
+\newblock 2011.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of Machine Learning Research}, 12(Aug):2493--2537.
+
+\bibitem[\protect\citename{Huber \bgroup et al.\egroup }2013]{huber2013wbi}
+T~Huber, U~Den~Linden, and T~Rockt.
+\newblock 2013.
+\newblock Wbi-ner?`: The impact of domain-specific features on the performance
+  of identifying and classifying mentions of drugs.
+\newblock In {\em Second Joint Conference on Lexical and Computational
+  Semantics* SEM}, volume~2, pages 356--363.
+
+\bibitem[\protect\citename{Liu \bgroup et al.\egroup }2015a]{liu2015drug}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, and Xiaolong Wang.
+\newblock 2015a.
+\newblock Drug name recognition: Approaches and resources.
+\newblock {\em Information}, 6(4):790--810.
+
+\bibitem[\protect\citename{Liu \bgroup et al.\egroup }2015b]{liu2015feature}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, Xiaolong Wang, and Xiaoming Fan.
+\newblock 2015b.
+\newblock Feature engineering for drug name recognition in biomedical texts:
+  Feature conjunction and feature selection.
+\newblock {\em Computational and mathematical methods in medicine}, 2015.
+
+\bibitem[\protect\citename{Rockt{\"a}schel \bgroup et al.\egroup
+  }2012]{rocktaschel2012chemspot}
+Tim Rockt{\"a}schel, Michael Weidlich, and Ulf Leser.
+\newblock 2012.
+\newblock Chemspot: a hybrid system for chemical named entity recognition.
+\newblock {\em Bioinformatics}, 28(12):1633--1640.
+
+\bibitem[\protect\citename{Segura-Bedmar \bgroup et al.\egroup
+  }2015]{segura2015exploring}
+Isabel Segura-Bedmar, V{\i}ctor Su{\'a}rez-Paniagua, and Paloma Mart{\i}nez.
+\newblock 2015.
+\newblock Exploring word embedding for drug name recognition.
+\newblock In {\em SIXTH INTERNATIONAL WORKSHOP ON HEALTH TEXT MINING AND
+  INFORMATION ANALYSIS (LOUHI)}, page~64.
+
+\end{thebibliography}

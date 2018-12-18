@@ -1,0 +1,175 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Abacha \bgroup et al.\egroup }2015]{abacha2015text}
+Asma~Ben Abacha, Md~Faisal~Mahbub Chowdhury, Aikaterini Karanasiou, Yassine
+  Mrabet, Alberto Lavelli, and Pierre Zweigenbaum.
+\newblock 2015.
+\newblock Text mining for pharmacovigilance: Using machine learning for drug
+  name recognition and drug--drug interaction extraction and classification.
+\newblock {\em Journal of Biomedical Informatics}, 58:122--132.
+
+\bibitem[\protect\citename{Bengio \bgroup et al.\egroup
+  }1994]{bengio1994learning}
+Yoshua Bengio, Patrice Simard, and Paolo Frasconi.
+\newblock 1994.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE Transactions on Neural Networks}, 5(2):157--166.
+
+\bibitem[\protect\citename{Bergstra and Bengio}2012]{bergstra2012random}
+James Bergstra and Yoshua Bengio.
+\newblock 2012.
+\newblock Random search for hyper-parameter optimization.
+\newblock {\em Journal of Machine Learning Research}, 13:281--305.
+
+\bibitem[\protect\citename{Bergstra \bgroup et al.\egroup
+  }2010]{bergstra2010theano}
+James Bergstra, Olivier Breuleux, Fr{\'e}d{\'e}ric Bastien, Pascal Lamblin,
+  Razvan Pascanu, Guillaume Desjardins, Joseph Turian, David Warde-Farley, and
+  Yoshua Bengio.
+\newblock 2010.
+\newblock Theano: A {CPU} and {GPU} math compiler in {Python}.
+\newblock In {\em The 9th Python in Science Conference}, pages 1--7.
+
+\bibitem[\protect\citename{Collobert \bgroup et al.\egroup
+  }2011]{collobert2011natural}
+Ronan Collobert, Jason Weston, L{\'e}on Bottou, Michael Karlen, Koray
+  Kavukcuoglu, and Pavel Kuksa.
+\newblock 2011.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of Machine Learning Research}, 12:2493--2537.
+
+\bibitem[\protect\citename{Elman}1990]{elman1990finding}
+Jeffrey~L Elman.
+\newblock 1990.
+\newblock Finding structure in time.
+\newblock {\em Cognitive Science}, 14(2):179--211.
+
+\bibitem[\protect\citename{Herrero-Zazo \bgroup et al.\egroup
+  }2013]{herrero2013ddi}
+Mar{\'\i}a Herrero-Zazo, Isabel Segura-Bedmar, Paloma Mart{\'\i}nez, and
+  Thierry Declerck.
+\newblock 2013.
+\newblock The {DDI} corpus: An annotated corpus with pharmacological substances
+  and drug--drug interactions.
+\newblock {\em Journal of Biomedical Informatics}, 46(5):914--920.
+
+\bibitem[\protect\citename{Hinton \bgroup et al.\egroup }2012]{hinton2012deep}
+Geoffrey Hinton, Li~Deng, Dong Yu, George~E Dahl, Abdel-rahman Mohamed, Navdeep
+  Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara~N Sainath,
+  et~al.
+\newblock 2012.
+\newblock Deep neural networks for acoustic modeling in speech recognition: The
+  shared views of four research groups.
+\newblock {\em IEEE Signal Processing Magazine}, 29(6):82--97.
+
+\bibitem[\protect\citename{Hochreiter and Schmidhuber}1997]{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock 1997.
+\newblock Long short-term memory.
+\newblock {\em Neural Computation}, 9(8):1735--1780.
+
+\bibitem[\protect\citename{Jordan}1986]{jordan1986serial}
+Michael~I. Jordan.
+\newblock 1986.
+\newblock Serial order: A parallel distributed processing approach.
+\newblock Technical report, San Diego: University of California, Institute for
+  Cognitive Science.
+
+\bibitem[\protect\citename{Krizhevsky \bgroup et al.\egroup
+  }2012]{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock 2012.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em NIPS}, pages 1097--1105.
+
+\bibitem[\protect\citename{Lafferty \bgroup et al.\egroup
+  }2001]{lafferty2001conditional}
+John Lafferty, Andrew McCallum, and Fernando Pereira.
+\newblock 2001.
+\newblock Conditional random fields: Probabilistic models for segmenting and
+  labeling sequence data.
+\newblock In {\em ICML}, pages 282--289.
+
+\bibitem[\protect\citename{Lample \bgroup et al.\egroup
+  }2016]{lample2016neural}
+Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, and
+  Chris Dyer.
+\newblock 2016.
+\newblock Neural architectures for named entity recognition.
+\newblock In {\em NAACL-HLT}.
+
+\bibitem[\protect\citename{Liu \bgroup et al.\egroup }2015a]{liu2015drug}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, and Xiaolong Wang.
+\newblock 2015a.
+\newblock {Drug name recognition}: Approaches and resources.
+\newblock {\em Information}, 6(4):790--810.
+
+\bibitem[\protect\citename{Liu \bgroup et al.\egroup }2015b]{liu2015feature}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, Xiaolong Wang, and Xiaoming Fan.
+\newblock 2015b.
+\newblock Feature engineering for drug name recognition in biomedical texts:
+  Feature conjunction and feature selection.
+\newblock {\em Computational and Mathematical Methods in Medicine}, 2015:1--9.
+
+\bibitem[\protect\citename{Mesnil \bgroup et al.\egroup }2015]{mesnil2015using}
+Gr{\'e}goire Mesnil, Yann Dauphin, Kaisheng Yao, Yoshua Bengio, Li~Deng, Dilek
+  Hakkani-Tur, Xiaodong He, Larry Heck, Gokhan Tur, Dong Yu, et~al.
+\newblock 2015.
+\newblock Using recurrent neural networks for slot filling in spoken language
+  understanding.
+\newblock {\em IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 23(3):530--539.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup }2013]{Mikolov:13}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock 2013.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em NIPS}, pages 3111--3119.
+
+\bibitem[\protect\citename{Nadeau and Sekine}2007]{Nadeau:07}
+David Nadeau and Satoshi Sekine.
+\newblock 2007.
+\newblock A survey of named entity recognition and classification.
+\newblock {\em Linguisticae Investigationes}, 30(1):3--26.
+
+\bibitem[\protect\citename{Pennington \bgroup et al.\egroup
+  }2014]{Pennington:14}
+Jeffrey Pennington, Richard Socher, and Christopher~D. Manning.
+\newblock 2014.
+\newblock {GloVe}: Global vectors for word representation.
+\newblock In {\em EMNLP}, pages 1532--1543.
+
+\bibitem[\protect\citename{Rockt{\"a}schel \bgroup et al.\egroup
+  }2012]{rocktaschel2012chemspot}
+Tim Rockt{\"a}schel, Michael Weidlich, and Ulf Leser.
+\newblock 2012.
+\newblock {ChemSpot}: A hybrid system for chemical named entity recognition.
+\newblock {\em Bioinformatics}, 28(12):1633--1640.
+
+\bibitem[\protect\citename{Rockt{\"a}schel \bgroup et al.\egroup
+  }2013]{huber2013wbi}
+Tim Rockt{\"a}schel, Torsten Huber, Michael Weidlich, and Ulf Leser.
+\newblock 2013.
+\newblock {WBI-NER}: The impact of domain-specific features on the performance
+  of identifying and classifying mentions of drugs.
+\newblock In {\em The 7th International Workshop on Semantic Evaluation}, pages
+  356--363.
+
+\bibitem[\protect\citename{Segura-Bedmar \bgroup et al.\egroup
+  }2013]{segura2013semeval}
+Isabel Segura-Bedmar, Paloma Mart{\'\i}nez, and Mar{\'\i}a Herrero~Zazo.
+\newblock 2013.
+\newblock Semeval-2013 task 9: Extraction of drug-drug interactions from
+  biomedical texts {(DDIExtraction 2013)}.
+\newblock In {\em The 7th International Workshop on Semantic Evaluation}.
+
+\bibitem[\protect\citename{Segura-Bedmar \bgroup et al.\egroup
+  }2015]{segura2015exploring}
+Isabel Segura-Bedmar, V{\i}ctor Su{\'a}rez-Paniagua, and Paloma Mart{\i}nez.
+\newblock 2015.
+\newblock Exploring word embedding for drug name recognition.
+\newblock In {\em The 6th International Workshop on Health Text Mining and
+  Information Analysis}, page~64.
+
+\end{thebibliography}

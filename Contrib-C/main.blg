@@ -1,0 +1,113 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Illegal, another \bibdata command---line 285 of file main.aux
+ : \bibdata
+ :         {outlier}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-bibliography.bib
+Repeated entry---line 117 of file sample-bibliography.bib
+ : @article{radford2015unsupervised
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 409 of file sample-bibliography.bib
+ : @article{cao2003comparison
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 441 of file sample-bibliography.bib
+ : @article{neumann2005combined
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 463 of file sample-bibliography.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 916 of file sample-bibliography.bib
+ : @inproceedings{xu2010robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no number and no volume in abadi2016tensorflow
+Warning--page numbers missing in both pages and numpages fields in abadi2016tensorflow
+Warning--empty address in charubook
+Warning--empty booktitle in andrews2016transfer
+Warning--empty publisher in andrews2016transfer
+Warning--empty address in andrews2016transfer
+Warning--page numbers missing in both pages and numpages fields in andrews2016transfer
+Warning--empty address in boyd2004convex
+Warning--no number and no volume in brendel2017decision
+Warning--page numbers missing in both pages and numpages fields in brendel2017decision
+Warning--no number and no volume in chalapathy2017robust
+Warning--page numbers missing in both pages and numpages fields in chalapathy2017robust
+Warning--no number and no volume in chandola2007outlier
+Warning--page numbers missing in both pages and numpages fields in chandola2007outlier
+Warning--empty publisher in chong2017abnormal
+Warning--empty address in chong2017abnormal
+Warning--empty address in hawkins1980identification
+Warning--empty institution in krizhevsky2009learning
+Warning--page numbers missing in both pages and numpages fields in lecun2010mnist
+Warning--empty publisher in liu2008isolation
+Warning--empty address in liu2008isolation
+Warning--page numbers missing in both pages and numpages fields in marchi2017deep
+Warning--empty publisher in masci2011stacked
+Warning--empty address in masci2011stacked
+Warning--no number and no volume in radford2015unsupervised
+Warning--page numbers missing in both pages and numpages fields in radford2015unsupervised
+Warning--empty publisher in stallkamp2011german
+Warning--empty address in stallkamp2011german
+Warning--empty address in vapnik1998statistical
+Warning--empty publisher in vishwanathan2003simplesvm
+Warning--empty address in vishwanathan2003simplesvm
+Warning--empty publisher in xu2010robust
+Warning--empty address in xu2010robust
+Warning--empty publisher in zhou2017anomaly
+Warning--empty address in zhou2017anomaly
+You've used 33 entries,
+            5719 wiz_defined-function locations,
+            1488 strings with 20271 characters,
+and the built_in function-call counts, 38899 in all, are:
+= -- 5084
+> -- 1512
+< -- 0
++ -- 504
+- -- 510
+* -- 2805
+:= -- 3991
+add.period$ -- 171
+call.type$ -- 33
+change.case$ -- 237
+chr.to.int$ -- 32
+cite$ -- 68
+duplicate$ -- 3306
+empty$ -- 2310
+format.name$ -- 625
+if$ -- 9504
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 125
+newline$ -- 299
+num.names$ -- 265
+pop$ -- 1251
+preamble$ -- 1
+purify$ -- 530
+quote$ -- 0
+skip$ -- 1155
+stack$ -- 0
+substring$ -- 2696
+swap$ -- 345
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 672
+warning$ -- 35
+while$ -- 230
+width$ -- 0
+write$ -- 599
+(There were 6 error messages)

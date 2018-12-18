@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1545020573 "listofpublications.tex" "listofpublications.pdf" "listofpublications" 1545020573
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1442619646 3849859 bc9eaa9fdc19b5dbc06bcf6c1dd88e9f ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "listofpublications.aux" 1545020324 1348 e26c64719a723578f31d17da88661bbf ""
+  "listofpublications.tex" 1545020572 1571 7cd7d46b7b5d0337856bdd12f4664302 ""
+  (generated)
+  "listofpublications.pdf"
+  "listofpublications.aux"
+  "listofpublications.log"

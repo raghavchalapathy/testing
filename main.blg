@@ -1,0 +1,1405 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: PREFACE/cover.aux
+A level-1 auxiliary file: PREFACE/abstract.aux
+A level-1 auxiliary file: PREFACE/dedication.aux
+A level-1 auxiliary file: PREFACE/acknowledgement.aux
+A level-1 auxiliary file: PREFACE/listofpublications.aux
+A level-1 auxiliary file: PREFACE/ToC.aux
+A level-1 auxiliary file: Survey/Intro.aux
+A level-1 auxiliary file: Survey/aspectsOfAnomalyDetection.aux
+A level-1 auxiliary file: Survey/applicationOfAD.aux
+A level-1 auxiliary file: Contrib-A/src/intro.aux
+A level-1 auxiliary file: Contrib-A/src/background.aux
+A level-1 auxiliary file: Contrib-A/src/method.aux
+A level-1 auxiliary file: Contrib-A/src/experiment-setup.aux
+A level-1 auxiliary file: Contrib-A/src/experiment-results.aux
+A level-1 auxiliary file: Contrib-A/src/conclusion.aux
+A level-1 auxiliary file: Contrib-B/Intro.aux
+A level-1 auxiliary file: Contrib-B/Related.aux
+A level-1 auxiliary file: Contrib-B/method.aux
+A level-1 auxiliary file: Contrib-B/experiment-setup.aux
+A level-1 auxiliary file: Contrib-B/experiment-results.aux
+A level-1 auxiliary file: Contrib-B/Conclusion.aux
+A level-1 auxiliary file: Contrib-C/src/intro.aux
+A level-1 auxiliary file: Contrib-C/src/background.aux
+A level-1 auxiliary file: Contrib-C/src/experiment-setup.aux
+A level-1 auxiliary file: Contrib-C/src/experiment-results.aux
+A level-1 auxiliary file: Contrib-C/src/conclusion.aux
+A level-1 auxiliary file: Contrib-D/src/intro.aux
+A level-1 auxiliary file: Contrib-D/src/background.aux
+A level-1 auxiliary file: Contrib-D/src/method.aux
+A level-1 auxiliary file: Contrib-D/src/experiment-setup.aux
+A level-1 auxiliary file: Contrib-D/src/experiment-results.aux
+A level-1 auxiliary file: Contrib-D/src/conclusion.aux
+A level-1 auxiliary file: Contrib-E/src/intro.aux
+A level-1 auxiliary file: Contrib-E/src/background.aux
+A level-1 auxiliary file: Contrib-E/src/preliminaries.aux
+A level-1 auxiliary file: Contrib-E/src/method.aux
+A level-1 auxiliary file: Contrib-E/src/experiment-setup.aux
+A level-1 auxiliary file: Contrib-E/src/experiment-results.aux
+A level-1 auxiliary file: Contrib-E/src/conclusion.aux
+A level-1 auxiliary file: discussion.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: SETUP/thesis_bib.bst
+Reallocated field_info (elt_size=4) to 17949 items from 5000.
+Database file #1: MyBibFile.bib
+I was expecting a `,' or a `}'---line 6712 of file MyBibFile.bib
+ : 
+ : @inproceedings{vinayakumar2017applying,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 6906 of file MyBibFile.bib
+ : @inproceedings{chalapathy2017robust
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6987 of file MyBibFile.bib
+ : @article{gu2018semi
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7083 of file MyBibFile.bib
+ : @inproceedings{nolle2016unsupervised
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7249 of file MyBibFile.bib
+ : @inproceedings{dasigi2014modeling
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7400 of file MyBibFile.bib
+ : @inproceedings{sakurada2014anomaly
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7410 of file MyBibFile.bib
+ : @inproceedings{zhang2018role
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7419 of file MyBibFile.bib
+ : @article{cheng2017deep
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7451 of file MyBibFile.bib
+ : @article{mishra2017generative
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7458 of file MyBibFile.bib
+ : @inproceedings{xu2018unsupervised
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7482 of file MyBibFile.bib
+ : @article{an2015variational
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7507 of file MyBibFile.bib
+ : @article{kim2015deep
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7596 of file MyBibFile.bib
+ : @inproceedings{ruchansky2017csi
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7743 of file MyBibFile.bib
+ : @article{peharz2018probabilistic
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7781 of file MyBibFile.bib
+ : @article{makhzani2015adversarial
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7843 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7852 of file MyBibFile.bib
+ : @article{li2018anomaly
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7871 of file MyBibFile.bib
+ : @article{mikolov2013efficient
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7944 of file MyBibFile.bib
+ : @inproceedings{wulsin2010semi
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7964 of file MyBibFile.bib
+ : @article{bengio2009learning
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7985 of file MyBibFile.bib
+ : @inproceedings{kwon2018empirical
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7999 of file MyBibFile.bib
+ : @inproceedings{gorokhov2017convolutional
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8038 of file MyBibFile.bib
+ : @inproceedings{masci2011stacked
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8061 of file MyBibFile.bib
+ : @article{vincent2010stacked
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8098 of file MyBibFile.bib
+ : @article{andrews2016detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8128 of file MyBibFile.bib
+ : @inproceedings{malhotra2015long
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8250 of file MyBibFile.bib
+ : @article{sun2018detecting
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8278 of file MyBibFile.bib
+ : @article{kim2016lstm
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8806 of file MyBibFile.bib
+ :  @inproceedings{du2017deeplog
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9575 of file MyBibFile.bib
+ : @inproceedings{liu2017social
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9583 of file MyBibFile.bib
+ : @article{yu2016survey
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9742 of file MyBibFile.bib
+ : @inproceedings{Lopez-Paz:2014
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9749 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9801 of file MyBibFile.bib
+ : @article{clevert2015fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9808 of file MyBibFile.bib
+ : @inproceedings{ioffe2015batch
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9834 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9842 of file MyBibFile.bib
+ : @article{andrews2016detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9853 of file MyBibFile.bib
+ : @inproceedings{chen2017outlier
+ :                               ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 9983 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10030 of file MyBibFile.bib
+ : @article{xu2015learning
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10267 of file MyBibFile.bib
+ : @inproceedings{roy2017detecting
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10470 of file MyBibFile.bib
+ : @article{yuxin2017malware
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10535 of file MyBibFile.bib
+ : @inproceedings{david2015deepsign
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10596 of file MyBibFile.bib
+ : @inproceedings{kebede2017classification
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10614 of file MyBibFile.bib
+ : @inproceedings{de2018malware
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10684 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10741 of file MyBibFile.bib
+ : @inproceedings{xu2018unsupervised
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10776 of file MyBibFile.bib
+ : @article{song2017hybrid
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10812 of file MyBibFile.bib
+ : @inproceedings{wulsin2010semi
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10934 of file MyBibFile.bib
+ : @article{brown2018recurrent
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10951 of file MyBibFile.bib
+ : @article{brown2018recurrent
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11063 of file MyBibFile.bib
+ : @article{zhang2018model
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11078 of file MyBibFile.bib
+ : @article{abroyan2017neural
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11146 of file MyBibFile.bib
+ : @article{chouiekh2018convnets
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11185 of file MyBibFile.bib
+ : @incollection{wiese2009credit
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11194 of file MyBibFile.bib
+ : @incollection{wiese2009credit
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11213 of file MyBibFile.bib
+ : @article{pumsirirat2018credit
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11245 of file MyBibFile.bib
+ : @article{wang2016research
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11336 of file MyBibFile.bib
+ : @article{song2017hybrid
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11345 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11386 of file MyBibFile.bib
+ : @article{pan2010survey
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11397 of file MyBibFile.bib
+ : @article{cao2003comparison
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11429 of file MyBibFile.bib
+ : @article{neumann2005combined
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11451 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11508 of file MyBibFile.bib
+ : @article{scholkopf2002support
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11577 of file MyBibFile.bib
+ : @inproceedings{xu2010robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11605 of file MyBibFile.bib
+ : @misc{chollet2015keras
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11620 of file MyBibFile.bib
+ : @article{chalapathy2017robust
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11638 of file MyBibFile.bib
+ : @inproceedings{zhou2017anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11647 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11657 of file MyBibFile.bib
+ : @inproceedings{Sedhain:2015
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11667 of file MyBibFile.bib
+ : @inproceedings{Williams:2002
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11674 of file MyBibFile.bib
+ : @inproceedings{Zhai:2016
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11681 of file MyBibFile.bib
+ : @inproceedings{Lawrence:2009
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11689 of file MyBibFile.bib
+ : @inproceedings{Davis:2006
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11697 of file MyBibFile.bib
+ : @inproceedings{Nguyen:2009
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11704 of file MyBibFile.bib
+ : @article{Sprechmann:2015
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11715 of file MyBibFile.bib
+ : @article{Huang:2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11729 of file MyBibFile.bib
+ : @incollection{Jain:2008
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11737 of file MyBibFile.bib
+ : @book{Bishop:2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11744 of file MyBibFile.bib
+ : @article{Ghoting:2008
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11754 of file MyBibFile.bib
+ : @book{Goodfellow-et-al-2016
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11762 of file MyBibFile.bib
+ : @article{Hotelling:1933
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11769 of file MyBibFile.bib
+ : @incollection{Bach:2011
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11776 of file MyBibFile.bib
+ : @article{chandola2007outlier
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11783 of file MyBibFile.bib
+ : @article{vincent2010stacked
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11792 of file MyBibFile.bib
+ : @inproceedings{breunig2000lof
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11802 of file MyBibFile.bib
+ : @inproceedings{knorr1997unified
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11810 of file MyBibFile.bib
+ : @book{charubook
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11818 of file MyBibFile.bib
+ : @inproceedings{Zhao:2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11827 of file MyBibFile.bib
+ : @article{Scholkopf:2001
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11830 of file MyBibFile.bib
+ : @inproceedings{candes2010robust
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11839 of file MyBibFile.bib
+ : @techreport{krizhevsky2009learning
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11846 of file MyBibFile.bib
+ : @article{abadi2016tensorflow
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11853 of file MyBibFile.bib
+ : @inproceedings{xiong2011direct
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11882 of file MyBibFile.bib
+ : @article{bengio2009learning
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11893 of file MyBibFile.bib
+ : @article{hull1994database
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11904 of file MyBibFile.bib
+ : @inproceedings{xu2010robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11912 of file MyBibFile.bib
+ : @article{ioffe2015batch
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11919 of file MyBibFile.bib
+ : @article{clevert2015fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11928 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11944 of file MyBibFile.bib
+ : @article{perera2018learning
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12014 of file MyBibFile.bib
+ : @article{wulsin2011modeling
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12093 of file MyBibFile.bib
+ : @article{litjens2017survey
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12109 of file MyBibFile.bib
+ : @article{kingma2014adam
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12233 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12242 of file MyBibFile.bib
+ : @article{kiran2018overview
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12249 of file MyBibFile.bib
+ : @article{ball2017comprehensive
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12260 of file MyBibFile.bib
+ : @article{kwon2017survey
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12269 of file MyBibFile.bib
+ : @article{adewumi2017survey
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12280 of file MyBibFile.bib
+ : @article{litjens2017survey
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12290 of file MyBibFile.bib
+ : @article{mohammadi2017deep
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13074 of file MyBibFile.bib
+ : @article{yu2016survey
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13085 of file MyBibFile.bib
+ : @inproceedings{du2017deeplog
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13104 of file MyBibFile.bib
+ : @inproceedings{Lopez-Paz:2014
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13111 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13122 of file MyBibFile.bib
+ : @article{kingma2014adam
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13129 of file MyBibFile.bib
+ : @article{clevert2015fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13136 of file MyBibFile.bib
+ : @inproceedings{ioffe2015batch
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13162 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13170 of file MyBibFile.bib
+ : @article{andrews2016detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13181 of file MyBibFile.bib
+ : @inproceedings{chen2017outlier
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13190 of file MyBibFile.bib
+ : @article{marchi2017deep
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13199 of file MyBibFile.bib
+ : @inproceedings{chong2017abnormal
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13216 of file MyBibFile.bib
+ : @article{neumann2005combined
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13227 of file MyBibFile.bib
+ : @article{cao2003comparison
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13258 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13295 of file MyBibFile.bib
+ : @inproceedings{liu2008isolation
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13305 of file MyBibFile.bib
+ : @article{xu2015learning
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13343 of file MyBibFile.bib
+ : @article{sohaib2017hybrid
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13376 of file MyBibFile.bib
+ : @article{song2017hybrid
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13385 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13426 of file MyBibFile.bib
+ : @article{pan2010survey
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13437 of file MyBibFile.bib
+ : @article{cao2003comparison
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13469 of file MyBibFile.bib
+ : @article{neumann2005combined
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13491 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13506 of file MyBibFile.bib
+ : @article{bengio2007scaling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13517 of file MyBibFile.bib
+ : @inproceedings{vishwanathan2003simplesvm
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13528 of file MyBibFile.bib
+ : @book{vapnik1998statistical
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13548 of file MyBibFile.bib
+ : @article{scholkopf2002support
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13557 of file MyBibFile.bib
+ : @article{tax2004support
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13580 of file MyBibFile.bib
+ : @article{lecun2010mnist
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13617 of file MyBibFile.bib
+ : @inproceedings{xu2010robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13645 of file MyBibFile.bib
+ : @misc{chollet2015keras
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13653 of file MyBibFile.bib
+ : @book{boyd2004convex
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13660 of file MyBibFile.bib
+ : @article{chalapathy2017robust
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13678 of file MyBibFile.bib
+ : @inproceedings{zhou2017anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13687 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13697 of file MyBibFile.bib
+ : @inproceedings{Sedhain:2015
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13707 of file MyBibFile.bib
+ : @inproceedings{Williams:2002
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13714 of file MyBibFile.bib
+ : @inproceedings{Zhai:2016
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13721 of file MyBibFile.bib
+ : @inproceedings{Lawrence:2009
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13729 of file MyBibFile.bib
+ : @inproceedings{Davis:2006
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13737 of file MyBibFile.bib
+ : @inproceedings{Nguyen:2009
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13744 of file MyBibFile.bib
+ : @article{Sprechmann:2015
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13755 of file MyBibFile.bib
+ : @article{Huang:2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13769 of file MyBibFile.bib
+ : @incollection{Jain:2008
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13777 of file MyBibFile.bib
+ : @book{Bishop:2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13784 of file MyBibFile.bib
+ : @article{Ghoting:2008
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13794 of file MyBibFile.bib
+ : @book{Goodfellow-et-al-2016
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13802 of file MyBibFile.bib
+ : @article{Hotelling:1933
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13809 of file MyBibFile.bib
+ : @incollection{Bach:2011
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13816 of file MyBibFile.bib
+ : @article{chandola2007outlier
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13823 of file MyBibFile.bib
+ : @article{vincent2010stacked
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13832 of file MyBibFile.bib
+ : @inproceedings{breunig2000lof
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13842 of file MyBibFile.bib
+ : @inproceedings{knorr1997unified
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13850 of file MyBibFile.bib
+ : @book{charubook
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13858 of file MyBibFile.bib
+ : @inproceedings{Zhao:2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13867 of file MyBibFile.bib
+ : @article{Scholkopf:2001
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13870 of file MyBibFile.bib
+ : @inproceedings{candes2010robust
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13879 of file MyBibFile.bib
+ : @techreport{krizhevsky2009learning
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13886 of file MyBibFile.bib
+ : @article{abadi2016tensorflow
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13893 of file MyBibFile.bib
+ : @inproceedings{xiong2011direct
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13922 of file MyBibFile.bib
+ : @article{bengio2009learning
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13933 of file MyBibFile.bib
+ : @article{hull1994database
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13944 of file MyBibFile.bib
+ : @inproceedings{xu2010robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13952 of file MyBibFile.bib
+ : @article{ioffe2015batch
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13959 of file MyBibFile.bib
+ : @article{clevert2015fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13976 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14018 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14034 of file MyBibFile.bib
+ : @article{lecun2015deep
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14075 of file MyBibFile.bib
+ : @article{pan2010survey
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14085 of file MyBibFile.bib
+ : @article{tuor2017deep
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14106 of file MyBibFile.bib
+ : @article{ergen2017unsupervised
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14122 of file MyBibFile.bib
+ : @book{vapnik1998statistical
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14146 of file MyBibFile.bib
+ : @inproceedings{wulsin2010semi
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14161 of file MyBibFile.bib
+ : @article{song2017hybrid
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14191 of file MyBibFile.bib
+ : @inproceedings{liu2008isolation
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14211 of file MyBibFile.bib
+ : @article{cortes1995support
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14230 of file MyBibFile.bib
+ : @article{chalapathy2018anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14322 of file MyBibFile.bib
+ : @article{ramotsoela2018survey
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14354 of file MyBibFile.bib
+ : @article{medel2016anomaly
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14450 of file MyBibFile.bib
+ : @article{li2018anomaly
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14477 of file MyBibFile.bib
+ : @inproceedings{chauhan2015anomaly
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14493 of file MyBibFile.bib
+ : @inproceedings{gorokhov2017convolutional
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14515 of file MyBibFile.bib
+ : @inproceedings{amarasinghe2018toward
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14535 of file MyBibFile.bib
+ : @inproceedings{chauhan2015anomaly
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14571 of file MyBibFile.bib
+ : @inproceedings{bontemps2016collective
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14580 of file MyBibFile.bib
+ : @article{malhotra2016lstm
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14587 of file MyBibFile.bib
+ : @inproceedings{malhotra2015long
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14604 of file MyBibFile.bib
+ : @article{cowton2018combined
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14633 of file MyBibFile.bib
+ : @inproceedings{buda2018deepad
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14677 of file MyBibFile.bib
+ : @article{hundman2018detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14717 of file MyBibFile.bib
+ : @article{chong2015modeling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14724 of file MyBibFile.bib
+ : @article{chong2015modeling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14760 of file MyBibFile.bib
+ : @article{medel2016anomaly
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14766 of file MyBibFile.bib
+ : @misc{singh2017anomaly
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14805 of file MyBibFile.bib
+ : @inproceedings{yang2015unsupervised
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14909 of file MyBibFile.bib
+ : @article{kiran2018overview
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14931 of file MyBibFile.bib
+ : @article{huang2018deep
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14967 of file MyBibFile.bib
+ : @inproceedings{sakurada2014anomaly
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15009 of file MyBibFile.bib
+ : @inproceedings{nanduri2016anomaly
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15039 of file MyBibFile.bib
+ : @inproceedings{faghih2016deep
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15099 of file MyBibFile.bib
+ : @inproceedings{dong2016camera
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15108 of file MyBibFile.bib
+ : @inproceedings{luo2017gas
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15118 of file MyBibFile.bib
+ : @inproceedings{chong2017abnormal
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15132 of file MyBibFile.bib
+ : @inproceedings{qiao2017abnormal
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15141 of file MyBibFile.bib
+ : @inproceedings{tran2017anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 15170 of file MyBibFile.bib
+ :   
+ :   url={http://www.svcl.ucsd.edu/ projects/anomaly/dataset.htm}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 15183 of file MyBibFile.bib
+ : @article{yu2017network
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15212 of file MyBibFile.bib
+ : @article{xian2017zero
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15219 of file MyBibFile.bib
+ : @inproceedings{socher2013zero
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15227 of file MyBibFile.bib
+ : @article{pan2010survey
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15250 of file MyBibFile.bib
+ : @article{inoue2017anomaly
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15257 of file MyBibFile.bib
+ : @article{d2017autoencoder
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15268 of file MyBibFile.bib
+ : @inproceedings{dotti2017unsupervised
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15276 of file MyBibFile.bib
+ : @article{yang2015unsupervised
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15284 of file MyBibFile.bib
+ : @inproceedings{chen2015detecting
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15305 of file MyBibFile.bib
+ : @inproceedings{du2017deeplog
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15313 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15359 of file MyBibFile.bib
+ : @inproceedings{javaid2016deep
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15395 of file MyBibFile.bib
+ : @article{tuor2017deep
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15411 of file MyBibFile.bib
+ : @inproceedings{yousefi2017autoencoder
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15438 of file MyBibFile.bib
+ : @inproceedings{yan2015accurate
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15465 of file MyBibFile.bib
+ : @inproceedings{thing2017ieee
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15484 of file MyBibFile.bib
+ : @article{christiansen2016deepanomaly
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15495 of file MyBibFile.bib
+ : @article{andrews2016detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15543 of file MyBibFile.bib
+ : @inproceedings{malhotra2015long
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15553 of file MyBibFile.bib
+ : @misc{singh2017anomaly
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15560 of file MyBibFile.bib
+ : @inproceedings{dasigi2014modeling
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15569 of file MyBibFile.bib
+ : @inproceedings{lawson2017finding
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15577 of file MyBibFile.bib
+ : @article{leveau2017adversarial
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15584 of file MyBibFile.bib
+ : @inproceedings{schlegl2017unsupervised
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15614 of file MyBibFile.bib
+ : @inproceedings{munawar2017spatio
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15634 of file MyBibFile.bib
+ : @article{li2017transferred
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15648 of file MyBibFile.bib
+ : @inproceedings{chianucci2016unsupervised
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15657 of file MyBibFile.bib
+ : @inproceedings{chen2017outlier
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15666 of file MyBibFile.bib
+ : @inproceedings{zhou2017anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15675 of file MyBibFile.bib
+ : @inproceedings{sakurada2014anomaly
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15684 of file MyBibFile.bib
+ : @article{lu2017unsupervised
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15695 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15705 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15712 of file MyBibFile.bib
+ : @techreport{lyudchik2016outlier
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15718 of file MyBibFile.bib
+ : @article{zhai2016deep
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15726 of file MyBibFile.bib
+ : @inproceedings{chen2017outlier
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15736 of file MyBibFile.bib
+ : @inproceedings{chalapathy2017robust
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15753 of file MyBibFile.bib
+ : @inproceedings{dau2014anomaly
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15763 of file MyBibFile.bib
+ : @inproceedings{qi2014robust
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15773 of file MyBibFile.bib
+ : @inproceedings{hawkins2002outlier
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15783 of file MyBibFile.bib
+ : @article{xu2015learning
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15791 of file MyBibFile.bib
+ : @inproceedings{wu2015adaptive
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15799 of file MyBibFile.bib
+ : @inproceedings{zhao2015robust
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15809 of file MyBibFile.bib
+ : @article{yang2015unsupervised
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15824 of file MyBibFile.bib
+ : @inproceedings{ruff2018deep
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15832 of file MyBibFile.bib
+ : @article{chalapathy2018anomaly
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15839 of file MyBibFile.bib
+ : @inproceedings{andrews2016transfer
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15846 of file MyBibFile.bib
+ : @inproceedings{tagawa2015structured
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15862 of file MyBibFile.bib
+ : @article{andrews2016detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15880 of file MyBibFile.bib
+ : @inproceedings{bontemps2016collective
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15890 of file MyBibFile.bib
+ : @inproceedings{araya2016collective
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15912 of file MyBibFile.bib
+ : @inproceedings{ruchansky2017csi
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15921 of file MyBibFile.bib
+ : @inproceedings{wu2015harvesting
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15930 of file MyBibFile.bib
+ : @article{erfani2016high
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15941 of file MyBibFile.bib
+ : @article{kim2015deep
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15962 of file MyBibFile.bib
+ : @inproceedings{de2017learning
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15972 of file MyBibFile.bib
+ : @article{an2015variational
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15979 of file MyBibFile.bib
+ : @inproceedings{wu2015adaptive
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15986 of file MyBibFile.bib
+ : @article{solch2016variational
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15993 of file MyBibFile.bib
+ : @inproceedings{suh2016echo
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16012 of file MyBibFile.bib
+ : @conference{lample2016neural
+ :                             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 16040 of file MyBibFile.bib
+ :   
+ :   page={}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 16051 of file MyBibFile.bib
+ : @inproceedings{krizhevsky2012imagenet
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16269 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16395 of file MyBibFile.bib
+ : @techreport{jordan1986serial
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16403 of file MyBibFile.bib
+ : @conference{lample2016neural
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16418 of file MyBibFile.bib
+ : @conference{segura2015exploring
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16426 of file MyBibFile.bib
+ : @conference{segura2013semeval
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16434 of file MyBibFile.bib
+ : @conference{Mikolov:13
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16444 of file MyBibFile.bib
+ : @inproceedings{krizhevsky2012imagenet
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16452 of file MyBibFile.bib
+ : @article{uzuner20112010
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16471 of file MyBibFile.bib
+ : @conference{Pennington:14
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16479 of file MyBibFile.bib
+ : @conference{lafferty2001conditional
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16487 of file MyBibFile.bib
+ : @conference{bergstra2010theano
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16503 of file MyBibFile.bib
+ : @conference{huber2013wbi
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16511 of file MyBibFile.bib
+ : @article{Nadeau:07
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16541 of file MyBibFile.bib
+ : @article{bengio1994learning
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16551 of file MyBibFile.bib
+ : @article{liu2015feature
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16571 of file MyBibFile.bib
+ : @article{mesnil2015using
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16581 of file MyBibFile.bib
+ : @article{rocktaschel2012chemspot
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16591 of file MyBibFile.bib
+ : @article{liu2015drug
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16611 of file MyBibFile.bib
+ : @article{collobert2011natural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16621 of file MyBibFile.bib
+ : @article{abacha2015text
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16640 of file MyBibFile.bib
+ : @article{hinton2012deep
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16650 of file MyBibFile.bib
+ : @article{elman1990finding
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16671 of file MyBibFile.bib
+ : @article{bergstra2012random
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16681 of file MyBibFile.bib
+ : @article{hochreiter1997long
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16691 of file MyBibFile.bib
+ : @article{herrero2013ddi
+ :                        ,
+I'm skipping whatever remains of this entry
+Database file #2: outlier.bib
+Repeated entry---line 2 of file outlier.bib
+ : @article{MySurvey
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10 of file outlier.bib
+ : @article{DGM
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 43 of file outlier.bib
+ : @article{kingma2014adam
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 351 of file outlier.bib
+ : @inproceedings{bay03
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 715 of file outlier.bib
+ : @book{hawkins
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 938 of file outlier.bib
+ : @article{recht2010guaranteed
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "tab:hybridModels"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "hawkins1980identification"
+Warning--I didn't find a database entry for "pmlrv80ruff18a"
+Warning--I didn't find a database entry for "parzen1962estimation"
+Warning--I didn't find a database entry for "radford2015unsupervised"
+Warning--I didn't find a database entry for "stallkamp2011german"
+Warning--I didn't find a database entry for "brendel2017decision"
+Warning--empty booktitle in Chalapathy2017RobustDA
+Warning--empty journal in nadeem2016semi
+Warning--empty journal in vigna2005host
+Warning--empty author in ucsdAnomalyDetect2017
+Warning--empty journal in ucsdAnomalyDetect2017
+Warning--empty author in jamkRGCE
+Warning--empty journal in jamkRGCE
+Warning--empty journal in ImmuneDatasets
+Warning--empty journal in Lavion2018
+Warning--empty journal in sweers2018autoencoding
+Warning--empty journal in ando2016detecting
+Warning--empty journal in abroyan2017neural
+Warning--empty journal in king2018artificial
+Warning--empty year in passalislong
+Warning--empty journal in gugulothusparse
+Warning--empty year in gugulothusparse
+Warning--can't use both volume and number fields in zhang2018time
+Warning--empty school in memon2008log
+Warning--empty journal in grover2018anomaly
+Warning--empty journal in de2018automatic
+Warning--empty journal in ebrahimzadehmulti
+Warning--empty year in ebrahimzadehmulti
+Warning--empty journal in dumodeling
+Warning--empty year in dumodeling
+Warning--empty journal in shanmugam2018jiffy
+Warning--empty journal in laptevanogen
+Warning--empty year in laptevanogen
+Warning--empty journal in boghossian2005challenges
+Warning--empty journal in andrewsaanomaly
+Warning--empty year in andrewsaanomaly
+Warning--empty journal in gutoskidetection
+Warning--empty year in gutoskidetection
+Warning--empty journal in edmunds2017deep
+Warning--empty journal in gu2018semi
+Warning--empty school in dimokranitou2017adversarial
+Warning--empty booktitle in andrews2016transfer
+Warning--empty journal in zong2018deep
+Warning--empty institution in lyudchik2016outlier
+Warning--empty journal in leveau2017adversarial
+Warning--can't use both volume and number fields in ester1996density
+Warning--empty journal in sreekanth2010generalized
+Too many commas in name 1 of "Chengqiang Huang, Yulei Wu, Yuan Zuo, Ke Pei, Geyong Min" for entry rlanomaly
+while executing---line 1053 of file SETUP/thesis_bib.bst
+Too many commas in name 1 of "Chengqiang Huang, Yulei Wu, Yuan Zuo, Ke Pei, Geyong Min" for entry rlanomaly
+while executing---line 1053 of file SETUP/thesis_bib.bst
+Warning--empty journal in deecke2018anomaly
+Warning--empty journal in boagcliner
+Warning--empty journal in krizhevsky2009learning
+Warning--can't use both volume and number fields in breunig2000lof
+Warning--empty publisher in Jain:2008
+Warning--empty publisher in Bach:2011
+You've used 555 entries,
+            1836 wiz_defined-function locations,
+            3418 strings with 117871 characters,
+and the built_in function-call counts, 146383 in all, are:
+= -- 13379
+> -- 6929
+< -- 218
++ -- 2512
+- -- 1957
+* -- 10870
+:= -- 22260
+add.period$ -- 712
+call.type$ -- 555
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 602
+duplicate$ -- 6828
+empty$ -- 13825
+format.name$ -- 1957
+if$ -- 33912
+int.to.chr$ -- 0
+int.to.str$ -- 555
+missing$ -- 540
+newline$ -- 2767
+num.names$ -- 555
+pop$ -- 1993
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3663
+stack$ -- 0
+substring$ -- 9073
+swap$ -- 2459
+text.length$ -- 218
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 47
+while$ -- 1383
+width$ -- 558
+write$ -- 6050
+(There were 315 error messages)

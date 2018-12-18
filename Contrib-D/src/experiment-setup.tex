@@ -1,0 +1,107 @@
+% !TEX root=../main.tex
+\section{Experimental Setup}
+\label{sec:unsup_experiment-setup}
+
+In this section we show the empirical effectiveness of Robust Convolutional Autoencoder over the state-of-the-art methods on real-world data.
+Our primary focus will be on non-trivial image datasets, although our method is applicable in any context where autoencoders are useful e.g.\ speech.
+
+%\vspace{-0.3 cm}
+\subsection{Methods compared}
+%\vspace{-0.2 cm}
+We compare our proposed Robust Convolutional Autoencoder (RCAE)
+with the following  state-of-the art methods for anomaly detection:
+\let\labelitemi\labelitemii
+\begin{itemize}
+	\item \textbf{Truncated SVD}, which for zero-mean features is equivalent to PCA. %We reused the code from
+	%\url{http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html}
+
+	\item \textbf{Robust PCA (RPCA)}~\cite{candes2010robust}, as per Equation \ref{eqn:robust-pca}.
+
+	\item \textbf{Robust kernel PCA (RKPCA)}~\cite{Nguyen:2009}, as per Equation \ref{eqn:rkpca}.
+
+   	\item \textbf{Autoencoder (AE)}~\cite{bengio2009learning}, as per Equation \ref{eqn:autoencoder}.
+
+   	\item \textbf{Convolutional Autoencoder (CAE)}, a convolutional autoencoder without any accounting for gross anomalies i.e. Equation \ref{eqn:robust-cae} where $\lambda = +\infty$.
+
+   	\item \textbf{Robust Convolutional Autoencoder (RCAE)}, our proposed model as per Equation \ref{eqn:robust-cae}.
+\end{itemize}
+We used TensorFlow \cite{abadi2016tensorflow} for the implementation of AE, CAE and RCAE\footnote{\url{https://github.com/raghavchalapathy/rcae}}.
+For RPCA and RKPCA,
+we used
+publicly available implementations\footnote{\url{http://perception.csl.illinois.edu/matrix-rank/sample_code.html}}\footnote{\url{http://www3.cs.stonybrook.edu/~minhhoai/downloads.html}}.
+
+%\vspace{-0.3 cm}
+\subsection{Datasets}
+%%\vspace{-0.2 cm}
+We compare all methods on three real-world datasets:
+\begin{itemize}
+	\item {\tt restaurant}, comprising video background modelling and activity detection consisting of snapshots of restaurant activities~\cite{xiong2011direct}.
+	\item {\tt usps}, comprising the USPS handwritten digits~\cite{hull1994database}.
+%	\item {\tt escalator}, comprising Surveillance camera subway station activities~\cite{becker2011templates}
+	\item {\tt cifar-10} consisting of 60000 $32\times32$ colour images in 10 classes, with 6000 images per class~\cite{krizhevsky2009learning}.
+\end{itemize}
+For each dataset, we perform further processing to create a well-posed anomaly detection task, as described in the next section.
+
+\subsection{Evaluation methodology}
+
+As anomaly detection is an unsupervised learning problem, model evaluation is challenging.
+For the {\tt restaurant} dataset, there are no ground truth anomalies, and so we perform a qualitative analysis by visually comparing the anomalies flagged by various methods, as done in the original robust PCA paper~\cite{candes2010robust}.
+
+For the other two datasets,
+we follow a standard protocol (see e.g.~\cite{xiong2011direct}) wherein anomalies are explicitly identified in the training set.
+We can then evaluate the predictive performance of each method as measured against the ground truth anomaly labels,
+using three standard metrics:
+\begin{itemize}
+	\item the area under the precision-recall curve (AUPRC)
+
+	\item the area under the ROC curve (AUROC)
+
+	\item the precision at 10 (P@10).
+\end{itemize}
+AUPRC and AUROC measure ranking performance, with the former being preferred under class imbalance \cite{Davis:2006}.
+P@10 measures classification performance, being the fraction of the top 10 scored instances which are actually anomalous.
+
+For $\tt{CIFAR-10}$,
+the labelled dataset is created by combining 5000 images of dogs and 50 images of cats;
+a good anomaly detection method should thus flag the cats to be anomalous.
+Similarly,
+for $\tt{usps}$,
+the dataset is created by
+a mixture of 220 images of \lq1\rq s, and 11 images of \lq7\rq as in~\cite{xu2010robust}.
+Details of the datasets are summarised in Table \ref{tbl:datasets}.
+
+\begin{table}[!t]
+	\centering
+	\renewcommand{\arraystretch}{1.25}
+	\setlength{\tabcolsep}{6pt}
+	%\scalebox{0.85}{
+	\begin{tabular}{@{}llll@{}}
+		\toprule
+		\toprule
+		Dataset & \# instances & \# anomalies & \# features \\
+		\toprule
+		{\tt restaurant} & 200 & Unknown (foreground) & 19200 \\
+		%		{\tt escalator}  & 200 & 50 & 20800 \\
+		{\tt usps} 		 & 231 & 11 (\lq7\rq) & 256 \\
+		{\tt cifar-10} 	 & 5000 & 50 (cats) & 1024 \\
+		\bottomrule
+	\end{tabular}
+	%}
+	%\vspace{0.1 cm}
+	\caption{Summary of datasets used in experiments.}
+	\label{tbl:datasets}
+	%\vspace{-\baselineskip}
+\end{table}
+
+Additionally,
+we also test the ability of our model to perform denoising of images,
+as well as detecting inductive anomalies.
+
+
+\subsection{Network parameters}
+
+Although we have observed that deeper RCAE networks tend to achieve better image reconstruction performance, there exist four fold options related to network parameters to be chosen:
+(a) number of convolutional filters, (b) filter size, (c) strides of convolution operation and (d) activation applied.
+We tuned via grid search additional hyper-parameters, including the number of hidden-layer nodes $H \in \{3, 64, 128\}$, and regularisation $\lambda$ within range ${[0, 100]}$.
+The learning, drop-out rates and regularization parameter $\mu$ were sampled from a uniform distribution in the range $[0.05, 0.1]$.
+The embedding and initial weight matrices were all sampled from the uniform distribution within range $[-1, 1]$.

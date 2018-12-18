@@ -1,0 +1,53 @@
+
+\chapter{Conclusion} \label{sec:overallC}
+Group anomaly detection (GAD) and group change detection (GCD) techniques are designed for solving different problems however share fundamental ideas. Our thesis is the first rigorous formulation of the group deviation detection problem for GAD and GCD.   
+Chapter \ref{Introduction} formulates the group deviation detection problem and introduces key components for describing techniques. %Our framework  provides a greater clarity and a simpler overview of group deviation detection.
+ Firstly understanding group memberships given known labels or inferred clusters is essential. To decide which techniques are appropriate for specific applications, designing models involve adequately  characterising group distributions and classifying group deviations.  For a better interpretation of results, domain experts should consider characterisations of groups by different statistical properties. % of interest. 
+
+ 
+ Chapter \ref{sec:staticGAD} describes and evaluates key components of state-of-the-art GAD methods. In  Chapter \ref{chpt:dgm}, we demonstrate the effectiveness of deep generative models (DGMs) for detecting group anomalies in high-dimensional image datasets. Since DGMs require a selection of many model parameters and  hyperparameters, a  large number of group observations is recommended for training otherwise poor detection occurs. Even though DGMs achieve high detection performance under certain conditions, the interpretability of detected group anomalies may be improved.
+ 
+
+Chapter \ref{sec:dynamicGCD} elaborates on GCD techniques in terms of key descriptive components.  In Chapter \ref{chpt:gtd}, the group temporal change  (GT$\Delta$) algorithm is able to accurately and quickly detect significant temporal changes in a variety of statistical properties of a group of stochastic processes. GT$\Delta$ also provides interpretable results of deviating statistical properties however due to model assumptions, an adequate number of samples for group size and reference time period are required. Thus in this thesis, we explore GAD and GCD techniques as novel solutions for detecting group deviations however there are numerous potential avenues for  future research. %group deviation detection   applications.
+ 
+ 
+     
+     \section{ Future Work}
+% We suggest
+Due to the growing availability of group information, group deviation detection is an emerging area of research.
+ As real-world group applications usually contain inherent group deviations, it is important to understand deviating group properties and design detection models appropriately. In GAD,  group anomalies may occur in a number of statistical properties such that robust
+methods should be applied for a more reliable detection. Since temporal changes may  abruptly occur in GCD applications,  detection techniques require fast computation with accurate and  interpretable results. With many unresolved challenges associated with group deviation detection, there are a lot of research problems  that may be studied in the future. 
+
+   Here are some recommendations for future research:
+ \begin{enumerate}
+\item {\it Understanding Group Structures}:
+ If group structures are pre-defined, domain experts should spend time to gain a preliminary understanding of relationships between data instances within groups.  For example,  Wong et al. \cite{wong-rule}  define a group based on features such as gender, age and so on. 
+ When group memberships are previously unknown, clustering algorithms aggregate data instances into groups however these clusters should be carefully assessed. 
+If ground truth labels for group memberships are known, %such as in Yu et al. \cite{GLAD},
+ clustering algorithms can be compared and  evaluated. Generally, it is difficult to appropriately evaluate the validity of inferred clusters  as explained by  Halkidi et al. \cite{ClusterValidity}. 
+ Thus clustering  introduces additional uncertainty such that a better understanding of group structures and  careful interpretation of results are required.   
+ %When groups are unknown, similarity-based clustering is applied however this introduces additional uncertainty in results.
+    %Challenges
+  % Sp 
+  % Group structures 
+  % Evaluation Metrics 
+  \item {\it Interpretability of Results}: % provide an interpretation of results
+Generative models are preferred to  discriminative methods for a better interpretation of results.  Applying discriminative models such as DGMs to GAD problems offer a high performance at the cost of interpretability.   Discriminative methods are usually black-box techniques that classify group deviations while % using specific optimisation criteria.    Characterising groups by a variety of  statistical properties  such as location, scale, shape and dependence  is also a potential avenue for further research. 
+ generative models  characterise statistical properties  by incorporating prior knowledge  as well as  assuming various data generating processes. %adjusting model assumptions for various datasets. % The majority of generative models in GAD applications characterise groups by  inferred topic proportions.
+ For the GCD problem, the generative approach GT$\Delta$ explores a variety of statistical properties however additional properties of interest may be explored in future research. Since GT$\Delta$ involves hypothesis testing, the significance of group deviations is also quantified.   
+%
+\item {\it Improving Methods:} Extensions of current state-of-the-art techniques are also possible.  Discriminative GAD models may be applied with different optimisation criteria such as in support measure  techniques  from Guevara et al. \cite{SMDD}. Similarly for  discriminative GCD techniques, various  dissimilarity metrics are applicable for GLETS  \cite{GLETS} in order to improve detection of temporal changes in groups over time.  Generative models such as GT$\Delta$ may be adjusted by incorporating additional domain  knowledge into their flexible structure. Most generative models assume exchangeability between points in a group however it  would be interesting to model  dependence between data instances.     
+  It is also possible to reduce computational complexity of group deviation detection methods where  computational complexities are calculated in Table \ref{Tab:Computation}.  
+\item {    {\it Require Better Evaluation}:
+%Robust evaluation studies for state-of-the-art group deviation detection techniques have not been conducted.  
+  Only certain group deviation detection  methods may be applied in a fair comparison study due to the compatibility of input requirements such  as data types, time-dependent groups or known group structures. 
+}  
+Campos et al. \cite{Campos2016} propose two measures for anomaly detection datasets; % which can also be applied to group applications
+ first measure is the difficulty of detecting different types of group deviations and second metric accounts for the diversity or agreement between scores computed from GAD or GCD methods.   Evaluative metrics and benchmark datasets would provide a more robust comparison of group deviation detection methods.   
+\item {\it Future GCD research}:  
+   % Future trends 
+Detecting temporal changes in a GSP has many potential avenues for research. Current  state-of-the-art  GCD techniques focus on abrupt changes in statistical properties of a GSP however gradual changes may also be detected. A significant change can occur over a longer period of time where a general smooth change model for multivariate time series is explored by Quessy \cite{Quessy2011}. Also since only a proportion of time series in a GSP may experience temporal changes, examining  similarity or dependence of instances in a group over time is another interesting topic. Xie and Siegmund \cite{xie2013}  estimate significant changes based on a proportion of time series in a GSP so additional research may involve  proportions of time series for GCD applications. 
+
+
+ %Using group information with a greater number of observations, also reduces the time lag before a significant change in a GSP is detected. 
+ \end{enumerate}

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: coling2016.aux
+The style file: acl.bst
+Database file #1: coling2016.bib
+Repeated entry---line 145 of file coling2016.bib
+ : @article{uzuner20112010
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in boagcliner
+You've used 20 entries,
+            2490 wiz_defined-function locations,
+            678 strings with 8263 characters,
+and the built_in function-call counts, 9604 in all, are:
+= -- 1006
+> -- 434
+< -- 8
++ -- 153
+- -- 150
+* -- 744
+:= -- 1508
+add.period$ -- 81
+call.type$ -- 20
+change.case$ -- 155
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 386
+empty$ -- 682
+format.name$ -- 175
+if$ -- 2010
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 20
+newline$ -- 122
+num.names$ -- 60
+pop$ -- 164
+preamble$ -- 1
+purify$ -- 175
+quote$ -- 0
+skip$ -- 313
+stack$ -- 0
+substring$ -- 533
+swap$ -- 113
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 160
+warning$ -- 1
+while$ -- 77
+width$ -- 24
+write$ -- 279
+(There was 1 error message)

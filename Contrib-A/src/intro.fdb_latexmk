@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1545045309 "intro.tex" "intro.pdf" "intro" 1545045309
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1442619646 3849859 bc9eaa9fdc19b5dbc06bcf6c1dd88e9f ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "intro.aux" 1545045286 2290 8ba4f28ae2a56c7b2078fa83909cf3e0 ""
+  "intro.tex" 1545045307 6205 097e9e9245df48174817637b2f741017 ""
+  (generated)
+  "intro.log"
+  "intro.pdf"

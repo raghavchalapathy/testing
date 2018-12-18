@@ -1,0 +1,3459 @@
+\begin{thebibliography}{100}
+
+\bibitem{MySurvey}
+Raghavendra Chalapathy and Sanjay Chawla,
+\newblock ``Deep Learning for Anomaly Detection: A Survey,''
+\newblock {\em ACM Computing Surveys (Forthcoming)}, 2018.
+
+\bibitem{Chalapathy2016AnIO}
+Raghavendra Chalapathy, Ehsan~Zare Borzeshi, and Massimo Piccardi,
+\newblock ``An Investigation of Recurrent Neural Architectures for Drug Name
+  Recognition,''
+\newblock in {\em Louhi@EMNLP}, 2016.
+
+\bibitem{Chalapathy2016BidirectionalLF}
+Raghavendra Chalapathy, Ehsan~Zare Borzeshi, and Massimo Piccardi,
+\newblock ``Bidirectional LSTM-CRF for Clinical Concept Extraction,''
+\newblock in {\em ClinicalNLP@COLING}, 2016.
+
+\bibitem{Chalapathy2018OCNN}
+Aditya~Menon Chalapathy~Raghavendra and Sanjay Chawla,
+\newblock ``Anomaly Detection using One-Class Neural Networks,''
+\newblock {\em ACM Computing (Forthcoming)}, 2018.
+
+\bibitem{Chalapathy2017RobustDA}
+Raghavendra Chalapathy, Aditya~Krishna Menon, and Sanjay Chawla,
+\newblock ``Robust, Deep and Inductive Anomaly Detection,''
+\newblock 2017.
+
+\bibitem{DGM}
+Raghavendra Chalapathy, Edward Toth, and Sanjay Chawla,
+\newblock ``Group Anomaly Detection using Deep Generative Models,''
+\newblock {\em Proceedings of the International ECML/PKDD Conference}, 2018.
+
+\bibitem{xie2017real}
+Xuemei Xie, Chenye Wang, Shu Chen, Guangming Shi, and Zhifu Zhao,
+\newblock ``Real-Time Illegal Parking Detection System Based on Deep
+  Learning,''
+\newblock in {\em Proceedings of the 2017 International Conference on Deep
+  Learning Technologies}. ACM, 2017, pp. 23--27.
+
+\bibitem{schlegl2017unsupervised}
+Thomas Schlegl, Philipp Seeb{\"o}ck, Sebastian~M Waldstein, Ursula
+  Schmidt-Erfurth, and Georg Langs,
+\newblock ``Unsupervised anomaly detection with generative adversarial networks
+  to guide marker discovery,''
+\newblock in {\em International Conference on Information Processing in Medical
+  Imaging}. Springer, 2017, pp. 146--157.
+
+\bibitem{javaid2016deep}
+Ahmad Javaid, Quamar Niyaz, Weiqing Sun, and Mansoor Alam,
+\newblock ``A deep learning approach for network intrusion detection system,''
+\newblock in {\em Proceedings of the 9th EAI International Conference on
+  Bio-inspired Information and Communications Technologies (formerly
+  BIONETICS)}. ICST (Institute for Computer Sciences, Social-Informatics and
+  Telecommunications Engineering), 2016, pp. 21--26.
+
+\bibitem{mohammadi2017deep}
+Mehdi Mohammadi, Ala Al-Fuqaha, Sameh Sorour, and Mohsen Guizani,
+\newblock ``Deep Learning for IoT Big Data and Streaming Analytics: A Survey,''
+\newblock {\em arXiv preprint arXiv:1712.04301}, 2017.
+
+\bibitem{liou2014autoencoder}
+Cheng-Yuan Liou, Wei-Chen Cheng, Jiun-Wei Liou, and Daw-Ran Liou,
+\newblock ``Autoencoder for words,''
+\newblock {\em Neurocomputing}, vol. 139, pp. 84--96, 2014.
+
+\bibitem{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber,
+\newblock ``Long short-term memory,''
+\newblock {\em Neural computation}, vol. 9, no. 8, pp. 1735--1780, 1997.
+
+\bibitem{vincent2010stacked}
+Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, and
+  Pierre-Antoine Manzagol,
+\newblock ``Stacked denoising autoencoders: Learning useful representations in
+  a deep network with a local denoising criterion,''
+\newblock {\em JMLR}, vol. 11, pp. 3371--3408, 2010.
+
+\bibitem{cho2014learning}
+Kyunghyun Cho, Bart Van~Merri{\"e}nboer, Caglar Gulcehre, Dzmitry Bahdanau,
+  Fethi Bougares, Holger Schwenk, and Yoshua Bengio,
+\newblock ``Learning phrase representations using RNN encoder-decoder for
+  statistical machine translation,''
+\newblock {\em arXiv preprint arXiv:1406.1078}, 2014.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton,
+\newblock ``Imagenet classification with deep convolutional neural networks,''
+\newblock in {\em Advances in neural information processing systems}, 2012, pp.
+  1097--1105.
+
+\bibitem{haque2018image}
+Kazi~Nazmul Haque, Mohammad~Abu Yousuf, and Rajib Rana,
+\newblock ``Image denoising and restoration with CNN-LSTM Encoder Decoder with
+  Direct Attention,''
+\newblock {\em arXiv preprint arXiv:1801.05141}, 2018.
+
+\bibitem{masci2011stacked}
+Jonathan Masci, Ueli Meier, Dan Cire{\c{s}}an, and J{\"u}rgen Schmidhuber,
+\newblock ``Stacked convolutional auto-encoders for hierarchical feature
+  extraction,''
+\newblock in {\em International Conference on Artificial Neural Networks}.
+  Springer, 2011, pp. 52--59.
+
+\bibitem{kwon2017survey}
+Donghwoon Kwon, Hyunjoo Kim, Jinoh Kim, Sang~C Suh, Ikkyun Kim, and Kuinam~J
+  Kim,
+\newblock ``A survey of deep learning-based network anomaly detection,''
+\newblock {\em Cluster Computing}, pp. 1--13, 2017.
+
+\bibitem{ball2017comprehensive}
+John~E Ball, Derek~T Anderson, and Chee~Seng Chan,
+\newblock ``Comprehensive survey of deep learning in remote sensing: theories,
+  tools, and challenges for the community,''
+\newblock {\em Journal of Applied Remote Sensing}, vol. 11, no. 4, pp. 042609,
+  2017.
+
+\bibitem{kiran2018overview}
+B~Ravi Kiran, Dilip~Mathew Thomas, and Ranjith Parakkal,
+\newblock ``An overview of deep learning based methods for unsupervised and
+  semi-supervised anomaly detection in videos,''
+\newblock {\em arXiv preprint arXiv:1801.03149}, 2018.
+
+\bibitem{adewumi2017survey}
+Aderemi~O Adewumi and Andronicus~A Akinyelu,
+\newblock ``A survey of machine-learning and nature-inspired based credit card
+  fraud detection techniques,''
+\newblock {\em International Journal of System Assurance Engineering and
+  Management}, vol. 8, no. 2, pp. 937--953, 2017.
+
+\bibitem{litjens2017survey}
+Geert Litjens, Thijs Kooi, Babak~Ehteshami Bejnordi, Arnaud Arindra~Adiyoso
+  Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen~Awm Van Der~Laak, Bram
+  Van~Ginneken, and Clara~I S{\'a}nchez,
+\newblock ``A survey on deep learning in medical image analysis,''
+\newblock {\em Medical image analysis}, vol. 42, pp. 60--88, 2017.
+
+\bibitem{chandola2007outlier}
+Varun Chandola, Arindam Banerjee, and Vipin Kumar,
+\newblock ``Outlier detection: A survey,''
+\newblock {\em ACM Computing Surveys}, 2007.
+
+\bibitem{hawkins}
+D.~Hawkins,
+\newblock {\em Identification of Outliers},
+\newblock Chapman and Hall, London, 1980.
+
+\bibitem{peng2015multi}
+Huan-Kai Peng and Radu Marculescu,
+\newblock ``Multi-scale compositionality: identifying the compositional
+  structures of social dynamics using deep learning,''
+\newblock {\em PloS one}, vol. 10, no. 4, pp. e0118309, 2015.
+
+\bibitem{aggarwal2013introduction}
+Charu~C Aggarwal,
+\newblock ``An introduction to outlier analysis,''
+\newblock in {\em Outlier analysis}, pp. 1--40. Springer, 2013.
+
+\bibitem{miljkovic2010review}
+Dubravko Miljkovi{\'c},
+\newblock ``Review of novelty detection methods,''
+\newblock in {\em MIPRO, 2010 proceedings of the 33rd international
+  convention}. IEEE, 2010, pp. 593--598.
+
+\bibitem{pimentel2014review}
+Marco~AF Pimentel, David~A Clifton, Lei Clifton, and Lionel Tarassenko,
+\newblock ``A review of novelty detection,''
+\newblock {\em Signal Processing}, vol. 99, pp. 215--249, 2014.
+
+\bibitem{erfani2016high}
+Sarah~M Erfani, Sutharshan Rajasegarar, Shanika Karunasekera, and Christopher
+  Leckie,
+\newblock ``High-dimensional and large-scale anomaly detection using a linear
+  one-class SVM with deep learning,''
+\newblock {\em Pattern Recognition}, vol. 58, pp. 121--134, 2016.
+
+\bibitem{chalapathy2018anomaly}
+Raghavendra Chalapathy, Aditya~Krishna Menon, and Sanjay Chawla,
+\newblock ``Anomaly Detection using One-Class Neural Networks,''
+\newblock {\em arXiv preprint arXiv:1802.06360}, 2018.
+
+\bibitem{lecun2015deep}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton,
+\newblock ``Deep learning,''
+\newblock {\em nature}, vol. 521, no. 7553, pp. 436, 2015.
+
+\bibitem{ramotsoela2018survey}
+Daniel Ramotsoela, Adnan Abu-Mahfouz, and Gerhard Hancke,
+\newblock ``A Survey of Anomaly Detection in Industrial Wireless Sensor
+  Networks with Critical Water System Infrastructure as a Case Study,''
+\newblock {\em Sensors}, vol. 18, no. 8, pp. 2491, 2018.
+
+\bibitem{chalapathy2016investigation}
+Raghavendra Chalapathy, Ehsan~Zare Borzeshi, and Massimo Piccardi,
+\newblock ``An Investigation of Recurrent Neural Architectures for Drug Name
+  Recognition,''
+\newblock {\em arXiv preprint arXiv:1609.07585}, 2016.
+
+\bibitem{chalapathy2016bidirectional}
+Raghavendra Chalapathy, Ehsan~Zare Borzeshi, and Massimo Piccardi,
+\newblock ``Bidirectional LSTM-CRF for clinical concept extraction,''
+\newblock {\em arXiv preprint arXiv:1611.08373}, 2016.
+
+\bibitem{wulsin2010semi}
+Drausin Wulsin, Justin Blanco, Ram Mani, and Brian Litt,
+\newblock ``Semi-supervised anomaly detection for EEG waveforms using deep
+  belief nets,''
+\newblock in {\em Machine Learning and Applications (ICMLA), 2010 Ninth
+  International Conference on}. IEEE, 2010, pp. 436--441.
+
+\bibitem{nadeem2016semi}
+Mutahir Nadeem, Ochaun Marshall, Sarbjit Singh, Xing Fang, and Xiaohong Yuan,
+\newblock ``Semi-Supervised Deep Neural Network for Network Intrusion
+  Detection,''
+\newblock 2016.
+
+\bibitem{song2017hybrid}
+Hongchao Song, Zhuqing Jiang, Aidong Men, and Bo~Yang,
+\newblock ``A Hybrid Semi-Supervised Anomaly Detection Model for
+  High-Dimensional Data,''
+\newblock {\em Computational intelligence and neuroscience}, vol. 2017, 2017.
+
+\bibitem{patterson2017deep}
+Josh Patterson and Adam Gibson,
+\newblock {\em Deep Learning: A Practitioner's Approach},
+\newblock " O'Reilly Media, Inc.", 2017.
+
+\bibitem{tuor2017deep}
+Aaron Tuor, Samuel Kaplan, Brian Hutchinson, Nicole Nichols, and Sean Robinson,
+\newblock ``Deep learning for unsupervised insider threat detection in
+  structured cybersecurity data streams,''
+\newblock {\em arXiv preprint arXiv:1710.00811}, 2017.
+
+\bibitem{wold1987principal}
+Svante Wold, Kim Esbensen, and Paul Geladi,
+\newblock ``Principal component analysis,''
+\newblock {\em Chemometrics and intelligent laboratory systems}, vol. 2, no.
+  1-3, pp. 37--52, 1987.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik,
+\newblock ``Support-vector networks,''
+\newblock {\em Machine learning}, vol. 20, no. 3, pp. 273--297, 1995.
+
+\bibitem{liu2008isolation}
+Fei~Tony Liu, Kai~Ming Ting, and Zhi-Hua Zhou,
+\newblock ``Isolation forest,''
+\newblock in {\em Data Mining, 2008. ICDM'08. Eighth IEEE International
+  Conference on}. IEEE, 2008, pp. 413--422.
+
+\bibitem{sutskever2009recurrent}
+Ilya Sutskever, Geoffrey~E Hinton, and Graham~W Taylor,
+\newblock ``The recurrent temporal restricted boltzmann machine,''
+\newblock in {\em Advances in Neural Information Processing Systems}, 2009, pp.
+  1601--1608.
+
+\bibitem{salakhutdinov2010efficient}
+Ruslan Salakhutdinov and Hugo Larochelle,
+\newblock ``Efficient learning of deep Boltzmann machines,''
+\newblock in {\em Proceedings of the Thirteenth International Conference on
+  Artificial Intelligence and Statistics}, 2010, pp. 693--700.
+
+\bibitem{vincent2008extracting}
+Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol,
+\newblock ``Extracting and composing robust features with denoising
+  autoencoders,''
+\newblock in {\em Proceedings of the 25th international conference on Machine
+  learning}. ACM, 2008, pp. 1096--1103.
+
+\bibitem{rodriguez1999recurrent}
+Paul Rodriguez, Janet Wiles, and Jeffrey~L Elman,
+\newblock ``A recurrent neural network that learns to count,''
+\newblock {\em Connection Science}, vol. 11, no. 1, pp. 5--40, 1999.
+
+\bibitem{lample2016neural}
+Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, and
+  Chris Dyer,
+\newblock ``Neural architectures for named entity recognition,''
+\newblock {\em arXiv preprint arXiv:1603.01360}, 2016.
+
+\bibitem{andrews2016detecting}
+Jerone~TA Andrews, Edward~J Morton, and Lewis~D Griffin,
+\newblock ``Detecting anomalous data using auto-encoders,''
+\newblock {\em International Journal of Machine Learning and Computing}, vol.
+  6, no. 1, pp. 21, 2016.
+
+\bibitem{pan2010survey}
+Sinno~Jialin Pan, Qiang Yang, et~al.,
+\newblock ``A survey on transfer learning,''
+\newblock {\em IEEE Transactions on knowledge and data engineering}, vol. 22,
+  no. 10, pp. 1345--1359, 2010.
+
+\bibitem{ergen2017unsupervised}
+Tolga Ergen, Ali~Hassan Mirza, and Suleyman~Serdar Kozat,
+\newblock ``Unsupervised and Semi-supervised Anomaly Detection with LSTM Neural
+  Networks,''
+\newblock {\em arXiv preprint arXiv:1710.09207}, 2017.
+
+\bibitem{ruff2018deep}
+Lukas Ruff, Nico G{\"o}rnitz, Lucas Deecke, Shoaib~Ahmed Siddiqui, Robert
+  Vandermeulen, Alexander Binder, Emmanuel M{\"u}ller, and Marius Kloft,
+\newblock ``Deep one-class classification,''
+\newblock in {\em International Conference on Machine Learning}, 2018, pp.
+  4390--4399.
+
+\bibitem{song2007conditional}
+Xiuyao Song, Mingxi Wu, Christopher Jermaine, and Sanjay Ranka,
+\newblock ``Conditional anomaly detection,''
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, vol. 19,
+  no. 5, pp. 631--645, 2007.
+
+\bibitem{du2017deeplog}
+Min Du, Feifei Li, Guineng Zheng, and Vivek Srikumar,
+\newblock ``Deeplog: Anomaly detection and diagnosis from system logs through
+  deep learning,''
+\newblock in {\em Proceedings of the 2017 ACM SIGSAC Conference on Computer and
+  Communications Security}. ACM, 2017, pp. 1285--1298.
+
+\bibitem{chalapathy2018group}
+Raghavendra Chalapathy, Edward Toth, and Sanjay Chawla,
+\newblock ``Group Anomaly Detection using Deep Generative Models,''
+\newblock {\em arXiv preprint arXiv:1804.04876}, 2018.
+
+\bibitem{bontemps2016collective}
+Lo{\"\i}c Bontemps, James McDermott, Nhien-An Le-Khac, et~al.,
+\newblock ``Collective anomaly detection based on long short-term memory
+  recurrent neural networks,''
+\newblock in {\em International Conference on Future Data and Security
+  Engineering}. Springer, 2016, pp. 141--152.
+
+\bibitem{araya2016collective}
+Daniel~B Araya, Katarina Grolinger, Hany~F ElYamany, Miriam~AM Capretz, and
+  G~Bitsuamlak,
+\newblock ``Collective contextual anomaly detection framework for smart
+  buildings,''
+\newblock in {\em Neural Networks (IJCNN), 2016 International Joint Conference
+  on}. IEEE, 2016, pp. 511--518.
+
+\bibitem{zhuang2017group}
+Naifan Zhuang, Tuoerhongjiang Yusufu, Jun Ye, and Kien~A Hua,
+\newblock ``Group activity recognition with differential recurrent
+  convolutional neural networks,''
+\newblock in {\em Automatic Face \& Gesture Recognition (FG 2017), 2017 12th
+  IEEE International Conference on}. IEEE, 2017, pp. 526--531.
+
+\bibitem{phoha2002internet}
+Vir~V Phoha,
+\newblock {\em Internet security dictionary}, vol.~1,
+\newblock Taylor \& Francis, 2002.
+
+\bibitem{vigna2005host}
+Giovanna Vigna and Christopher Kruegel,
+\newblock ``Host-based intrusion detection,''
+\newblock 2005.
+
+\bibitem{kim2016lstm}
+Gyuwan Kim, Hayoon Yi, Jangho Lee, Yunheung Paek, and Sungroh Yoon,
+\newblock ``LSTM-based system-call language modeling and robust ensemble method
+  for designing host-based intrusion detection systems,''
+\newblock {\em arXiv preprint arXiv:1611.01726}, 2016.
+
+\bibitem{chawla2018host}
+Ashima Chawla, Brian Lee, Sheila Fallon, and Paul Jacob,
+\newblock ``Host based Intrusion Detection System with Combined CNN/RNN
+  Model,''
+\newblock in {\em Proceedings of Second International Workshop on AI in
+  Security}, 2018.
+
+\bibitem{chen2018henet}
+Li~Chen, Salmin Sultana, and Ravi Sahita,
+\newblock ``Henet: A deep learning approach on intel{\textregistered} processor
+  trace for effective exploit detection,''
+\newblock in {\em 2018 IEEE Security and Privacy Workshops (SPW)}. IEEE, 2018,
+  pp. 109--115.
+
+\bibitem{sohi2018recurrent}
+Soroush~M Sohi, Fatemeh Ganji, and Jean-Pierre Seifert,
+\newblock ``Recurrent Neural Networks for Enhancement of Signature-based
+  Network Intrusion Detection Systems,''
+\newblock {\em arXiv preprint arXiv:1807.03212}, 2018.
+
+\bibitem{vinayakumar2017applying}
+R~Vinayakumar, KP~Soman, and Prabaharan Poornachandran,
+\newblock ``Applying convolutional neural network for network intrusion
+  detection,''
+\newblock in {\em Advances in Computing, Communications and Informatics
+  (ICACCI), 2017 International Conference on}. IEEE, 2017, pp. 1222--1228.
+
+\bibitem{aghakhani2018detecting}
+Hojjat Aghakhani, Aravind Machiry, Shirin Nilizadeh, Christopher Kruegel, and
+  Giovanni Vigna,
+\newblock ``Detecting Deceptive Reviews using Generative Adversarial
+  Networks,''
+\newblock {\em arXiv preprint arXiv:1805.10364}, 2018.
+
+\bibitem{li2018anomaly}
+Dan Li, Dacheng Chen, Jonathan Goh, and See-kiong Ng,
+\newblock ``Anomaly Detection with Generative Adversarial Networks for
+  Multivariate Time Series,''
+\newblock {\em arXiv preprint arXiv:1809.04758}, 2018.
+
+\bibitem{gao2014intrusion}
+Ni~Gao, Ling Gao, Quanli Gao, and Hai Wang,
+\newblock ``An intrusion detection model based on deep belief networks,''
+\newblock in {\em Advanced Cloud and Big Data (CBD), 2014 Second International
+  Conference on}. IEEE, 2014, pp. 247--252.
+
+\bibitem{peharz2018probabilistic}
+Robert Peharz, Antonio Vergari, Karl Stelzner, Alejandro Molina, Martin Trapp,
+  Kristian Kersting, and Zoubin Ghahramani,
+\newblock ``Probabilistic Deep Learning using Random Sum-Product Networks,''
+\newblock {\em arXiv preprint arXiv:1806.01910}, 2018.
+
+\bibitem{umer2018two}
+Muhammad~Fahad Umer, Muhammad Sher, and Yaxin Bi,
+\newblock ``A two-stage flow-based intrusion detection model for
+  next-generation networks,''
+\newblock {\em PloS one}, vol. 13, no. 1, pp. e0180945, 2018.
+
+\bibitem{yu2017network}
+Yang Yu, Jun Long, and Zhiping Cai,
+\newblock ``Network intrusion detection through stacking dilated convolutional
+  autoencoders,''
+\newblock {\em Security and Communication Networks}, vol. 2017, 2017.
+
+\bibitem{thing2017ieee}
+Vrizlynn~LL Thing,
+\newblock ``IEEE 802.11 Network Anomaly Detection and Attack Classification: A
+  Deep Learning Approach,''
+\newblock in {\em Wireless Communications and Networking Conference (WCNC),
+  2017 IEEE}. IEEE, 2017, pp. 1--6.
+
+\bibitem{zolotukhin2016increasing}
+Mikhail Zolotukhin, Timo H{\"a}m{\"a}l{\"a}inen, Tero Kokkonen, and Jarmo
+  Siltanen,
+\newblock ``Increasing web service availability by detecting application-layer
+  DDoS attacks in encrypted traffic,''
+\newblock in {\em Telecommunications (ICT), 2016 23rd International Conference
+  on}. IEEE, 2016, pp. 1--6.
+
+\bibitem{cordero2016analyzing}
+Carlos~Garc{\'\i}a Cordero, Sascha Hauke, Max M{\"u}hlh{\"a}user, and Mathias
+  Fischer,
+\newblock ``Analyzing flow-based anomaly intrusion detection using Replicator
+  Neural Networks,''
+\newblock in {\em Privacy, Security and Trust (PST), 2016 14th Annual
+  Conference on}. IEEE, 2016, pp. 317--324.
+
+\bibitem{alrawashdeh2016toward}
+Khaled Alrawashdeh and Carla Purdy,
+\newblock ``Toward an online anomaly intrusion detection system based on deep
+  learning,''
+\newblock in {\em Machine Learning and Applications (ICMLA), 2016 15th IEEE
+  International Conference on}. IEEE, 2016, pp. 195--200.
+
+\bibitem{tang2016deep}
+Tuan~A Tang, Lotfi Mhamdi, Des McLernon, Syed Ali~Raza Zaidi, and Mounir
+  Ghogho,
+\newblock ``Deep learning approach for network intrusion detection in software
+  defined networking,''
+\newblock in {\em Wireless Networks and Mobile Communications (WINCOM), 2016
+  International Conference on}. IEEE, 2016, pp. 258--263.
+
+\bibitem{lopez2017conditional}
+Manuel Lopez-Martin, Belen Carro, Antonio Sanchez-Esguevillas, and Jaime
+  Lloret,
+\newblock ``Conditional Variational Autoencoder for Prediction and Feature
+  Recovery Applied to Intrusion Detection in IoT,''
+\newblock {\em Sensors}, vol. 17, no. 9, pp. 1967, 2017.
+
+\bibitem{al2018deep}
+Majjed Al-Qatf, Mohammed Alhabib, Kamal Al-Sabahi, et~al.,
+\newblock ``Deep Learning Approach Combining Sparse Autoen-coder with SVM for
+  Network Intrusion Detection,''
+\newblock {\em IEEE Access}, 2018.
+
+\bibitem{mirsky2018kitsune}
+Yisroel Mirsky, Tomer Doitshman, Yuval Elovici, and Asaf Shabtai,
+\newblock ``Kitsune: an ensemble of autoencoders for online network intrusion
+  detection,''
+\newblock {\em arXiv preprint arXiv:1802.09089}, 2018.
+
+\bibitem{aygun2017network}
+R~Can Aygun and A~Gokhan Yavuz,
+\newblock ``Network anomaly detection with stochastically improved autoencoder
+  based models,''
+\newblock in {\em Cyber Security and Cloud Computing (CSCloud), 2017 IEEE 4th
+  International Conference on}. IEEE, 2017, pp. 193--198.
+
+\bibitem{lin2018idsgan}
+Zilong Lin, Yong Shi, and Zhi Xue,
+\newblock ``IDSGAN: Generative Adversarial Networks for Attack Generation
+  against Intrusion Detection,''
+\newblock {\em arXiv preprint arXiv:1809.02077}, 2018.
+
+\bibitem{yin2018enhancing}
+Chuanlong Yin, Yuefei Zhu, Shengli Liu, Jinlong Fei, and Hetong Zhang,
+\newblock ``An enhancing framework for botnet detection using generative
+  adversarial networks,''
+\newblock in {\em 2018 International Conference on Artificial Intelligence and
+  Big Data (ICAIBD)}. IEEE, 2018, pp. 228--234.
+
+\bibitem{ring2018flow}
+Markus Ring, Daniel Schl{\"o}r, Dieter Landes, and Andreas Hotho,
+\newblock ``Flow-based Network Traffic Generation using Generative Adversarial
+  Networks,''
+\newblock {\em arXiv preprint arXiv:1810.07795}, 2018.
+
+\bibitem{latah2018deep}
+Majd Latah,
+\newblock ``When deep learning meets security,''
+\newblock {\em arXiv preprint arXiv:1807.04739}, 2018.
+
+\bibitem{intrator2018mdgan}
+Yotam Intrator, Gilad Katz, and Asaf Shabtai,
+\newblock ``MDGAN: Boosting Anomaly Detection
+  Using$\backslash$$\backslash$Multi-Discriminator Generative Adversarial
+  Networks,''
+\newblock {\em arXiv preprint arXiv:1810.05221}, 2018.
+
+\bibitem{matsubara2018anomaly}
+Takashi Matsubara, Ryosuke Tachibana, and Kuniaki Uehara,
+\newblock ``Anomaly Machine Component Detection by Deep Generative Model with
+  Unregularized Score,''
+\newblock in {\em 2018 International Joint Conference on Neural Networks
+  (IJCNN)}. IEEE, 2018, pp. 1--8.
+
+\bibitem{nicolau2016hybrid}
+Miguel Nicolau, James McDermott, et~al.,
+\newblock ``A hybrid autoencoder and density estimation model for anomaly
+  detection,''
+\newblock in {\em International Conference on Parallel Problem Solving from
+  Nature}. Springer, 2016, pp. 717--726.
+
+\bibitem{rigaki2017adversarial}
+Maria Rigaki,
+\newblock ``Adversarial Deep Learning Against Intrusion Detection
+  Classifiers,'' 2017.
+
+\bibitem{malaiya2018empirical}
+Ritesh~K Malaiya, Donghwoon Kwon, Jinoh Kim, Sang~C Suh, Hyunjoo Kim, and
+  Ikkyun Kim,
+\newblock ``An Empirical Evaluation of Deep Learning for Network Anomaly
+  Detection,''
+\newblock in {\em 2018 International Conference on Computing, Networking and
+  Communications (ICNC)}. IEEE, 2018, pp. 893--898.
+
+\bibitem{kwon2018empirical}
+Donghwoon Kwon, Kathiravan Natarajan, Sang~C Suh, Hyunjoo Kim, and Jinoh Kim,
+\newblock ``An Empirical Study on Network Anomaly Detection Using Convolutional
+  Neural Networks,''
+\newblock in {\em 2018 IEEE 38th International Conference on Distributed
+  Computing Systems (ICDCS)}. IEEE, 2018, pp. 1595--1598.
+
+\bibitem{staudemeyer2015applying}
+Ralf~C Staudemeyer,
+\newblock ``Applying long short-term memory recurrent neural networks to
+  intrusion detection,''
+\newblock {\em South African Computer Journal}, vol. 56, no. 1, pp. 136--154,
+  2015.
+
+\bibitem{naseer2018enhanced}
+Sheraz Naseer, Yasir Saleem, Shehzad Khalid, Muhammad~Khawar Bashir, Jihun Han,
+  Muhammad~Munwar Iqbal, and Kijun Han,
+\newblock ``Enhanced Network Anomaly Detection Based on Deep Neural Networks,''
+\newblock {\em IEEE Access}, vol. 6, pp. 48231--48246, 2018.
+
+\bibitem{ucsdAnomalyDetect2017}
+``Ucsd anomaly detection dataset,''
+\newblock 2017.
+
+\bibitem{shiravi2012toward}
+Ali Shiravi, Hadi Shiravi, Mahbod Tavallaee, and Ali~A Ghorbani,
+\newblock ``Toward developing a systematic approach to generate benchmark
+  datasets for intrusion detection,''
+\newblock {\em computers \& security}, vol. 31, no. 3, pp. 357--374, 2012.
+
+\bibitem{adam2008robust}
+Amit Adam, Ehud Rivlin, Ilan Shimshoni, and Daviv Reinitz,
+\newblock ``Robust real-time unusual event detection using multiple
+  fixed-location monitors,''
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  vol. 30, no. 3, pp. 555--560, 2008.
+
+\bibitem{yin2017deep}
+Chuanlong Yin, Yuefei Zhu, Jinlong Fei, and Xinzheng He,
+\newblock ``A Deep Learning Approach for Intrusion Detection Using Recurrent
+  Neural Networks,''
+\newblock {\em IEEE Access}, vol. 5, pp. 21954--21961, 2017.
+
+\bibitem{yousefi2017autoencoder}
+Mahmood Yousefi-Azar, Vijay Varadharajan, Len Hamey, and Uday Tupakula,
+\newblock ``Autoencoder-based feature learning for cyber security
+  applications,''
+\newblock in {\em Neural Networks (IJCNN), 2017 International Joint Conference
+  on}. IEEE, 2017, pp. 3854--3861.
+
+\bibitem{mohammadi2017new}
+Shahriar Mohammadi and Amin Namadchian,
+\newblock ``A New Deep Learning Approach for Anomaly Base IDS using Memetic
+  Classifier.,''
+\newblock {\em International Journal of Computers, Communications \& Control},
+  vol. 12, no. 5, 2017.
+
+\bibitem{stolfo2000cost}
+J~Stolfo, Wei Fan, Wenke Lee, Andreas Prodromidis, and Philip~K Chan,
+\newblock ``Cost-based modeling and evaluation for data mining with application
+  to fraud and intrusion detection,''
+\newblock {\em Results from the JAM Project by Salvatore}, pp. 1--15, 2000.
+
+\bibitem{van2017anomaly}
+Nguyen~Thanh Van, Tran~Ngoc Thinh, and Le~Thanh Sach,
+\newblock ``An anomaly-based network intrusion detection system using Deep
+  learning,''
+\newblock in {\em System Science and Engineering (ICSSE), 2017 International
+  Conference on}. IEEE, 2017, pp. 210--214.
+
+\bibitem{fontugne2010mawilab}
+Romain Fontugne, Pierre Borgnat, Patrice Abry, and Kensuke Fukuda,
+\newblock ``Mawilab: combining diverse anomaly detectors for automated anomaly
+  labeling and performance benchmarking,''
+\newblock in {\em Proceedings of the 6th International COnference}. ACM, 2010,
+  p.~8.
+
+\bibitem{jamkRGCE}
+``JAMK University of Applied Sciences,Realistic Global Cyber Environment
+  (RGCE),''
+\newblock 2009.
+
+\bibitem{creech2014semantic}
+Gideon Creech and Jiankun Hu,
+\newblock ``A semantic approach to host-based intrusion detection systems using
+  contiguousand discontiguous system call patterns,''
+\newblock {\em IEEE Transactions on Computers}, vol. 63, no. 4, pp. 807--819,
+  2014.
+
+\bibitem{ImmuneDatasets}
+New~Mexico University,
+\newblock ``Computer Immune Systems Data Sets,''
+\newblock 2012.
+
+\bibitem{abdallah2016fraud}
+Aisha Abdallah, Mohd~Aizaini Maarof, and Anazida Zainal,
+\newblock ``Fraud detection system: A survey,''
+\newblock {\em Journal of Network and Computer Applications}, vol. 68, pp.
+  90--113, 2016.
+
+\bibitem{Lavion2018}
+Didier; et~al Lavion,
+\newblock ``PwC's Global Economic Crime and Fraud Survey 2018,''
+\newblock vol. PwC.com, 2018.
+
+\bibitem{zhao2013fraud}
+Lucy~Ma Zhao,
+\newblock ``Fraud detection system,'' Dec.~12 2013,
+\newblock US Patent App. 13/494,741.
+
+\bibitem{sorournejad2016survey}
+Samaneh Sorournejad, Zahra Zojaji, Reza~Ebrahimi Atani, and Amir~Hassan
+  Monadjemi,
+\newblock ``A survey of credit card fraud detection techniques: data and
+  technique oriented perspective,''
+\newblock {\em CoRR abs/1611.06439}, 2016.
+
+\bibitem{zhou2018state}
+Xun Zhou, Sicong Cheng, Meng Zhu, Chengkun Guo, Sida Zhou, Peng Xu, Zhenghua
+  Xue, and Weishi Zhang,
+\newblock ``A state of the art survey of data mining-based fraud detection and
+  credit scoring,''
+\newblock in {\em MATEC Web of Conferences}. EDP Sciences, 2018, vol. 189, p.
+  03002.
+
+\bibitem{suganya2015survey}
+S~Suganya and N~Kamalraj,
+\newblock ``A survey on credit card fraud detection,''
+\newblock {\em International Journal of Computer Science and Mobile Computing},
+  vol. 4, pp. 241--244, 2015.
+
+\bibitem{schreyer2017detection}
+Marco Schreyer, Timur Sattarov, Damian Borth, Andreas Dengel, and Bernd Reimer,
+\newblock ``Detection of Anomalies in Large Scale Accounting Data using Deep
+  Autoencoder Networks,''
+\newblock {\em arXiv preprint arXiv:1709.05254}, 2017.
+
+\bibitem{wedge2017solving}
+Roy Wedge, James~Max Kanter, Santiago~Moral Rubio, Sergio~Iglesias Perez, and
+  Kalyan Veeramachaneni,
+\newblock ``Solving the" false positives" problem in fraud prediction,''
+\newblock {\em arXiv preprint arXiv:1710.07709}, 2017.
+
+\bibitem{paula2016deep}
+Ebberth~L Paula, Marcelo Ladeira, Rommel~N Carvalho, and Thiago Marzag{\~a}o,
+\newblock ``Deep Learning Anomaly Detection as Support Fraud Investigation in
+  Brazilian Exports and Anti-Money Laundering,''
+\newblock in {\em Machine Learning and Applications (ICMLA), 2016 15th IEEE
+  International Conference on}. IEEE, 2016, pp. 954--960.
+
+\bibitem{renstrom2018fraud}
+Martin Renstr{\"o}m and Timothy Holmsten,
+\newblock ``Fraud Detection on Unlabeled Data with Unsupervised Machine
+  Learning,'' 2018.
+
+\bibitem{kazemi2017using}
+Zahra Kazemi and Houman Zarrabi,
+\newblock ``Using deep networks for fraud detection in the credit card
+  transactions,''
+\newblock in {\em Knowledge-Based Engineering and Innovation (KBEI), 2017 IEEE
+  4th International Conference on}. IEEE, 2017, pp. 0630--0633.
+
+\bibitem{zheng2018one}
+Panpan Zheng, Shuhan Yuan, Xintao Wu, Jun Li, and Aidong Lu,
+\newblock ``One-Class Adversarial Nets for Fraud Detection,''
+\newblock {\em arXiv preprint arXiv:1803.01798}, 2018.
+
+\bibitem{pumsirirat2018credit}
+Apapan Pumsirirat and Liu Yan,
+\newblock ``Credit Card Fraud Detection using Deep Learning based on
+  Auto-Encoder and Restricted Boltzmann Machine,''
+\newblock {\em INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND
+  APPLICATIONS}, vol. 9, no. 1, pp. 18--25, 2018.
+
+\bibitem{seeja2014fraudminer}
+KR~Seeja and Masoumeh Zareapoor,
+\newblock ``FraudMiner: A novel credit card fraud detection model based on
+  frequent itemset mining,''
+\newblock {\em The Scientific World Journal}, vol. 2014, 2014.
+
+\bibitem{sweers2018autoencoding}
+Tom Sweers, Tom Heskes, and Jesse Krijthe,
+\newblock ``Autoencoding Credit Card Fraud,''
+\newblock 2018.
+
+\bibitem{fiore2017using}
+Ugo Fiore, Alfredo De~Santis, Francesca Perla, Paolo Zanetti, and Francesco
+  Palmieri,
+\newblock ``Using generative adversarial networks for improving classification
+  effectiveness in credit card fraud detection,''
+\newblock {\em Information Sciences}, 2017.
+
+\bibitem{choi2018generative}
+Hyunsun Choi and Eric Jang,
+\newblock ``Generative Ensembles for Robust Anomaly Detection,''
+\newblock {\em arXiv preprint arXiv:1810.01392}, 2018.
+
+\bibitem{dorronsoro1997neural}
+Jose~R Dorronsoro, Francisco Ginel, Carmen~R S{\'a}nchez, and Carlos
+  Santa~Cruz,
+\newblock ``Neural fraud detection in credit card operations,''
+\newblock {\em IEEE transactions on neural networks}, 1997.
+
+\bibitem{gomez2018end}
+Jon~Ander G{\'o}mez, Juan Ar{\'e}valo, Roberto Paredes, and Jordi Nin,
+\newblock ``End-to-end neural network architecture for fraud scoring in card
+  payments,''
+\newblock {\em Pattern Recognition Letters}, vol. 105, pp. 175--181, 2018.
+
+\bibitem{wiese2009credit}
+B{\'e}nard Wiese and Christian Omlin,
+\newblock ``Credit card transactions, fraud detection, and machine learning:
+  Modelling time with LSTM recurrent neural networks,''
+\newblock in {\em Innovations in neural information paradigms and
+  applications}, pp. 231--268. Springer, 2009.
+
+\bibitem{jurgovsky2018sequence}
+Johannes Jurgovsky, Michael Granitzer, Konstantin Ziegler, Sylvie Calabretto,
+  Pierre-Edouard Portier, Liyun He-Guelton, and Olivier Caelen,
+\newblock ``Sequence classification for credit-card fraud detection,''
+\newblock {\em Expert Systems with Applications}, vol. 100, pp. 234--245, 2018.
+
+\bibitem{heryadi2017learning}
+Yaya Heryadi and Harco Leslie Hendric~Spits Warnars,
+\newblock ``Learning temporal representation of transaction amount for
+  fraudulent transaction recognition using CNN, Stacked LSTM, and CNN-LSTM,''
+\newblock in {\em Cybernetics and Computational Intelligence (CyberneticsCom),
+  2017 IEEE International Conference on}. IEEE, 2017, pp. 84--89.
+
+\bibitem{ando2016detecting}
+Yoshihiro Ando, Hidehito Gomi, and Hidehiko Tanaka,
+\newblock ``Detecting Fraudulent Behavior Using Recurrent Neural Networks,''
+\newblock 2016.
+
+\bibitem{wang2017session}
+Shuhao Wang, Cancheng Liu, Xiang Gao, Hongtao Qu, and Wei Xu,
+\newblock ``Session-Based Fraud Detection in Online E-Commerce Transactions
+  Using Recurrent Neural Networks,''
+\newblock in {\em Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}. Springer, 2017, pp. 241--252.
+
+\bibitem{alowais2012credit}
+Mohammed~Ibrahim Alowais and Lay-Ki Soon,
+\newblock ``Credit card fraud detection: Personalized or aggregated model,''
+\newblock in {\em Mobile, Ubiquitous, and Intelligent Computing (MUSIC), 2012
+  Third FTRA International Conference on}. IEEE, 2012, pp. 114--119.
+
+\bibitem{amarasinghe2018critical}
+Thushara Amarasinghe, Achala Aponso, and Naomi Krishnarajah,
+\newblock ``Critical Analysis of Machine Learning Based Approaches for Fraud
+  Detection in Financial Transactions,''
+\newblock in {\em Proceedings of the 2018 International Conference on Machine
+  Learning Technologies}. ACM, 2018, pp. 12--17.
+
+\bibitem{abroyan2017neural}
+Narek Abroyan,
+\newblock ``Neural Networks for Financial Market Risk Classification,''
+\newblock 2017.
+
+\bibitem{lp2018transaction}
+Xurui Lp, Wei Yu, Tianyu Luwang, Jianbin Zheng, Xuetao Qiu, Jintao Zhao, Lei
+  Xia, and Yujiao Li,
+\newblock ``Transaction Fraud Detection Using GRU-centered Sandwich-structured
+  Model,''
+\newblock in {\em 2018 IEEE 22nd International Conference on Computer Supported
+  Cooperative Work in Design ((CSCWD))}. IEEE, 2018, pp. 467--472.
+
+\bibitem{shen2007application}
+Aihua Shen, Rencheng Tong, and Yaochen Deng,
+\newblock ``Application of classification models on credit card fraud
+  detection,''
+\newblock in {\em Service Systems and Service Management, 2007 International
+  Conference on}. IEEE, 2007, pp. 1--4.
+
+\bibitem{chouiekh2018convnets}
+Alae Chouiekh and EL~Hassane Ibn~EL Haj,
+\newblock ``ConvNets for Fraud Detection analysis,''
+\newblock {\em Procedia Computer Science}, vol. 127, pp. 133--138, 2018.
+
+\bibitem{abroyan2017convolutional}
+Narek Abroyan,
+\newblock ``Convolutional and recurrent neural networks for real-time data
+  classification,''
+\newblock in {\em Innovative Computing Technology (INTECH), 2017 Seventh
+  International Conference on}. IEEE, 2017, pp. 42--45.
+
+\bibitem{fu2016credit}
+Kang Fu, Dawei Cheng, Yi~Tu, and Liqing Zhang,
+\newblock ``Credit card fraud detection using convolutional neural networks,''
+\newblock in {\em International Conference on Neural Information Processing}.
+  Springer, 2016, pp. 483--490.
+
+\bibitem{lu2017deep}
+Yifei Lu,
+\newblock ``Deep neural networks and fraud detection,'' 2017.
+
+\bibitem{wang2018credit}
+Chunzhi Wang, Yichao Wang, Zhiwei Ye, Lingyu Yan, Wencheng Cai, and Shang Pan,
+\newblock ``Credit Card Fraud Detection Based on Whale Algorithm Optimized BP
+  Neural Network,''
+\newblock in {\em 2018 13th International Conference on Computer Science \&
+  Education (ICCSE)}. IEEE, 2018, pp. 1--4.
+
+\bibitem{zhang2018model}
+Zhaohui Zhang, Xinxin Zhou, Xiaobo Zhang, Lizhi Wang, and Pengwei Wang,
+\newblock ``A Model Based on Convolutional Neural Network for Online
+  Transaction Fraud Detection,''
+\newblock {\em Security and Communication Networks}, vol. 2018, 2018.
+
+\bibitem{alsheikh2016mobile}
+Mohammad~Abu Alsheikh, Dusit Niyato, Shaowei Lin, Hwee-Pink Tan, and Zhu Han,
+\newblock ``Mobile big data analytics using deep learning and apache spark,''
+\newblock {\em IEEE network}, vol. 30, no. 3, pp. 22--29, 2016.
+
+\bibitem{badhe2017click}
+Anup Badhe,
+\newblock ``Click fraud detection in mobile ads served in programmatic
+  inventory,''
+\newblock {\em Neural Networks \& Machine Learning}, vol. 1, no. 1, pp. 1--1,
+  2017.
+
+\bibitem{akhter2012detecting}
+Mohammad~Iquebal Akhter and Mohammad~Gulam Ahamad,
+\newblock ``Detecting telecommunication fraud using neural networks through
+  data mining,''
+\newblock {\em International Journal of Scientific and Engineering Research},
+  vol. 3, no. 3, pp. 601--6, 2012.
+
+\bibitem{jain2017perspective}
+Vanita Jain,
+\newblock ``Perspective analysis of telecommunication fraud detection using
+  data stream analytics and neural network classification based data mining,''
+\newblock {\em International Journal of Information Technology}, vol. 9, no. 3,
+  pp. 303--310, 2017.
+
+\bibitem{zheng2018generative}
+Yu-Jun Zheng, Xiao-Han Zhou, Wei-Guo Sheng, Yu~Xue, and Sheng-Yong Chen,
+\newblock ``Generative adversarial network based telecom fraud detection at the
+  receiving bank,''
+\newblock {\em Neural Networks}, vol. 102, pp. 78--86, 2018.
+
+\bibitem{joudaki2015using}
+Hossein Joudaki, Arash Rashidian, Behrouz Minaei-Bidgoli, Mahmood Mahmoodi,
+  Bijan Geraili, Mahdi Nasiri, and Mohammad Arab,
+\newblock ``Using data mining to detect health care fraud and abuse: a review
+  of literature,''
+\newblock {\em Global journal of health science}, vol. 7, no. 1, pp. 194, 2015.
+
+\bibitem{roy2017detecting}
+Riya Roy and K~Thomas George,
+\newblock ``Detecting insurance claims fraud using machine learning
+  techniques,''
+\newblock in {\em Circuit, Power and Computing Technologies (ICCPCT), 2017
+  International Conference on}. IEEE, 2017, pp. 1--6.
+
+\bibitem{viaene2005auto}
+Stijn Viaene, Guido Dedene, and Richard~A Derrig,
+\newblock ``Auto claim fraud detection using Bayesian learning neural
+  networks,''
+\newblock {\em Expert Systems with Applications}, vol. 29, no. 3, pp. 653--666,
+  2005.
+
+\bibitem{fajardo2018vos}
+Val~Andrei Fajardo, David Findlay, Roshanak Houmanfar, Charu Jaiswal, Jiaxi
+  Liang, and Honglei Xie,
+\newblock ``VOS: a Method for Variational Oversampling of Imbalanced Data,''
+\newblock {\em arXiv preprint arXiv:1809.02596}, 2018.
+
+\bibitem{keung2009neural}
+Phillip Keung, Joycelin Karel, and Curtis Bright,
+\newblock ``Neural networks for insurance fraud detection,'' 2009.
+
+\bibitem{bauder2017medicare}
+Richard~A Bauder and Taghi~M Khoshgoftaar,
+\newblock ``Medicare Fraud Detection Using Machine Learning Methods,''
+\newblock in {\em Machine Learning and Applications (ICMLA), 2017 16th IEEE
+  International Conference on}. IEEE, 2017, pp. 858--865.
+
+\bibitem{lasaga2018deep}
+Daniel Lasaga and Prakash Santhana,
+\newblock ``Deep Learning to Detect Medical Treatment Fraud,''
+\newblock in {\em KDD 2017 Workshop on Anomaly Detection in Finance}, 2018, pp.
+  114--120.
+
+\bibitem{ghasedi2018semi}
+Kamran Ghasedi~Dizaji, Xiaoqian Wang, and Heng Huang,
+\newblock ``Semi-Supervised Generative Adversarial Network for Gene Expression
+  Inference,''
+\newblock in {\em Proceedings of the 24th ACM SIGKDD International Conference
+  on Knowledge Discovery \& Data Mining}. ACM, 2018, pp. 1435--1444.
+
+\bibitem{finlayson2018adversarial}
+Samuel~G Finlayson, Isaac~S Kohane, and Andrew~L Beam,
+\newblock ``Adversarial Attacks Against Medical Deep Learning Systems,''
+\newblock {\em arXiv preprint arXiv:1804.05296}, 2018.
+
+\bibitem{esteva2017dermatologist}
+Andre Esteva, Brett Kuprel, Roberto~A Novoa, Justin Ko, Susan~M Swetter,
+  Helen~M Blau, and Sebastian Thrun,
+\newblock ``Dermatologist-level classification of skin cancer with deep neural
+  networks,''
+\newblock {\em Nature}, vol. 542, no. 7639, pp. 115, 2017.
+
+\bibitem{ye2017survey}
+Yanfang Ye, Tao Li, Donald Adjeroh, and S~Sitharama Iyengar,
+\newblock ``A survey on malware detection using data mining techniques,''
+\newblock {\em ACM Computing Surveys (CSUR)}, vol. 50, no. 3, pp. 41, 2017.
+
+\bibitem{hardy2016dl4md}
+William Hardy, Lingwei Chen, Shifu Hou, Yanfang Ye, and Xin Li,
+\newblock ``DL4MD: A deep learning framework for intelligent malware
+  detection,''
+\newblock in {\em Proceedings of the International Conference on Data Mining
+  (DMIN)}. The Steering Committee of The World Congress in Computer Science,
+  Computer Engineering and Applied Computing (WorldComp), 2016, p.~61.
+
+\bibitem{de2018malware}
+Alessandra De~Paola, Salvatore Favaloro, Salvatore Gaglio, G~Lo~Re, and Marco
+  Morana,
+\newblock ``Malware detection through low-level features and stacked denoising
+  autoencoders,''
+\newblock in {\em 2nd Italian Conference on Cyber Security, ITASEC 2018}.
+  CEUR-WS, 2018, vol. 2058.
+
+\bibitem{sewak2018investigation}
+Mohit Sewak, Sanjay~K Sahay, and Hemant Rathore,
+\newblock ``An investigation of a deep learning based malware detection
+  system,''
+\newblock in {\em Proceedings of the 13th International Conference on
+  Availability, Reliability and Security}. ACM, 2018, p.~26.
+
+\bibitem{kebede2017classification}
+Temesguen~Messay Kebede, Ouboti Djaneye-Boundjou, Barath~Narayanan Narayanan,
+  Anca Ralescu, and David Kapp,
+\newblock ``Classification of Malware programs using autoencoders based deep
+  learning architecture and its application to the microsoft malware
+  Classification challenge (BIG 2015) dataset,''
+\newblock in {\em Aerospace and Electronics Conference (NAECON), 2017 IEEE
+  National}. IEEE, 2017, pp. 70--75.
+
+\bibitem{david2015deepsign}
+Omid~E David and Nathan~S Netanyahu,
+\newblock ``Deepsign: Deep learning for automatic malware signature generation
+  and classification,''
+\newblock in {\em Neural Networks (IJCNN), 2015 International Joint Conference
+  on}. IEEE, 2015, pp. 1--8.
+
+\bibitem{cakir2018malware}
+Bugra Cakir and Erdogan Dogdu,
+\newblock ``Malware classification using deep learning methods,''
+\newblock in {\em Proceedings of the ACMSE 2018 Conference}. ACM, 2018, p.~10.
+
+\bibitem{silva2018improving}
+Pedro Silva, Sepehr Akhavan-Masouleh, and Li~Li,
+\newblock ``Improving Malware Detection Accuracy by Extracting Icon
+  Information,''
+\newblock in {\em 2018 IEEE Conference on Multimedia Information Processing and
+  Retrieval (MIPR)}. IEEE, 2018, pp. 408--411.
+
+\bibitem{kolosnjaji2018adversarial}
+Bojan Kolosnjaji, Ambra Demontis, Battista Biggio, Davide Maiorca, Giorgio
+  Giacinto, Claudia Eckert, and Fabio Roli,
+\newblock ``Adversarial Malware Binaries: Evading Deep Learning for Malware
+  Detection in Executables,''
+\newblock {\em arXiv preprint arXiv:1803.04173}, 2018.
+
+\bibitem{suciu2018exploring}
+Octavian Suciu, Scott~E Coull, and Jeffrey Johns,
+\newblock ``Exploring Adversarial Examples in Malware Detection,''
+\newblock {\em arXiv preprint arXiv:1810.08280}, 2018.
+
+\bibitem{srisakaokul2018muldef}
+Siwakorn Srisakaokul, Zexuan Zhong, Yuhao Zhang, Wei Yang, and Tao Xie,
+\newblock ``MULDEF: Multi-model-based Defense Against Adversarial Examples for
+  Neural Networks,''
+\newblock {\em arXiv preprint arXiv:1809.00065}, 2018.
+
+\bibitem{king2018artificial}
+Thomas King, Nikita Aggarwal, Mariarosaria Taddeo, and Luciano Floridi,
+\newblock ``Artificial Intelligence Crime: An Interdisciplinary Analysis of
+  Foreseeable Threats and Solutions,''
+\newblock 2018.
+
+\bibitem{huang2017r2}
+TonTon Hsien-De Huang and Hung-Yu Kao,
+\newblock ``R2-D2: color-inspired convolutional neural network (cnn)-based
+  android malware detections,''
+\newblock {\em arXiv preprint arXiv:1705.04448}, 2017.
+
+\bibitem{guo2017malware}
+Wei Guo, Tenghai Wang, and Jizeng Wei,
+\newblock ``Malware Detection with Convolutional Neural Network Using Hardware
+  Events,''
+\newblock in {\em CCF National Conference on Compujter Engineering and
+  Technology}. Springer, 2017, pp. 104--115.
+
+\bibitem{abdelsalam2018malware}
+Mahmoud Abdelsalam, Ram Krishnan, Yufei Huang, and Ravi Sandhu,
+\newblock ``Malware Detection in Cloud Infrastructures using Convolutional
+  Neural Networks,''
+\newblock in {\em 2018 IEEE 11th International Conference on Cloud Computing
+  (CLOUD)}. IEEE, 2018, pp. 162--169.
+
+\bibitem{raff2017malware}
+Edward Raff, Jon Barker, Jared Sylvester, Robert Brandon, Bryan Catanzaro, and
+  Charles Nicholas,
+\newblock ``Malware detection by eating a whole exe,''
+\newblock {\em arXiv preprint arXiv:1710.09435}, 2017.
+
+\bibitem{karbab2018maldozer}
+ElMouatez~Billah Karbab, Mourad Debbabi, Abdelouahid Derhab, and Djedjiga
+  Mouheb,
+\newblock ``MalDozer: Automatic framework for android malware detection using
+  deep learning,''
+\newblock {\em Digital Investigation}, vol. 24, pp. S48--S59, 2018.
+
+\bibitem{martinelli2017evaluating}
+Fabio Martinelli, Fiammetta Marulli, and Francesco Mercaldo,
+\newblock ``Evaluating convolutional neural network for effective mobile
+  malware detection,''
+\newblock {\em Procedia Computer Science}, vol. 112, pp. 2372--2381, 2017.
+
+\bibitem{mclaughlin2017deep}
+Niall McLaughlin, Jesus Martinez~del Rincon, BooJoong Kang, Suleiman Yerima,
+  Paul Miller, Sakir Sezer, Yeganeh Safaei, Erik Trickel, Ziming Zhao, Adam
+  Doupe, et~al.,
+\newblock ``Deep android malware detection,''
+\newblock in {\em Proceedings of the Seventh ACM on Conference on Data and
+  Application Security and Privacy}. ACM, 2017, pp. 301--308.
+
+\bibitem{gibert2018using}
+Daniel Gibert, Carles Mateu, Jordi Planes, and Ramon Vicens,
+\newblock ``Using convolutional neural networks for classification of malware
+  represented as images,''
+\newblock {\em Journal of Computer Virology and Hacking Techniques}, pp. 1--14,
+  2018.
+
+\bibitem{kolosnjaji2017empowering}
+Bojan Kolosnjaji, Ghadir Eraisha, George Webster, Apostolis Zarras, and Claudia
+  Eckert,
+\newblock ``Empowering convolutional networks for malware classification and
+  analysis,''
+\newblock in {\em Neural Networks (IJCNN), 2017 International Joint Conference
+  on}. IEEE, 2017, pp. 3838--3845.
+
+\bibitem{rosenberg2018end}
+Ishai Rosenberg, Guillaume Sicard, and Eli~Omid David,
+\newblock ``End-to-End Deep Neural Networks and Transfer Learning for Automatic
+  Analysis of Nation-State Malware,''
+\newblock {\em Entropy}, vol. 20, no. 5, pp. 390, 2018.
+
+\bibitem{wang2017adversary}
+Qinglong Wang, Wenbo Guo, Kaixuan Zhang, Alexander~G Ororbia~II, Xinyu Xing,
+  Xue Liu, and C~Lee Giles,
+\newblock ``Adversary resistant deep neural networks with an application to
+  malware detection,''
+\newblock in {\em Proceedings of the 23rd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}. ACM, 2017, pp. 1145--1153.
+
+\bibitem{yang2016application}
+JIA YANG, HUIXIANG ZHANG, BAOLEI MAO, and CHUNLEI CHEN,
+\newblock ``APPLICATION OF DEEP BELIEF NETWORKS FOR ANDROID MALWARE
+  DETECTION,''
+\newblock {\em ICIC express letters. Part B, Applications: an international
+  journal of research and surveys}, vol. 7, no. 7, pp. 1505--1510, 2016.
+
+\bibitem{ding2016application}
+Yuxin Ding, Sheng Chen, and Jun Xu,
+\newblock ``Application of Deep Belief Networks for opcode based malware
+  detection,''
+\newblock in {\em Neural Networks (IJCNN), 2016 International Joint Conference
+  on}. IEEE, 2016, pp. 3901--3908.
+
+\bibitem{yuxin2017malware}
+Ding Yuxin and Zhu Siyi,
+\newblock ``Malware detection based on deep learning algorithm,''
+\newblock {\em Neural Computing and Applications}, pp. 1--12, 2017.
+
+\bibitem{selvaganapathy2018deep}
+ShymalaGowri Selvaganapathy, Mathappan Nivaashini, and HemaPriya Natarajan,
+\newblock ``Deep belief network based detection and categorization of malicious
+  URLs,''
+\newblock {\em Information Security Journal: A Global Perspective}, vol. 27,
+  no. 3, pp. 145--161, 2018.
+
+\bibitem{hou2017deep}
+Shifu Hou, Aaron Saas, Lingwei Chen, Yanfang Ye, and Thirimachos Bourlai,
+\newblock ``Deep neural networks for automatic android malware detection,''
+\newblock in {\em Proceedings of the 2017 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2017}. ACM, 2017, pp.
+  803--810.
+
+\bibitem{tobiyama2016malware}
+Shun Tobiyama, Yukiko Yamaguchi, Hajime Shimada, Tomonori Ikuse, and Takeshi
+  Yagi,
+\newblock ``Malware detection with deep neural network using process
+  behavior,''
+\newblock in {\em Computer Software and Applications Conference (COMPSAC), 2016
+  IEEE 40th Annual}. IEEE, 2016, vol.~2, pp. 577--582.
+
+\bibitem{hu2017black}
+Weiwei Hu and Ying Tan,
+\newblock ``Black-box attacks against RNN based malware detection algorithms,''
+\newblock {\em arXiv preprint arXiv:1705.08131}, 2017.
+
+\bibitem{tobiyama2018method}
+Shun Tobiyama, Yukiko Yamaguchi, Hirokazu Hasegawa, Hajime Shimada, Mitsuaki
+  Akiyama, and Takeshi Yagi,
+\newblock ``A method for estimating process maliciousness with Seq2Seq model,''
+\newblock in {\em 2018 International Conference on Information Networking
+  (ICOIN)}. IEEE, 2018, pp. 255--260.
+
+\bibitem{passalislong}
+Nikolaos Passalis and Anastasios Tefas,
+\newblock ``Long-term temporal averaging for stochastic optimization of deep
+  neural networks,''
+\newblock {\em Neural Computing and Applications}, pp. 1--13.
+
+\bibitem{le2018deep}
+Quan Le, Ois{\'\i}n Boydell, Brian Mac~Namee, and Mark Scanlon,
+\newblock ``Deep learning at the shallow end: Malware classification for
+  non-domain experts,''
+\newblock {\em Digital Investigation}, vol. 26, pp. S118--S126, 2018.
+
+\bibitem{kim2018zero}
+Jin-Young Kim, Seok-Jun Bu, and Sung-Bae Cho,
+\newblock ``Zero-day malware detection using transferred generative adversarial
+  networks based on deep autoencoders,''
+\newblock {\em Information Sciences}, vol. 460, pp. 83--102, 2018.
+
+\bibitem{wang2018effective}
+Wei Wang, Mengxue Zhao, and Jigang Wang,
+\newblock ``Effective android malware detection with a hybrid model based on
+  deep autoencoder and convolutional neural network,''
+\newblock {\em Journal of Ambient Intelligence and Humanized Computing}, pp.
+  1--9, 2018.
+
+\bibitem{li2015hybrid}
+Yuancheng Li, Rong Ma, and Runhai Jiao,
+\newblock ``A hybrid malicious code detection method based on deep learning,''
+\newblock {\em methods}, vol. 9, no. 5, 2015.
+
+\bibitem{haddadpajouh2018deep}
+Hamed HaddadPajouh, Ali Dehghantanha, Raouf Khayami, and Kim-Kwang~Raymond
+  Choo,
+\newblock ``A deep Recurrent Neural Network based approach for Internet of
+  Things malware threat hunting,''
+\newblock {\em Future Generation Computer Systems}, vol. 85, pp. 88--96, 2018.
+
+\bibitem{min2017deep}
+Seonwoo Min, Byunghan Lee, and Sungroh Yoon,
+\newblock ``Deep learning in bioinformatics,''
+\newblock {\em Briefings in bioinformatics}, vol. 18, no. 5, pp. 851--869,
+  2017.
+
+\bibitem{cao2018deep}
+Chensi Cao, Feng Liu, Hai Tan, Deshou Song, Wenjie Shu, Weizhong Li, Yiming
+  Zhou, Xiaochen Bo, and Zhi Xie,
+\newblock ``Deep learning and its applications in biomedicine,''
+\newblock {\em Genomics, proteomics \& bioinformatics}, 2018.
+
+\bibitem{zhao2016deep}
+Rui Zhao, Ruqiang Yan, Zhenghua Chen, Kezhi Mao, Peng Wang, and Robert~X Gao,
+\newblock ``Deep learning and its applications to machine health monitoring: A
+  survey,''
+\newblock {\em arXiv preprint arXiv:1612.07640}, 2016.
+
+\bibitem{khan2018review}
+Samir Khan and Takehisa Yairi,
+\newblock ``A review on the application of deep learning in system health
+  management,''
+\newblock {\em Mechanical Systems and Signal Processing}, vol. 107, pp.
+  241--265, 2018.
+
+\bibitem{gugulothusparse}
+Narendhar Gugulothu, Pankaj Malhotra, Lovekesh Vig, and Gautam Shroff,
+\newblock ``Sparse Neural Networks for Anomaly Detection in High-Dimensional
+  Time Series,''
+\newblock .
+
+\bibitem{amarasinghe2018toward}
+Kasun Amarasinghe, Kevin Kenney, and Milos Manic,
+\newblock ``Toward Explainable Deep Neural Network Based Anomaly Detection,''
+\newblock in {\em 2018 11th International Conference on Human System
+  Interaction (HSI)}. IEEE, 2018, pp. 311--317.
+
+\bibitem{choi2018doctor}
+Edward Choi,
+\newblock {\em Doctor AI: Interpretable Deep Learning for Modeling Electronic
+  Health Records},
+\newblock Ph.D. thesis, Georgia Institute of Technology, 2018.
+
+\bibitem{wang2016research}
+Kai Wang, Youjin Zhao, Qingyu Xiong, Min Fan, Guotan Sun, Longkun Ma, and Tong
+  Liu,
+\newblock ``Research on healthy anomaly detection model based on deep learning
+  from multiple time-series physiological signals,''
+\newblock {\em Scientific Programming}, vol. 2016, 2016.
+
+\bibitem{cowton2018combined}
+Jake Cowton, Ilias Kyriazakis, Thomas Pl{\"o}tz, and Jaume Bacardit,
+\newblock ``A Combined Deep Learning GRU-Autoencoder for the Early Detection of
+  Respiratory Disease in Pigs Using Multiple Environmental Sensors,''
+\newblock {\em Sensors}, vol. 18, no. 8, pp. 2521, 2018.
+
+\bibitem{sato2018primitive}
+Daisuke Sato, Shouhei Hanaoka, Yukihiro Nomura, Tomomi Takenaga, Soichiro Miki,
+  Takeharu Yoshikawa, Naoto Hayashi, and Osamu Abe,
+\newblock ``A primitive study on unsupervised anomaly detection with an
+  autoencoder in emergency head CT volumes,''
+\newblock in {\em Medical Imaging 2018: Computer-Aided Diagnosis}.
+  International Society for Optics and Photonics, 2018, vol. 10575, p. 105751P.
+
+\bibitem{turner2014deep}
+JT~Turner, Adam Page, Tinoosh Mohsenin, and Tim Oates,
+\newblock ``Deep belief networks used on high resolution multichannel
+  electroencephalography data for seizure detection,''
+\newblock in {\em 2014 AAAI Spring Symposium Series}, 2014.
+
+\bibitem{sharma2016abnormality}
+Manoj~Kumar Sharma, Debdoot Sheet, and Prabir~Kumar Biswas,
+\newblock ``Abnormality Detecting Deep Belief Network,''
+\newblock in {\em Proceedings of the International Conference on Advances in
+  Information Communication Technology \& Computing}. ACM, 2016, p.~11.
+
+\bibitem{ma2018unsupervised}
+Ning Ma, Yu~Peng, Shaojun Wang, and Philip~HW Leong,
+\newblock ``An Unsupervised Deep Hyperspectral Anomaly Detector,''
+\newblock {\em Sensors}, vol. 18, no. 3, pp. 693, 2018.
+
+\bibitem{zhang2016automatic}
+Junming Zhang, Yan Wu, Jing Bai, and Fuqiang Chen,
+\newblock ``Automatic sleep stage classification based on sparse deep belief
+  net and combination of multiple classifiers,''
+\newblock {\em Transactions of the Institute of Measurement and Control}, vol.
+  38, no. 4, pp. 435--451, 2016.
+
+\bibitem{wulsin2011modeling}
+DF~Wulsin, JR~Gupta, R~Mani, JA~Blanco, and B~Litt,
+\newblock ``Modeling electroencephalography waveforms with semi-supervised deep
+  belief nets: fast classification and anomaly measurement,''
+\newblock {\em Journal of neural engineering}, vol. 8, no. 3, pp. 036015, 2011.
+
+\bibitem{wu2015adaptive}
+C~Wu, Y~Guo, and Y~Ma,
+\newblock ``Adaptive anomalies detection with deep network,''
+\newblock in {\em Proceeding of the Seventh International Conference on
+  Adaptive and Self-Adaptive Systems and Applications}, 2015.
+
+\bibitem{liao2016enhanced}
+Linxia Liao, Wenjing Jin, and Radu Pavel,
+\newblock ``Enhanced restricted Boltzmann machine with prognosability
+  regularization for prognostics and health assessment,''
+\newblock {\em IEEE Transactions on Industrial Electronics}, vol. 63, no. 11,
+  pp. 7076--7083, 2016.
+
+\bibitem{xu2018unsupervised}
+Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying
+  Liu, Youjian Zhao, Dan Pei, Yang Feng, et~al.,
+\newblock ``Unsupervised Anomaly Detection via Variational Auto-Encoder for
+  Seasonal KPIs in Web Applications,''
+\newblock {\em arXiv preprint arXiv:1802.03903}, 2018.
+
+\bibitem{lu2018anomaly}
+Yuchen Lu and Peng Xu,
+\newblock ``Anomaly Detection for Skin Disease Images Using Variational
+  Autoencoder,''
+\newblock {\em arXiv preprint arXiv:1807.01349}, 2018.
+
+\bibitem{chen2018unsupervised}
+Xiaoran Chen and Ender Konukoglu,
+\newblock ``Unsupervised Detection of Lesions in Brain MRI using constrained
+  adversarial auto-encoders,''
+\newblock {\em arXiv preprint arXiv:1806.04972}, 2018.
+
+\bibitem{yang2018toward}
+Hangzhou Yang and Huiying Gao,
+\newblock ``Toward Sustainable Virtualized Healthcare: Extracting Medical
+  Entities from Chinese Online Health Consultations Using Deep Neural
+  Networks,''
+\newblock {\em Sustainability}, vol. 10, no. 9, pp. 3292, 2018.
+
+\bibitem{jagannatha2016bidirectional}
+Abhyuday~N Jagannatha and Hong Yu,
+\newblock ``Bidirectional RNN for medical event detection in electronic health
+  records,''
+\newblock in {\em Proceedings of the conference. Association for Computational
+  Linguistics. North American Chapter. Meeting}. NIH Public Access, 2016, vol.
+  2016, p. 473.
+
+\bibitem{o2016recurrent}
+Timothy~J O'Shea, T~Charles Clancy, and Robert~W McGwier,
+\newblock ``Recurrent neural radio anomaly detection,''
+\newblock {\em arXiv preprint arXiv:1611.00301}, 2016.
+
+\bibitem{latif2018phonocardiographic}
+Siddique Latif, Muhammad Usman, Rajib Rana, and Junaid Qadir,
+\newblock ``Phonocardiographic Sensing Using Deep Learning for Abnormal
+  Heartbeat Detection,''
+\newblock {\em IEEE Sensors Journal}, vol. 18, no. 22, pp. 9393--9400, 2018.
+
+\bibitem{zhang2018time}
+Runtian Zhang and Qian Zou,
+\newblock ``Time Series Prediction and Anomaly Detection of Light Curve Using
+  LSTM Neural Network,''
+\newblock in {\em Journal of Physics: Conference Series}. IOP Publishing, 2018,
+  vol. 1061, p. 012012.
+
+\bibitem{chauhan2015anomaly}
+Sucheta Chauhan and Lovekesh Vig,
+\newblock ``Anomaly detection in ECG time signals via deep long short-term
+  memory networks,''
+\newblock in {\em Data Science and Advanced Analytics (DSAA), 2015. 36678 2015.
+  IEEE International Conference on}. IEEE, 2015, pp. 1--7.
+
+\bibitem{schmidt2018artificial}
+Ursula Schmidt-Erfurth, Amir Sadeghipour, Bianca~S Gerendas, Sebastian~M
+  Waldstein, and Hrvoje Bogunovi{\'c},
+\newblock ``Artificial intelligence in retina,''
+\newblock {\em Progress in retinal and eye research}, 2018.
+
+\bibitem{iakovidis2018detecting}
+Dimitris~K Iakovidis, Spiros~V Georgakopoulos, Michael Vasilakakis, Anastasios
+  Koulaouzidis, and Vassilis~P Plagianakos,
+\newblock ``Detecting and Locating Gastrointestinal Anomalies Using Deep
+  Learning and Iterative Cluster Unification,''
+\newblock {\em IEEE Transactions on Medical Imaging}, 2018.
+
+\bibitem{savage2014anomaly}
+David Savage, Xiuzhen Zhang, Xinghuo Yu, Pauline Chou, and Qingmai Wang,
+\newblock ``Anomaly detection in online social networks,''
+\newblock {\em Social Networks}, vol. 39, pp. 62--70, 2014.
+
+\bibitem{anand2017anomaly}
+Ketan Anand, Jay Kumar, and Kunal Anand,
+\newblock ``Anomaly detection in online social network: A survey,''
+\newblock in {\em Inventive Communication and Computational Technologies
+  (ICICCT), 2017 International Conference on}. IEEE, 2017, pp. 456--459.
+
+\bibitem{yu2016survey}
+Rose Yu, Huida Qiu, Zhen Wen, ChingYung Lin, and Yan Liu,
+\newblock ``A survey on social media anomaly detection,''
+\newblock {\em ACM SIGKDD Explorations Newsletter}, vol. 18, no. 1, pp. 1--14,
+  2016.
+
+\bibitem{cao2018automatic}
+Juan Cao, Junbo Guo, Xirong Li, Zhiwei Jin, Han Guo, and Jintao Li,
+\newblock ``Automatic Rumor Detection on Microblogs: A Survey,''
+\newblock {\em arXiv preprint arXiv:1807.03505}, 2018.
+
+\bibitem{liu2017social}
+Yan Liu and Sanjay Chawla,
+\newblock ``Social media anomaly detection: Challenges and solutions,''
+\newblock in {\em Proceedings of the Tenth ACM International Conference on Web
+  Search and Data Mining}. ACM, 2017, pp. 817--818.
+
+\bibitem{zhang2017detecting}
+Yan Zhang, Weiling Chen, Chai~Kiat Yeo, Chiew~Tong Lau, and Bu~Sung Lee,
+\newblock ``Detecting rumors on Online Social Networks using multi-layer
+  autoencoder,''
+\newblock in {\em Technology \& Engineering Management Conference (TEMSCON),
+  2017 IEEE}. IEEE, 2017, pp. 437--441.
+
+\bibitem{castellini2017fake}
+Jacopo Castellini, Valentina Poggioni, and Giulia Sorbi,
+\newblock ``Fake Twitter followers detection by denoising autoencoder,''
+\newblock in {\em Proceedings of the International Conference on Web
+  Intelligence}. ACM, 2017, pp. 195--202.
+
+\bibitem{sun2018detecting}
+Xiao Sun, Chen Zhang, Shuai Ding, and Changqin Quan,
+\newblock ``Detecting anomalous emotion through big data from social networks
+  based on a deep learning method,''
+\newblock {\em Multimedia Tools and Applications}, pp. 1--22, 2018.
+
+\bibitem{shu2017doc}
+Lei Shu, Hu~Xu, and Bing Liu,
+\newblock ``Doc: Deep open classification of text documents,''
+\newblock {\em arXiv preprint arXiv:1709.08716}, 2017.
+
+\bibitem{yang2018anomaly}
+Biao Yang, Jinmeng Cao, Rongrong Ni, and Ling Zou,
+\newblock ``Anomaly Detection in Moving Crowds through Spatiotemporal
+  Autoencoding and Additional Attention,''
+\newblock {\em Advances in Multimedia}, vol. 2018, 2018.
+
+\bibitem{li2017detecting}
+Ze~Li, Duoyong Sun, Renqi Zhu, and Zihan Lin,
+\newblock ``Detecting event-related changes in organizational networks using
+  optimized neural network models,''
+\newblock {\em PloS one}, vol. 12, no. 11, pp. e0188733, 2017.
+
+\bibitem{wei2017new}
+Wei,
+\newblock ``Hybrid Models for anomaly detection in Social networks,''
+\newblock {\em arXiv preprint arXiv:1709.08716}, 2017.
+
+\bibitem{memon2008log}
+Ahmed~Umar Memon,
+\newblock {\em Log file categorization and anomaly analysis using grammar
+  inference},
+\newblock Ph.D. thesis, 2008.
+
+\bibitem{brown2018recurrent}
+Andy Brown, Aaron Tuor, Brian Hutchinson, and Nicole Nichols,
+\newblock ``Recurrent Neural Network Attention Mechanisms for Interpretable
+  System Log Anomaly Detection,''
+\newblock {\em arXiv preprint arXiv:1803.04967}, 2018.
+
+\bibitem{das2018desh}
+Anwesha Das, Frank Mueller, Charles Siegel, and Abhinav Vishnu,
+\newblock ``Desh: deep learning for system health prediction of lead times to
+  failure in HPC,''
+\newblock in {\em Proceedings of the 27th International Symposium on
+  High-Performance Parallel and Distributed Computing}. ACM, 2018, pp. 40--51.
+
+\bibitem{malhotra2015long}
+Pankaj Malhotra, Lovekesh Vig, Gautam Shroff, and Puneet Agarwal,
+\newblock ``Long short term memory networks for anomaly detection in time
+  series,''
+\newblock in {\em Proceedings}. Presses universitaires de Louvain, 2015, p.~89.
+
+\bibitem{sakurada2014anomaly}
+Mayu Sakurada and Takehisa Yairi,
+\newblock ``Anomaly detection using autoencoders with nonlinear dimensionality
+  reduction,''
+\newblock in {\em Proceedings of the MLSDA 2014 2nd Workshop on Machine
+  Learning for Sensory Data Analysis}. ACM, 2014, p.~4.
+
+\bibitem{nolle2018analyzing}
+Timo Nolle, Stefan Luettgen, Alexander Seeliger, and Max M{\"u}hlh{\"a}user,
+\newblock ``Analyzing business process anomalies using autoencoders,''
+\newblock {\em Machine Learning}, pp. 1--19, 2018.
+
+\bibitem{nolle2016unsupervised}
+Timo Nolle, Alexander Seeliger, and Max M{\"u}hlh{\"a}user,
+\newblock ``Unsupervised anomaly detection in noisy business process event logs
+  using denoising autoencoders,''
+\newblock in {\em International conference on discovery science}. Springer,
+  2016, pp. 442--456.
+
+\bibitem{grover2018anomaly}
+Aarish Grover,
+\newblock ``Anomaly Detection for Application Log Data,''
+\newblock 2018.
+
+\bibitem{wolpher2018anomaly}
+Maxim Wolpher,
+\newblock ``Anomaly Detection in Unstructured Time Series Datausing an LSTM
+  Autoencoder,'' 2018.
+
+\bibitem{zhang2018role}
+Dongxue Zhang, Yang Zheng, Yu~Wen, Yujue Xu, Jingchuo Wang, Yang Yu, and Dan
+  Meng,
+\newblock ``Role-based Log Analysis Applying Deep Learning for Insider Threat
+  Detection,''
+\newblock in {\em Proceedings of the 1st Workshop on Security-Oriented Designs
+  of Computer Architectures and Processors}. ACM, 2018, pp. 18--20.
+
+\bibitem{nanduri2016anomaly}
+Anvardh Nanduri and Lance Sherry,
+\newblock ``Anomaly detection in aircraft data using Recurrent Neural Networks
+  (RNN),''
+\newblock in {\em Integrated Communications Navigation and Surveillance (ICNS),
+  2016}. IEEE, 2016, pp. 5C2--1.
+
+\bibitem{fengming2017anomaly}
+Zheng Fengming, Li~Shufang, Guo Zhimin, Wu~Bo, Tian Shiming, and Pan Mingming,
+\newblock ``Anomaly detection in smart grid based on encoder-decoder framework
+  with recurrent neural network,''
+\newblock {\em The Journal of China Universities of Posts and
+  Telecommunications}, vol. 24, no. 6, pp. 67--73, 2017.
+
+\bibitem{marchi2015non}
+Erik Marchi, Fabio Vesperini, Felix Weninger, Florian Eyben, Stefano Squartini,
+  and Bj{\"o}rn Schuller,
+\newblock ``Non-linear prediction with LSTM recurrent neural networks for
+  acoustic novelty detection,''
+\newblock in {\em Neural Networks (IJCNN), 2015 International Joint Conference
+  on}. IEEE, 2015, pp. 1--7.
+
+\bibitem{lu2018detecting}
+Siyang Lu, Xiang Wei, Yandong Li, and Liqiang Wang,
+\newblock ``Detecting Anomaly in Big Data System Logs Using Convolutional
+  Neural Network,''
+\newblock in {\em 2018 IEEE 16th Intl Conf on Dependable, Autonomic and Secure
+  Computing, 16th Intl Conf on Pervasive Intelligence and Computing, 4th Intl
+  Conf on Big Data Intelligence and Computing and Cyber Science and Technology
+  Congress (DASC/PiCom/DataCom/CyberSciTech)}. IEEE, 2018, pp. 151--158.
+
+\bibitem{yuan2018insider}
+Fangfang Yuan, Yanan Cao, Yanmin Shang, Yanbing Liu, Jianlong Tan, and Binxing
+  Fang,
+\newblock ``Insider Threat Detection with Deep Neural Network,''
+\newblock in {\em International Conference on Computational Science}. Springer,
+  2018, pp. 43--54.
+
+\bibitem{racki2018compact}
+Domen Racki, Dejan Tomazevic, and Danijel Skocaj,
+\newblock ``A compact convolutional neural network for textured surface anomaly
+  detection,''
+\newblock in {\em 2018 IEEE Winter Conference on Applications of Computer
+  Vision (WACV)}. IEEE, 2018, pp. 1331--1339.
+
+\bibitem{zhou2016spatial}
+Shifu Zhou, Wei Shen, Dan Zeng, Mei Fang, Yuanwang Wei, and Zhijiang Zhang,
+\newblock ``Spatial--temporal convolutional neural networks for anomaly
+  detection and localization in crowded scenes,''
+\newblock {\em Signal Processing: Image Communication}, vol. 47, pp. 358--368,
+  2016.
+
+\bibitem{gorokhov2017convolutional}
+Oleg Gorokhov, Mikhail Petrovskiy, and Igor Mashechkin,
+\newblock ``Convolutional Neural Networks for Unsupervised Anomaly Detection in
+  Text Data,''
+\newblock in {\em International Conference on Intelligent Data Engineering and
+  Automated Learning}. Springer, 2017, pp. 500--507.
+
+\bibitem{liao2017deep}
+Nicholas Liao, Matthew Guzdial, and Mark Riedl,
+\newblock ``Deep convolutional player modeling on log and level data,''
+\newblock in {\em Proceedings of the 12th International Conference on the
+  Foundations of Digital Games}. ACM, 2017, p.~41.
+
+\bibitem{cheng2017deep}
+Jiechao Cheng, Rui Ren, Lei Wang, and Jianfeng Zhan,
+\newblock ``Deep Convolutional Neural Networks for Anomaly Event Classification
+  on Distributed Systems,''
+\newblock {\em arXiv preprint arXiv:1710.09052}, 2017.
+
+\bibitem{zhang2018alphamex}
+Boxue Zhang, Qi~Zhao, Wenquan Feng, and Shuchang Lyu,
+\newblock ``AlphaMEX: A smarter global pooling method for convolutional neural
+  networks,''
+\newblock {\em Neurocomputing}, vol. 321, pp. 36--48, 2018.
+
+\bibitem{mohammadi2018deep}
+Mehdi Mohammadi, Ala Al-Fuqaha, Sameh Sorour, and Mohsen Guizani,
+\newblock ``Deep Learning for IoT Big Data and Streaming Analytics: A Survey,''
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 2018.
+
+\bibitem{luo2018distributed}
+Tie Luo and Sai~G Nagarajany,
+\newblock ``Distributed Anomaly Detection Using Autoencoder Neural Networks in
+  WSN for IoT,''
+\newblock in {\em 2018 IEEE International Conference on Communications (ICC)}.
+  IEEE, 2018, pp. 1--6.
+
+\bibitem{mohammadi2018neural}
+Fatemeh~Shah Mohammadi and Andres Kwasinski,
+\newblock ``Neural Network Cognitive Engine for Autonomous and Distributed
+  Underlay Dynamic Spectrum Access,''
+\newblock {\em arXiv preprint arXiv:1806.11038}, 2018.
+
+\bibitem{kakanakova2017outlier}
+Irina Kakanakova and Stefan Stoyanov,
+\newblock ``Outlier Detection via Deep Learning Architecture,''
+\newblock in {\em Proceedings of the 18th International Conference on Computer
+  Systems and Technologies}. ACM, 2017, pp. 73--79.
+
+\bibitem{zhang2018lstm}
+Weishan Zhang, Wuwu Guo, Xin Liu, Yan Liu, Jiehan Zhou, Bo~Li, Qinghua Lu, and
+  Su~Yang,
+\newblock ``LSTM-Based Analysis of Industrial IoT Equipment,''
+\newblock {\em IEEE Access}, vol. 6, pp. 23551--23560, 2018.
+
+\bibitem{mudassar2018unsupervised}
+Burhan~A Mudassar, Jong~Hwan Ko, and Saibal Mukhopadhyay,
+\newblock ``An Unsupervised Anomalous Event Detection Framework with Class
+  Aware Source Separation,''
+\newblock in {\em 2018 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}. IEEE, 2018, pp. 2671--2675.
+
+\bibitem{marti2015anomaly}
+Luis Mart{\'\i}, Nayat Sanchez-Pi, Jos{\'e}~Manuel Molina, and Ana
+  Cristina~Bicharra Garcia,
+\newblock ``Anomaly detection based on sensor data in petroleum industry
+  applications,''
+\newblock {\em Sensors}, vol. 15, no. 2, pp. 2774--2797, 2015.
+
+\bibitem{atha2018evaluation}
+Deegan~J Atha and Mohammad~R Jahanshahi,
+\newblock ``Evaluation of deep learning approaches based on convolutional
+  neural networks for corrosion detection,''
+\newblock {\em Structural Health Monitoring}, vol. 17, no. 5, pp. 1110--1128,
+  2018.
+
+\bibitem{de2018automatic}
+Jeffrey de~Deijn,
+\newblock ``Automatic Car Damage Recognition using Convolutional Neural
+  Networks,''
+\newblock 2018.
+
+\bibitem{wang2018residential}
+Fan Wang, John~P Kerekes, Zhuoyi Xu, and Yandong Wang,
+\newblock ``Residential roof condition assessment system using deep learning,''
+\newblock {\em Journal of Applied Remote Sensing}, vol. 12, no. 1, pp. 016040,
+  2018.
+
+\bibitem{inoue2017anomaly}
+Jun Inoue, Yoriyuki Yamagata, Yuqi Chen, Christopher~M Poskitt, and Jun Sun,
+\newblock ``Anomaly detection for a water treatment system using unsupervised
+  machine learning,''
+\newblock in {\em Data Mining Workshops (ICDMW), 2017 IEEE International
+  Conference on}. IEEE, 2017, pp. 1058--1065.
+
+\bibitem{thi2017one}
+Nga~Nguyen Thi, Nhien-An Le-Khac, et~al.,
+\newblock ``One-Class Collective Anomaly Detection Based on LSTM-RNNs,''
+\newblock in {\em Transactions on Large-Scale Data-and Knowledge-Centered
+  Systems XXXVI}, pp. 73--85. Springer, 2017.
+
+\bibitem{kravchik2018detecting}
+Moshe Kravchik and Asaf Shabtai,
+\newblock ``Detecting Cyber Attacks in Industrial Control Systems Using
+  Convolutional Neural Networks,''
+\newblock in {\em Proceedings of the 2018 Workshop on Cyber-Physical Systems
+  Security and PrivaCy}. ACM, 2018, pp. 72--83.
+
+\bibitem{huang2018deep}
+Guanjie Huang, Chao-Hsien Chu, and Xiaodan Wu,
+\newblock ``A Deep Learning-Based Method for Sleep Stage Classification Using
+  Physiological Signal,''
+\newblock in {\em International Conference on Smart Health}. Springer, 2018,
+  pp. 249--260.
+
+\bibitem{park2018lired}
+Donghyun Park, Seulgi Kim, Yelin An, and Jae-Yoon Jung,
+\newblock ``LiReD: A Light-Weight Real-Time Fault Detection System for Edge
+  Computing Using LSTM Recurrent Neural Networks,''
+\newblock {\em Sensors}, vol. 18, no. 7, pp. 2110, 2018.
+
+\bibitem{chang2018review}
+Chih-Wen Chang, Hau-Wei Lee, and Chein-Hung Liu,
+\newblock ``A Review of Artificial Intelligence Algorithms Used for Smart
+  Machine Tools,''
+\newblock {\em Inventions}, vol. 3, no. 3, pp. 41, 2018.
+
+\bibitem{yuan2015distributed}
+Ye~Yuan and Kebin Jia,
+\newblock ``A distributed anomaly detection method of operation energy
+  consumption using smart meter data,''
+\newblock in {\em Intelligent Information Hiding and Multimedia Signal
+  Processing (IIH-MSP), 2015 International Conference on}. IEEE, 2015, pp.
+  310--313.
+
+\bibitem{araya2017ensemble}
+Daniel~B Araya, Katarina Grolinger, Hany~F ElYamany, Miriam~AM Capretz, and
+  Girma Bitsuamlak,
+\newblock ``An ensemble learning framework for anomaly detection in building
+  energy consumption,''
+\newblock {\em Energy and Buildings}, vol. 144, pp. 191--206, 2017.
+
+\bibitem{qu2017detection}
+Yongzhi Qu, Miao He, Jason Deutsch, and David He,
+\newblock ``Detection of pitting in gears using a deep sparse autoencoder,''
+\newblock {\em Applied Sciences}, vol. 7, no. 5, pp. 515, 2017.
+
+\bibitem{bhattad2018detecting}
+Anand Bhattad, Jason Rock, and David Forsyth,
+\newblock ``Detecting Anomalous Faces with'No Peeking'Autoencoders,''
+\newblock {\em arXiv preprint arXiv:1802.05798}, 2018.
+
+\bibitem{lodhi2017power}
+Faiq~Khalid Lodhi, Syed~Rafay Hasan, Osman Hasan, and Falah Awwadl,
+\newblock ``Power profiling of microcontroller's instruction set for runtime
+  hardware Trojans detection without golden circuit models,''
+\newblock in {\em Proceedings of the Conference on Design, Automation \& Test
+  in Europe}. European Design and Automation Association, 2017, pp. 294--297.
+
+\bibitem{faghih2016deep}
+Shahrzad Faghih-Roohi, Siamak Hajizadeh, Alfredo N{\'u}{\~n}ez, Robert Babuska,
+  and Bart De~Schutter,
+\newblock ``Deep convolutional neural networks for detection of rail surface
+  defects,''
+\newblock in {\em Neural Networks (IJCNN), 2016 International Joint Conference
+  on}. IEEE, 2016, pp. 2584--2589.
+
+\bibitem{christiansen2016deepanomaly}
+Peter Christiansen, Lars~N Nielsen, Kim~A Steen, Rasmus~N J{\o}rgensen, and
+  Henrik Karstoft,
+\newblock ``DeepAnomaly: Combining background subtraction and deep learning for
+  detecting obstacles and anomalies in an agricultural field,''
+\newblock {\em Sensors}, vol. 16, no. 11, pp. 1904, 2016.
+
+\bibitem{lee2016convolutional}
+Dean Lee, Vincent Siu, Rick Cruz, and Charles Yetman,
+\newblock ``Convolutional neural net and bearing fault analysis,''
+\newblock in {\em Proceedings of the International Conference on Data Mining
+  series (ICDM) Barcelona}, 2016, pp. 194--200.
+
+\bibitem{dong2016camera}
+Lingping Dong, Yongliang Zhang, Conglin Wen, and Hongtao Wu,
+\newblock ``Camera anomaly detection based on morphological analysis and deep
+  learning,''
+\newblock in {\em Digital Signal Processing (DSP), 2016 IEEE International
+  Conference on}. IEEE, 2016, pp. 266--270.
+
+\bibitem{fuentes2017robust}
+Alvaro Fuentes, Sook Yoon, Sang~Cheol Kim, and Dong~Sun Park,
+\newblock ``A robust deep-learning-based detector for real-time tomato plant
+  diseases and pests recognition,''
+\newblock {\em Sensors}, vol. 17, no. 9, pp. 2022, 2017.
+
+\bibitem{yan2015accurate}
+Weizhong Yan and Lijie Yu,
+\newblock ``On accurate and reliable anomaly detection for gas turbine
+  combustors: A deep learning approach,''
+\newblock in {\em Proceedings of the annual conference of the prognostics and
+  health management society}, 2015.
+
+\bibitem{luo2017gas}
+Hui Luo and Shisheng Zhong,
+\newblock ``Gas turbine engine gas path anomaly detection using deep learning
+  with Gaussian distribution,''
+\newblock in {\em Prognostics and System Health Management Conference
+  (PHM-Harbin), 2017}. IEEE, 2017, pp. 1--6.
+
+\bibitem{dai2017cleaning}
+Jiejie Dai, Hui Song, Gehao Sheng, and Xiuchen Jiang,
+\newblock ``Cleaning method for status monitoring data of power equipment based
+  on stacked denoising autoencoders,''
+\newblock {\em IEEE Access}, vol. 5, pp. 22863--22870, 2017.
+
+\bibitem{banjanovic2017neural}
+Lejla Banjanovic-Mehmedovic, Amel Hajdarevic, Mehmed Kantardzic, Fahrudin
+  Mehmedovic, and Izet Dzananovic,
+\newblock ``Neural network-based data-driven modelling of anomaly detection in
+  thermal power plant,''
+\newblock {\em Automatika}, vol. 58, no. 1, pp. 69--79, 2017.
+
+\bibitem{fawaz2018deep}
+Hassan~Ismail Fawaz, Germain Forestier, Jonathan Weber, Lhassane Idoumghar, and
+  Pierre-Alain Muller,
+\newblock ``Deep learning for time series classification: a review,''
+\newblock {\em arXiv preprint arXiv:1809.04356}, 2018.
+
+\bibitem{langkvist2014review}
+Martin L{\"a}ngkvist, Lars Karlsson, and Amy Loutfi,
+\newblock ``A review of unsupervised feature learning and deep learning for
+  time-series modeling,''
+\newblock {\em Pattern Recognition Letters}, vol. 42, pp. 11--24, 2014.
+
+\bibitem{gamboa2017deep}
+John Cristian~Borges Gamboa,
+\newblock ``Deep learning for time-series analysis,''
+\newblock {\em arXiv preprint arXiv:1701.01887}, 2017.
+
+\bibitem{lu2017unsupervised}
+Weining Lu, Yu~Cheng, Cao Xiao, Shiyu Chang, Shuai Huang, Bin Liang, and Thomas
+  Huang,
+\newblock ``Unsupervised sequential outlier detection with deep
+  architectures,''
+\newblock {\em IEEE Transactions on Image Processing}, vol. 26, no. 9, pp.
+  4321--4330, 2017.
+
+\bibitem{buda2018deepad}
+Teodora~Sandra Buda, Bora Caglayan, and Haytham Assem,
+\newblock ``DeepAD: A Generic Framework Based on Deep Learning for Time Series
+  Anomaly Detection,''
+\newblock in {\em Pacific-Asia Conference on Knowledge Discovery and Data
+  Mining}. Springer, 2018, pp. 577--588.
+
+\bibitem{shipmon2017time}
+Dominique~T Shipmon, Jason~M Gurevitch, Paolo~M Piselli, and Stephen~T Edwards,
+\newblock ``Time Series Anomaly Detection; Detection of anomalous drops with
+  limited features and sparse examples in noisy highly periodic data,''
+\newblock {\em arXiv preprint arXiv:1708.03665}, 2017.
+
+\bibitem{hundman2018detecting}
+Kyle Hundman, Valentino Constantinou, Christopher Laporte, Ian Colwell, and Tom
+  Soderstrom,
+\newblock ``Detecting Spacecraft Anomalies Using LSTMs and Nonparametric
+  Dynamic Thresholding,''
+\newblock {\em arXiv preprint arXiv:1802.04431}, 2018.
+
+\bibitem{zhu2017deep}
+Lingxue Zhu and Nikolay Laptev,
+\newblock ``Deep and confident prediction for time series at uber,''
+\newblock in {\em Data Mining Workshops (ICDMW), 2017 IEEE International
+  Conference on}. IEEE, 2017, pp. 103--110.
+
+\bibitem{assendorp2017deep}
+Jan~Paul Assendorp,
+\newblock {\em Deep learning for anomaly detection in multivariate time series
+  data},
+\newblock Ph.D. thesis, Hochschule f{\"u}r Angewandte Wissenschaften Hamburg,
+  2017.
+
+\bibitem{ahmad2017unsupervised}
+Subutai Ahmad, Alexander Lavin, Scott Purdy, and Zuha Agha,
+\newblock ``Unsupervised real-time anomaly detection for streaming data,''
+\newblock {\em Neurocomputing}, vol. 262, pp. 134--147, 2017.
+
+\bibitem{malhotra2016lstm}
+Pankaj Malhotra, Anusha Ramakrishnan, Gaurangi Anand, Lovekesh Vig, Puneet
+  Agarwal, and Gautam Shroff,
+\newblock ``LSTM-based encoder-decoder for multi-sensor anomaly detection,''
+\newblock {\em arXiv preprint arXiv:1607.00148}, 2016.
+
+\bibitem{taylor2016anomaly}
+Adrian Taylor, Sylvain Leblanc, and Nathalie Japkowicz,
+\newblock ``Anomaly detection in automobile control network data with long
+  short-term memory networks,''
+\newblock in {\em Data Science and Advanced Analytics (DSAA), 2016 IEEE
+  International Conference on}. IEEE, 2016, pp. 130--139.
+
+\bibitem{cheng2016ms}
+Min Cheng, Qian Xu, Jianming Lv, Wenyin Liu, Qing Li, Jianping Wang, et~al.,
+\newblock ``MS-LSTM: A multi-scale LSTM model for BGP anomaly detection,''
+\newblock in {\em 2016 IEEE 24th International Conference on Network Protocols
+  (ICNP)}. IEEE, 2016, pp. 1--6.
+
+\bibitem{loganathan2018sequence}
+Gobinath Loganathan, Jagath Samarabandu, and Xianbin Wang,
+\newblock ``Sequence to Sequence Pattern Learning Algorithm for Real-Time
+  Anomaly Detection in Network Traffic,''
+\newblock in {\em 2018 IEEE Canadian Conference on Electrical \& Computer
+  Engineering (CCECE)}. IEEE, 2018, pp. 1--4.
+
+\bibitem{Dominique}
+Dominique Shipmon, Jason Gurevitch, Paolo~M Piselli, and Steve Edwards,
+\newblock ``Time Series Anomaly Detection: Detection of Anomalous Drops with
+  Limited Features and Sparse Examples in Noisy Periodic Data,''
+\newblock Tech. {R}ep., Google Inc., 2017.
+
+\bibitem{kieu2018outlier}
+Tung Kieu, Bin Yang, and Christian~S Jensen,
+\newblock ``Outlier Detection for Multidimensional Time Series Using Deep
+  Neural Networks,''
+\newblock in {\em 2018 19th IEEE International Conference on Mobile Data
+  Management (MDM)}. IEEE, 2018, pp. 125--134.
+
+\bibitem{malhotra2016multi}
+Pankaj Malhotra, Vishnu TV, Anusha Ramakrishnan, Gaurangi Anand, Lovekesh Vig,
+  Puneet Agarwal, and Gautam Shroff,
+\newblock ``Multi-sensor prognostics using an unsupervised health index based
+  on lstm encoder-decoder,''
+\newblock {\em arXiv preprint arXiv:1608.06154}, 2016.
+
+\bibitem{filonov2016multivariate}
+Pavel Filonov, Andrey Lavrentyev, and Artem Vorontsov,
+\newblock ``Multivariate industrial time series with cyber-attack simulation:
+  Fault detection using an lstm-based predictive data model,''
+\newblock {\em arXiv preprint arXiv:1612.06676}, 2016.
+
+\bibitem{sugimoto2018deep}
+Kaiji Sugimoto, Saerom Lee, and Yoshifumi Okada,
+\newblock ``Deep Learning-based Detection of Periodic Abnormal Waves in ECG
+  Data,''
+\newblock in {\em Proceedings of the International MultiConference of Engineers
+  and Computer Scientists}, 2018, vol.~1.
+
+\bibitem{oh2018residual}
+Dong~Yul Oh and Il~Dong Yun,
+\newblock ``Residual Error Based Anomaly Detection Using Auto-Encoder in SMD
+  Machine Sound,''
+\newblock {\em Sensors (Basel, Switzerland)}, vol. 18, no. 5, 2018.
+
+\bibitem{ebrahimzadehmulti}
+Zahra Ebrahimzadeh and Samantha Kleinberg,
+\newblock ``Multi-Scale Change Point Detection in Multivariate Time Series,''
+\newblock .
+
+\bibitem{wielgosz2017recurrent}
+Maciej Wielgosz, Andrzej Skocze{\'n}, and Matej Mertik,
+\newblock ``Recurrent Neural Networks for anomaly detection in the Post-Mortem
+  time series of LHC superconducting magnets,''
+\newblock {\em arXiv preprint arXiv:1702.00833}, 2017.
+
+\bibitem{saurav2018online}
+Sakti Saurav, Pankaj Malhotra, Vishnu TV, Narendhar Gugulothu, Lovekesh Vig,
+  Puneet Agarwal, and Gautam Shroff,
+\newblock ``Online anomaly detection with concept drift adaptation using
+  recurrent neural networks,''
+\newblock in {\em Proceedings of the ACM India Joint International Conference
+  on Data Science and Management of Data}. ACM, 2018, pp. 78--87.
+
+\bibitem{wielgosz2018model}
+Maciej Wielgosz, Matej Mertik, Andrzej Skocze{\'n}, and Ernesto De~Matteis,
+\newblock ``The model of an anomaly detector for HiLumi LHC magnets based on
+  Recurrent Neural Networks and adaptive quantization,''
+\newblock {\em Engineering Applications of Artificial Intelligence}, vol. 74,
+  pp. 166--185, 2018.
+
+\bibitem{guo2016robust}
+Tian Guo, Zhao Xu, Xin Yao, Haifeng Chen, Karl Aberer, and Koichi Funaya,
+\newblock ``Robust online time series prediction with recurrent neural
+  networks,''
+\newblock in {\em Data Science and Advanced Analytics (DSAA), 2016 IEEE
+  International Conference on}. Ieee, 2016, pp. 816--825.
+
+\bibitem{kanarachos2017detecting}
+Stratis Kanarachos, Stavros-Richard~G Christopoulos, Alexander Chroneos, and
+  Michael~E Fitzpatrick,
+\newblock ``Detecting anomalies in time series data via a deep learning
+  algorithm combining wavelets, neural networks and Hilbert transform,''
+\newblock {\em Expert Systems with Applications}, vol. 85, pp. 292--304, 2017.
+
+\bibitem{dumodeling}
+Shuyang Du, Madhulima Pandey, and Cuiqun Xing,
+\newblock ``Modeling approaches for time series forecasting and anomaly
+  detection,''
+\newblock .
+
+\bibitem{napoletano2018anomaly}
+Paolo Napoletano, Flavio Piccoli, and Raimondo Schettini,
+\newblock ``Anomaly Detection in Nanofibrous Materials by CNN-Based
+  Self-Similarity,''
+\newblock {\em Sensors}, vol. 18, no. 1, pp. 209, 2018.
+
+\bibitem{shanmugam2018jiffy}
+Divya Shanmugam, Davis Blalock, and John Guttag,
+\newblock ``Jiffy: A Convolutional Approach to Learning Time Series
+  Similarity,''
+\newblock 2018.
+
+\bibitem{medel2016anomaly}
+Jefferson~Ryan Medel and Andreas Savakis,
+\newblock ``Anomaly detection in video using predictive convolutional long
+  short-term memory networks,''
+\newblock {\em arXiv preprint arXiv:1612.00390}, 2016.
+
+\bibitem{park2018multimodal}
+Daehyung Park, Yuuna Hoshi, and Charles~C Kemp,
+\newblock ``A multimodal anomaly detector for robot-assisted feeding using an
+  lstm-based variational autoencoder,''
+\newblock {\em IEEE Robotics and Automation Letters}, vol. 3, no. 3, pp.
+  1544--1551, 2018.
+
+\bibitem{solch2016variational}
+Maximilian S{\"o}lch, Justin Bayer, Marvin Ludersdorfer, and Patrick van~der
+  Smagt,
+\newblock ``Variational inference for on-line anomaly detection in
+  high-dimensional time series,''
+\newblock {\em arXiv preprint arXiv:1602.07109}, 2016.
+
+\bibitem{zenati2018efficient}
+Houssam Zenati, Chuan~Sheng Foo, Bruno Lecouat, Gaurav Manek, and
+  Vijay~Ramaseshan Chandrasekhar,
+\newblock ``Efficient GAN-based anomaly detection,''
+\newblock {\em arXiv preprint arXiv:1802.06222}, 2018.
+
+\bibitem{lim2018doping}
+Swee~Kiat Lim, Yi~Loo, Ngoc-Trung Tran, Ngai-Man Cheung, Gemma Roig, and Yuval
+  Elovici,
+\newblock ``DOPING: Generative Data Augmentation for Unsupervised Anomaly
+  Detection with GAN,''
+\newblock {\em arXiv preprint arXiv:1808.07632}, 2018.
+
+\bibitem{laptevanogen}
+Nikolay Laptev,
+\newblock ``AnoGen: Deep Anomaly Generator,''
+\newblock .
+
+\bibitem{chong2015modeling}
+Yong~Shean Chong and Yong~Haur Tay,
+\newblock ``Modeling representation of videos for anomaly detection using deep
+  learning: A review,''
+\newblock {\em arXiv preprint arXiv:1505.00523}, 2015.
+
+\bibitem{boghossian2005challenges}
+B~Boghossian and J~Black,
+\newblock ``The challenges of robust 24/7 video surveillance systems,''
+\newblock 2005.
+
+\bibitem{andrewsaanomaly}
+JTA Andrewsa, N~Jaccarda, TW~Rogersa, T~Tanaya, and LD~Griffina,
+\newblock ``Anomaly Detection for Security Imaging,''
+\newblock .
+
+\bibitem{sabokrou2016fully}
+Mohammad Sabokrou, Mohsen Fayyaz, Mahmood Fathy, et~al.,
+\newblock ``Fully convolutional neural network for fast anomaly detection in
+  crowded scenes,''
+\newblock {\em arXiv preprint arXiv:1609.00866}, 2016.
+
+\bibitem{sabokrou2017deep}
+Mohammad Sabokrou, Mohsen Fayyaz, Mahmood Fathy, and Reinhard Klette,
+\newblock ``Deep-cascade: cascading 3d deep neural networks for fast anomaly
+  detection and localization in crowded scenes,''
+\newblock {\em IEEE Transactions on Image Processing}, vol. 26, no. 4, pp.
+  1992--2004, 2017.
+
+\bibitem{munawar2017spatio}
+Asim Munawar, Phongtharin Vinayavekhin, and Giovanni De~Magistris,
+\newblock ``Spatio-temporal anomaly detection for industrial robots through
+  prediction in unsupervised feature space,''
+\newblock in {\em Applications of Computer Vision (WACV), 2017 IEEE Winter
+  Conference on}. IEEE, 2017, pp. 1017--1025.
+
+\bibitem{li2017transferred}
+Wei Li, Guodong Wu, and Qian Du,
+\newblock ``Transferred Deep Learning for Anomaly Detection in Hyperspectral
+  Imagery.,''
+\newblock {\em IEEE Geosci. Remote Sensing Lett.}, vol. 14, no. 5, pp.
+  597--601, 2017.
+
+\bibitem{qiao2017abnormal}
+Meina Qiao, Tian Wang, Jiakun Li, Ce~Li, Zhiwei Lin, and Hichem Snoussi,
+\newblock ``Abnormal event detection based on deep autoencoder fusing optical
+  flow,''
+\newblock in {\em Control Conference (CCC), 2017 36th Chinese}. IEEE, 2017, pp.
+  11098--11103.
+
+\bibitem{tripathi2018convolutional}
+Gaurav Tripathi, Kuldeep Singh, and Dinesh~Kumar Vishwakarma,
+\newblock ``Convolutional neural networks for crowd behaviour analysis: a
+  survey,''
+\newblock {\em The Visual Computer}, pp. 1--24, 2018.
+
+\bibitem{nogas2018deepfall}
+Jacob Nogas, Shehroz~S Khan, and Alex Mihailidis,
+\newblock ``DeepFall--Non-invasive Fall Detection with Deep Spatio-Temporal
+  Convolutional Autoencoders,''
+\newblock {\em arXiv preprint arXiv:1809.00977}, 2018.
+
+\bibitem{chong2017abnormal}
+Yong~Shean Chong and Yong~Haur Tay,
+\newblock ``Abnormal event detection in videos using spatiotemporal
+  autoencoder,''
+\newblock in {\em International Symposium on Neural Networks}. Springer, 2017,
+  pp. 189--196.
+
+\bibitem{khaleghi2018improved}
+Ali Khaleghi and Mohammad~Shahram Moin,
+\newblock ``Improved anomaly detection in surveillance videos based on a deep
+  learning method,''
+\newblock in {\em 2018 8th Conference of AI \& Robotics and 10th RoboCup
+  Iranopen International Symposium (IRANOPEN)}. IEEE, 2018, pp. 73--81.
+
+\bibitem{yang2015unsupervised}
+Huan Yang, Baoyuan Wang, Stephen Lin, David Wipf, Minyi Guo, and Baining Guo,
+\newblock ``Unsupervised extraction of video highlights via robust recurrent
+  auto-encoders,''
+\newblock in {\em Proceedings of the IEEE international conference on computer
+  vision}, 2015, pp. 4633--4641.
+
+\bibitem{chen2015detecting}
+Zhengying Chen, Yonghong Tian, Wei Zeng, and Tiejun Huang,
+\newblock ``Detecting abnormal behaviors in surveillance videos based on fuzzy
+  clustering and multiple Auto-Encoders,''
+\newblock in {\em Multimedia and Expo (ICME), 2015 IEEE International
+  Conference on}. IEEE, 2015, pp. 1--6.
+
+\bibitem{gutoskidetection}
+Matheus Gutoski, Nelson Marcelo~Romero Aquino, Manass{\'e}s Ribeiro,
+  Andr{\'e}~Eng{\^e}nio Lazzaretti, and Heitor~Silv{\'e}rio Lopes,
+\newblock ``Detection of Video Anomalies Using Convolutional Autoencoders and
+  One-Class Support Vector Machines,''
+\newblock .
+
+\bibitem{d2017autoencoder}
+Dario D'Avino, Davide Cozzolino, Giovanni Poggi, and Luisa Verdoliva,
+\newblock ``Autoencoder with recurrent neural networks for video forgery
+  detection,''
+\newblock {\em Electronic Imaging}, vol. 2017, no. 7, pp. 92--99, 2017.
+
+\bibitem{dotti2017unsupervised}
+Dario Dotti, Mirela Popa, and Stylianos Asteriadis,
+\newblock ``Unsupervised Discovery of Normal and Abnormal Activity Patterns in
+  Indoor and Outdoor Environments.,''
+\newblock in {\em VISIGRAPP (5: VISAPP)}, 2017, pp. 210--217.
+
+\bibitem{sabokrou2016video}
+M~Sabokrou, M~Fathy, and M~Hoseini,
+\newblock ``Video anomaly detection and localisation based on the sparsity and
+  reconstruction error of auto-encoder,''
+\newblock {\em Electronics Letters}, vol. 52, no. 13, pp. 1122--1124, 2016.
+
+\bibitem{tran2017anomaly}
+Hanh~TM Tran and DC~Hogg,
+\newblock ``Anomaly detection using a convolutional winner-take-all
+  Autoencoder,''
+\newblock in {\em Proceedings of the British Machine Vision Conference 2017}.
+  Leeds, 2017.
+
+\bibitem{hasan2016learning}
+Mahmudul Hasan, Jonghyun Choi, Jan Neumann, Amit~K Roy-Chowdhury, and Larry~S
+  Davis,
+\newblock ``Learning temporal regularity in video sequences,''
+\newblock in {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, 2016, pp. 733--742.
+
+\bibitem{cinelli2017anomaly}
+Lucas~Pinheiro Cinelli,
+\newblock {\em ANOMALY DETECTION IN SURVEILLANCE VIDEOS USING DEEP RESIDUAL
+  NETWORKS},
+\newblock Ph.D. thesis, Universidade Federal do Rio de Janeiro, 2017.
+
+\bibitem{chianucci2016unsupervised}
+Dan Chianucci and Andreas Savakis,
+\newblock ``Unsupervised change detection using Spatial Transformer Networks,''
+\newblock in {\em Signal Processing Workshop (WNYISPW), 2016 IEEE Western New
+  York Image and}. IEEE, 2016, pp. 1--5.
+
+\bibitem{luo2017remembering}
+Weixin Luo, Wen Liu, and Shenghua Gao,
+\newblock ``Remembering history with convolutional lstm for anomaly
+  detection,''
+\newblock in {\em Multimedia and Expo (ICME), 2017 IEEE International
+  Conference on}. IEEE, 2017, pp. 439--444.
+
+\bibitem{ben2018attentioned}
+Itamar Ben-Ari and Ravid Shwartz-Ziv,
+\newblock ``Attentioned Convolutional LSTM InpaintingNetwork for Anomaly
+  Detection in Videos,''
+\newblock {\em arXiv preprint arXiv:1811.10228}, 2018.
+
+\bibitem{singh2017anomaly}
+Akash Singh,
+\newblock ``Anomaly Detection for Temporal Data using Long Short-Term Memory
+  (LSTM),'' 2017.
+
+\bibitem{luo2017revisit}
+Weixin Luo, Wen Liu, and Shenghua Gao,
+\newblock ``A revisit of sparse coding based anomaly detection in stacked rnn
+  framework,''
+\newblock {\em ICCV, Oct}, vol. 1, no. 2, pp. 3, 2017.
+
+\bibitem{zhou2015abnormal}
+Xu-Gang Zhou and Li-Qing Zhang,
+\newblock ``Abnormal Event Detection Using Recurrent Neural Network,''
+\newblock in {\em Computer Science and Applications (CSA), 2015 International
+  Conference on}. IEEE, 2015, pp. 222--226.
+
+\bibitem{hu2016video}
+Xing Hu, Shiqiang Hu, Yingping Huang, Huanlong Zhang, and Hanbing Wu,
+\newblock ``Video anomaly detection using deep incremental slow feature
+  analysis network,''
+\newblock {\em IET Computer Vision}, vol. 10, no. 4, pp. 258--265, 2016.
+
+\bibitem{ravanbakhsh2017training}
+Mahdyar Ravanbakhsh, Enver Sangineto, Moin Nabi, and Nicu Sebe,
+\newblock ``Training adversarial discriminators for cross-channel abnormal
+  event detection in crowds,''
+\newblock {\em arXiv preprint arXiv:1706.07680}, 2017.
+
+\bibitem{gornitz2013toward}
+Nico G{\"o}rnitz, Marius Kloft, Konrad Rieck, and Ulf Brefeld,
+\newblock ``Toward supervised anomaly detection,''
+\newblock {\em Journal of Artificial Intelligence Research}, vol. 46, pp.
+  235--262, 2013.
+
+\bibitem{shilton2013combined}
+Alistair Shilton, Sutharshan Rajasegarar, and Marimuthu Palaniswami,
+\newblock ``Combined multiclass classification and anomaly detection for
+  large-scale wireless sensor networks,''
+\newblock in {\em Intelligent Sensors, Sensor Networks and Information
+  Processing, 2013 IEEE Eighth International Conference on}. IEEE, 2013, pp.
+  491--496.
+
+\bibitem{jumutc2014multi}
+Vilen Jumutc and Johan~AK Suykens,
+\newblock ``Multi-class supervised novelty detection,''
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  vol. 36, no. 12, pp. 2510--2523, 2014.
+
+\bibitem{kim2015deep}
+Sangwook Kim, Yonghwa Choi, and Minho Lee,
+\newblock ``Deep learning with support vector data description,''
+\newblock {\em Neurocomputing}, vol. 165, pp. 111--117, 2015.
+
+\bibitem{erfani2017shared}
+Sarah~M Erfani, Mahsa Baktashmotlagh, Masud Moshtaghi, Vinh Nguyen, Christopher
+  Leckie, James Bailey, and Kotagiri Ramamohanarao,
+\newblock ``From Shared Subspaces to Shared Landmarks: A Robust Multi-Source
+  Classification Approach.,''
+\newblock in {\em AAAI}, 2017, pp. 1854--1860.
+
+\bibitem{min2018ids}
+Erxue Min, Jun Long, Qiang Liu, Jianjing Cui, Zhiping Cai, and Junbo Ma,
+\newblock ``SU-IDS: A Semi-supervised and Unsupervised Framework for Network
+  Intrusion Detection,''
+\newblock in {\em International Conference on Cloud Computing and Security}.
+  Springer, 2018, pp. 322--334.
+
+\bibitem{perera2018learning}
+Pramuditha Perera and Vishal~M Patel,
+\newblock ``Learning Deep Features for One-Class Classification,''
+\newblock {\em arXiv preprint arXiv:1801.05365}, 2018.
+
+\bibitem{blanchard2010semi}
+Gilles Blanchard, Gyemin Lee, and Clayton Scott,
+\newblock ``Semi-supervised novelty detection,''
+\newblock {\em Journal of Machine Learning Research}, vol. 11, no. Nov, pp.
+  2973--3009, 2010.
+
+\bibitem{edmunds2017deep}
+Riley Edmunds and Efraim Feinstein,
+\newblock ``Deep Semi-Supervised Embeddings for Dynamic Targeted Anomaly
+  Detection,''
+\newblock 2017.
+
+\bibitem{estiri2018semi}
+Hossein Estiri and Shawn Murphy,
+\newblock ``Semi-supervised Encoding for Outlier Detection in Clinical
+  Observation Data,''
+\newblock {\em bioRxiv}, p. 334771, 2018.
+
+\bibitem{jia2014novel}
+Xiaowei Jia, Kang Li, Xiaoyi Li, and Aidong Zhang,
+\newblock ``A novel semi-supervised deep learning framework for affective state
+  recognition on eeg signals,''
+\newblock in {\em Bioinformatics and Bioengineering (BIBE), 2014 IEEE
+  International Conference on}. IEEE, 2014, pp. 30--37.
+
+\bibitem{gu2018semi}
+Jindong Gu, Matthias Schubert, and Volker Tresp,
+\newblock ``Semi-supervised Outlier Detection using Generative And Adversary
+  Framework,''
+\newblock 2018.
+
+\bibitem{akcay2018ganomaly}
+Samet Akcay, Amir Atapour-Abarghouei, and Toby~P Breckon,
+\newblock ``GANomaly: Semi-Supervised Anomaly Detection via Adversarial
+  Training,''
+\newblock {\em arXiv preprint arXiv:1805.06725}, 2018.
+
+\bibitem{sabokrou2018adversarially}
+Mohammad Sabokrou, Mohammad Khalooei, Mahmood Fathy, and Ehsan Adeli,
+\newblock ``Adversarially Learned One-Class Classifier for Novelty Detection,''
+\newblock in {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, 2018, pp. 3379--3388.
+
+\bibitem{dimokranitou2017adversarial}
+Asimenia Dimokranitou,
+\newblock {\em Adversarial autoencoders for anomalous event detection in
+  images},
+\newblock Ph.D. thesis, 2017.
+
+\bibitem{altman1992introduction}
+Naomi~S Altman,
+\newblock ``An introduction to kernel and nearest-neighbor nonparametric
+  regression,''
+\newblock {\em The American Statistician}, vol. 46, no. 3, pp. 175--185, 1992.
+
+\bibitem{ho1995random}
+Tin~Kam Ho,
+\newblock ``Random decision forests,''
+\newblock in {\em Document analysis and recognition, 1995., proceedings of the
+  third international conference on}. IEEE, 1995, vol.~1, pp. 278--282.
+
+\bibitem{kira1992feature}
+Kenji Kira and Larry~A Rendell,
+\newblock ``The feature selection problem: Traditional methods and a new
+  algorithm,''
+\newblock in {\em Aaai}, 1992, vol.~2, pp. 129--134.
+
+\bibitem{shi2017semi}
+Ningxin Shi, Xiaohong Yuan, and William Nick,
+\newblock ``Semi-supervised Random Forest for Intrusion Detection Network,''
+  2017.
+
+\bibitem{zhu2018hybrid}
+Bing Zhu, Wenchuan Yang, Huaxuan Wang, and Yuan Yuan,
+\newblock ``A hybrid deep learning model for consumer credit scoring,''
+\newblock in {\em 2018 International Conference on Artificial Intelligence and
+  Big Data (ICAIBD)}. IEEE, 2018, pp. 205--208.
+
+\bibitem{racah2017extremeweather}
+Evan Racah, Christopher Beckham, Tegan Maharaj, Samira~Ebrahimi Kahou,
+  Mr~Prabhat, and Chris Pal,
+\newblock ``ExtremeWeather: A large-scale climate dataset for semi-supervised
+  detection, localization, and understanding of extreme weather events,''
+\newblock in {\em Advances in Neural Information Processing Systems}, 2017, pp.
+  3402--3413.
+
+\bibitem{wu2018semi}
+Hao Wu and Saurabh Prasad,
+\newblock ``Semi-supervised deep learning using pseudo labels for hyperspectral
+  image classification,''
+\newblock {\em IEEE Transactions on Image Processing}, vol. 27, no. 3, pp.
+  1259--1270, 2018.
+
+\bibitem{kliger2018novelty}
+Mark Kliger and Shachar Fleishman,
+\newblock ``Novelty Detection with GAN,''
+\newblock {\em arXiv preprint arXiv:1802.10560}, 2018.
+
+\bibitem{lu2009fundamental}
+Tyler~Tian Lu,
+\newblock ``Fundamental limitations of semi-supervised learning,''
+\newblock M.S. thesis, University of Waterloo, 2009.
+
+\bibitem{erfani2016robust}
+Sarah Erfani, Mahsa Baktashmotlagh, Masoud Moshtaghi, Vinh Nguyen, Christopher
+  Leckie, James Bailey, and Ramamohanarao Kotagiri,
+\newblock ``Robust domain generalisation by enforcing distribution
+  invariance,''
+\newblock in {\em Proceedings of the Twenty-Fifth International Joint
+  Conference on Artificial Intelligence}. AAAI Press/International Joint
+  Conferences on Artificial Intelligence, 2016, pp. 1455--1461.
+
+\bibitem{wu2015harvesting}
+Ruobing Wu, Baoyuan Wang, Wenping Wang, and Yizhou Yu,
+\newblock ``Harvesting discriminative meta objects with deep CNN features for
+  scene classification,''
+\newblock in {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, 2015, pp. 1287--1295.
+
+\bibitem{urbanowicz2018relief}
+Ryan~J Urbanowicz, Melissa Meeker, William La~Cava, Randal~S Olson, and Jason~H
+  Moore,
+\newblock ``Relief-based feature selection: introduction and review,''
+\newblock {\em Journal of biomedical informatics}, 2018.
+
+\bibitem{ruchansky2017csi}
+Natali Ruchansky, Sungyong Seo, and Yan Liu,
+\newblock ``Csi: A hybrid deep model for fake news detection,''
+\newblock in {\em Proceedings of the 2017 ACM on Conference on Information and
+  Knowledge Management}. ACM, 2017, pp. 797--806.
+
+\bibitem{saxe2011random}
+Andrew~M Saxe, Pang~Wei Koh, Zhenghao Chen, Maneesh Bhand, Bipin Suresh, and
+  Andrew~Y Ng,
+\newblock ``On Random Weights and Unsupervised Feature Learning.,''
+\newblock in {\em ICML}, 2011, pp. 1089--1096.
+
+\bibitem{andrews2016transfer}
+Jerone~TA Andrews, Thomas Tanay, Edward~J Morton, and Lewis~D Griffin,
+\newblock ``Transfer representation-learning for anomaly detection,''
+\newblock ICML, 2016.
+
+\bibitem{baldi2012autoencoders}
+Pierre Baldi,
+\newblock ``Autoencoders, unsupervised learning, and deep architectures,''
+\newblock in {\em Proceedings of ICML workshop on unsupervised and transfer
+  learning}, 2012, pp. 37--49.
+
+\bibitem{chandola2008comparative}
+Varun Chandola, Varun Mithal, and Vipin Kumar,
+\newblock ``Comparative evaluation of anomaly detection techniques for sequence
+  data,''
+\newblock in {\em Data Mining, 2008. ICDM'08. Eighth IEEE International
+  Conference on}. IEEE, 2008, pp. 743--748.
+
+\bibitem{dasigi2014modeling}
+Pradeep Dasigi and Eduard Hovy,
+\newblock ``Modeling newswire events using neural networks for anomaly
+  detection,''
+\newblock in {\em Proceedings of COLING 2014, the 25th International Conference
+  on Computational Linguistics: Technical Papers}, 2014, pp. 1414--1422.
+
+\bibitem{abati2018and}
+Davide Abati, Angelo Porrello, Simone Calderara, and Rita Cucchiara,
+\newblock ``AND: Autoregressive Novelty Detectors,''
+\newblock {\em arXiv preprint arXiv:1807.01653}, 2018.
+
+\bibitem{zong2018deep}
+Bo~Zong, Qi~Song, Martin~Renqiang Min, Wei Cheng, Cristian Lumezanu, Daeki Cho,
+  and Haifeng Chen,
+\newblock ``Deep autoencoding gaussian mixture model for unsupervised anomaly
+  detection,''
+\newblock 2018.
+
+\bibitem{tagawa2015structured}
+Takaaki Tagawa, Yukihiro Tadokoro, and Takehisa Yairi,
+\newblock ``Structured denoising autoencoder for fault detection and
+  analysis,''
+\newblock in {\em Asian Conference on Machine Learning}, 2015, pp. 96--111.
+
+\bibitem{dau2014anomaly}
+Hoang~Anh Dau, Vic Ciesielski, and Andy Song,
+\newblock ``Anomaly detection using replicator neural networks trained on
+  examples of one class,''
+\newblock in {\em Asia-Pacific Conference on Simulated Evolution and Learning}.
+  Springer, 2014, pp. 311--322.
+
+\bibitem{xu2015learning}
+Dan Xu, Elisa Ricci, Yan Yan, Jingkuan Song, and Nicu Sebe,
+\newblock ``Learning deep representations of appearance and motion for
+  anomalous event detection,''
+\newblock {\em arXiv preprint arXiv:1510.01553}, 2015.
+
+\bibitem{hawkins2002outlier}
+Simon Hawkins, Hongxing He, Graham Williams, and Rohan Baxter,
+\newblock ``Outlier detection using replicator neural networks,''
+\newblock in {\em International Conference on Data Warehousing and Knowledge
+  Discovery}. Springer, 2002, pp. 170--180.
+
+\bibitem{zhao2015robust}
+Dan Zhao, Baolong Guo, Jinfu Wu, Weikang Ning, and Yunyi Yan,
+\newblock ``Robust feature learning by improved auto-encoder from non-Gaussian
+  noised images,''
+\newblock in {\em Imaging Systems and Techniques (IST), 2015 IEEE International
+  Conference on}. IEEE, 2015, pp. 1--5.
+
+\bibitem{qi2014robust}
+Yu~Qi, Yueming Wang, Xiaoxiang Zheng, and Zhaohui Wu,
+\newblock ``Robust feature learning by stacked autoencoder with maximum
+  correntropy criterion,''
+\newblock in {\em Acoustics, Speech and Signal Processing (ICASSP), 2014 IEEE
+  International Conference on}. IEEE, 2014, pp. 6716--6720.
+
+\bibitem{chalapathy2017robust}
+Raghavendra Chalapathy, Aditya~Krishna Menon, and Sanjay Chawla,
+\newblock ``Robust, deep and inductive anomaly detection,''
+\newblock in {\em Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}. Springer, 2017, pp. 36--51.
+
+\bibitem{zhai2016deep}
+Shuangfei Zhai, Yu~Cheng, Weining Lu, and Zhongfei Zhang,
+\newblock ``Deep structured energy based models for anomaly detection,''
+\newblock {\em arXiv preprint arXiv:1605.07717}, 2016.
+
+\bibitem{lyudchik2016outlier}
+Olga Lyudchik,
+\newblock ``Outlier detection using autoencoders,''
+\newblock Tech. {R}ep., 2016.
+
+\bibitem{mehrotra2017deep}
+Rishabh Mehrotra, Ahmed~Hassan Awadallah, Milad Shokouhi, Emine Yilmaz, Imed
+  Zitouni, Ahmed El~Kholy, and Madian Khabsa,
+\newblock ``Deep Sequential Models for Task Satisfaction Prediction,''
+\newblock in {\em Proceedings of the 2017 ACM on Conference on Information and
+  Knowledge Management}. ACM, 2017, pp. 737--746.
+
+\bibitem{meng2018relational}
+Qinxue Meng, Daniel Catchpoole, David Skillicorn, and Paul~J Kennedy,
+\newblock ``Relational autoencoder for feature extraction,''
+\newblock {\em arXiv preprint arXiv:1802.03145}, 2018.
+
+\bibitem{parchami2017using}
+Mostafa Parchami, Saman Bashbaghi, Eric Granger, and Saif Sayed,
+\newblock ``Using deep autoencoders to learn robust domain-invariant
+  representations for still-to-video face recognition,''
+\newblock in {\em Advanced Video and Signal Based Surveillance (AVSS), 2017
+  14th IEEE International Conference on}. IEEE, 2017, pp. 1--6.
+
+\bibitem{lawson2017finding}
+Wallace~E Lawson, Esube Bekele, and Keith Sullivan,
+\newblock ``Finding Anomalies with Generative Adversarial Networks for a
+  Patrolbot.,''
+\newblock in {\em CVPR Workshops}, 2017, pp. 484--485.
+
+\bibitem{filonov2017rnn}
+Pavel Filonov, Fedor Kitashov, and Andrey Lavrentyev,
+\newblock ``RNN-based Early Cyber-Attack Detection for the Tennessee Eastman
+  Process,''
+\newblock {\em arXiv preprint arXiv:1709.02232}, 2017.
+
+\bibitem{leveau2017adversarial}
+Valentin Leveau and Alexis Joly,
+\newblock ``Adversarial autoencoders for novelty detection,''
+\newblock 2017.
+
+\bibitem{an2015variational}
+Jinwon An and Sungzoon Cho,
+\newblock ``Variational autoencoder based anomaly detection using
+  reconstruction probability,''
+\newblock {\em SNU Data Mining Center, Tech. Rep.}, 2015.
+
+\bibitem{suh2016echo}
+Suwon Suh, Daniel~H Chae, Hyon-Goo Kang, and Seungjin Choi,
+\newblock ``Echo-state conditional variational autoencoder for anomaly
+  detection,''
+\newblock in {\em Neural Networks (IJCNN), 2016 International Joint Conference
+  on}. IEEE, 2016, pp. 1015--1022.
+
+\bibitem{mishra2017generative}
+Ashish Mishra, M~Reddy, Anurag Mittal, and Hema~A Murthy,
+\newblock ``A generative model for zero shot learning using conditional
+  variational autoencoders,''
+\newblock {\em arXiv preprint arXiv:1709.00663}, 2017.
+
+\bibitem{goldstein2016comparative}
+Markus Goldstein and Seiichi Uchida,
+\newblock ``A comparative evaluation of unsupervised anomaly detection
+  algorithms for multivariate data,''
+\newblock {\em PloS one}, vol. 11, no. 4, pp. e0152173, 2016.
+
+\bibitem{vercruyssen2017transfer}
+Vincent Vercruyssen, Wannes Meert, and Jesse Davis,
+\newblock ``Transfer learning for time series anomaly detection,''
+\newblock {\em IAL ECML PKDD 2017}, p.~27, 2017.
+
+\bibitem{li2012detecting}
+Kang Li, Nan Du, and Aidong Zhang,
+\newblock ``Detecting ECG abnormalities via transductive transfer learning,''
+\newblock in {\em Proceedings of the ACM Conference on Bioinformatics,
+  Computational Biology and Biomedicine}. ACM, 2012, pp. 210--217.
+
+\bibitem{almajai2012anomaly}
+Ibrahim Almajai, Fei Yan, Teofilo de~Campos, Aftab Khan, William Christmas,
+  David Windridge, and Josef Kittler,
+\newblock ``Anomaly detection and knowledge transfer in automatic sports video
+  annotation,''
+\newblock in {\em Detection and identification of rare audiovisual cues}, pp.
+  109--117. Springer, 2012.
+
+\bibitem{kumar2017transfer}
+PM~Ashok Kumar and V~Vaidehi,
+\newblock ``A transfer learning framework for traffic video using neuro-fuzzy
+  approach,''
+\newblock {\em S{\=a}dhan{\=a}}, vol. 42, no. 9, pp. 1431--1442, 2017.
+
+\bibitem{liang2018transfer}
+Peng Liang, Hai-Dong Yang, Wen-Si Chen, Si-Yuan Xiao, and Zhao-Ze Lan,
+\newblock ``Transfer learning for aluminium extrusion electricity consumption
+  anomaly detection via deep neural networks,''
+\newblock {\em International Journal of Computer Integrated Manufacturing},
+  vol. 31, no. 4-5, pp. 396--405, 2018.
+
+\bibitem{romera2015embarrassingly}
+Bernardino Romera-Paredes and Philip Torr,
+\newblock ``An embarrassingly simple approach to zero-shot learning,''
+\newblock in {\em International Conference on Machine Learning}, 2015, pp.
+  2152--2161.
+
+\bibitem{socher2013zero}
+Richard Socher, Milind Ganjoo, Christopher~D Manning, and Andrew Ng,
+\newblock ``Zero-shot learning through cross-modal transfer,''
+\newblock in {\em Advances in neural information processing systems}, 2013, pp.
+  935--943.
+
+\bibitem{xian2017zero}
+Yongqin Xian, Bernt Schiele, and Zeynep Akata,
+\newblock ``Zero-shot learning-the good, the bad and the ugly,''
+\newblock {\em arXiv preprint arXiv:1703.04394}, 2017.
+
+\bibitem{liu2017generalized}
+Kun Liu, Wu~Liu, Huadong Ma, Wenbing Huang, and Xiongxiong Dong,
+\newblock ``Generalized Zero-Shot Learning for Action Recognition with
+  Web-Scale Video Data,''
+\newblock {\em arXiv preprint arXiv:1710.07455}, 2017.
+
+\bibitem{rivero2017grassmannian}
+Jorge Rivero, Bernardete Ribeiro, Ning Chen, and F{\'a}tima~Silva Leite,
+\newblock ``A Grassmannian Approach to Zero-Shot Learning for Network Intrusion
+  Detection,''
+\newblock in {\em International Conference on Neural Information Processing}.
+  Springer, 2017, pp. 565--575.
+
+\bibitem{chen2017outlier}
+Jinghui Chen, Saket Sathe, Charu Aggarwal, and Deepak Turaga,
+\newblock ``Outlier detection with autoencoder ensembles,''
+\newblock in {\em Proceedings of the 2017 SIAM International Conference on Data
+  Mining}. SIAM, 2017, pp. 90--98.
+
+\bibitem{ester1996density}
+Martin Ester, Hans-Peter Kriegel, J{\"o}rg Sander, Xiaowei Xu, et~al.,
+\newblock ``A density-based algorithm for discovering clusters in large spatial
+  databases with noise.,''
+\newblock in {\em Kdd}, 1996, vol.~96, pp. 226--231.
+
+\bibitem{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean,
+\newblock ``Efficient estimation of word representations in vector space,''
+\newblock {\em arXiv preprint arXiv:1301.3781}, 2013.
+
+\bibitem{yuan2017deep}
+Guiqin Yuan, Bo~Li, Yiyang Yao, and Simin Zhang,
+\newblock ``A deep learning enabled subspace spectral ensemble clustering
+  approach for web anomaly detection,''
+\newblock in {\em Neural Networks (IJCNN), 2017 International Joint Conference
+  on}. IEEE, 2017, pp. 3896--3903.
+
+\bibitem{aytekin2018clustering}
+Caglar Aytekin, Xingyang Ni, Francesco Cricri, and Emre Aksu,
+\newblock ``Clustering and Unsupervised Anomaly Detection with L2 Normalized
+  Deep Auto-Encoder Representations,''
+\newblock {\em arXiv preprint arXiv:1802.00187}, 2018.
+
+\bibitem{xie2016unsupervised}
+Junyuan Xie, Ross Girshick, and Ali Farhadi,
+\newblock ``Unsupervised deep embedding for clustering analysis,''
+\newblock in {\em International conference on machine learning}, 2016, pp.
+  478--487.
+
+\bibitem{guo2017improved}
+Xifeng Guo, Long Gao, Xinwang Liu, and Jianping Yin,
+\newblock ``Improved deep embedded clustering with local structure
+  preservation,''
+\newblock in {\em International Joint Conference on Artificial Intelligence
+  (IJCAI-17)}, 2017, pp. 1753--1759.
+
+\bibitem{guo2017deep}
+Xifeng Guo, Xinwang Liu, En~Zhu, and Jianping Yin,
+\newblock ``Deep clustering with convolutional autoencoders,''
+\newblock in {\em International Conference on Neural Information Processing}.
+  Springer, 2017, pp. 373--382.
+
+\bibitem{wang2016learning}
+Zhangyang Wang, Shiyu Chang, Jiayu Zhou, Meng Wang, and Thomas~S Huang,
+\newblock ``Learning a task-specific deep architecture for clustering,''
+\newblock in {\em Proceedings of the 2016 SIAM International Conference on Data
+  Mining}. SIAM, 2016, pp. 369--377.
+
+\bibitem{mani2018scalable}
+Ganapathy Mani, Bharat Bhargava, and Jason Kobes,
+\newblock ``Scalable Deep Learning through Fuzzy-Based Clustering in Autonomous
+  Systems,''
+\newblock in {\em 2018 IEEE First International Conference on Artificial
+  Intelligence and Knowledge Engineering (AIKE)}. IEEE, 2018, pp. 146--151.
+
+\bibitem{sreekanth2010generalized}
+V~Sreekanth, Andrea Vedaldi, Andrew Zisserman, and C~Jawahar,
+\newblock ``Generalized RBF feature maps for efficient detection,''
+\newblock 2010.
+
+\bibitem{de2017learning}
+Fran{\c{c}}ois de~La~Bourdonnaye, C{\'e}line Teuli{\`e}re, Thierry Chateau, and
+  Jochen Triesch,
+\newblock ``Learning of binocular fixations using anomaly detection with deep
+  reinforcement learning,''
+\newblock in {\em Neural Networks (IJCNN), 2017 International Joint Conference
+  on}. IEEE, 2017, pp. 760--767.
+
+\bibitem{rlanomaly}
+Yuan Zuo Ke Pei Geyong~Min Chengqiang~Huang, Yulei~Wu,
+\newblock ``Towards Experienced Anomaly Detector through Reinforcement
+  Learning,''
+\newblock {\em The Thirty-Second AAAI Conference on Artificial Intelligence
+  (AAAI-18)}, 2016.
+
+\bibitem{kanarachos2015anomaly}
+S~Kanarachos, J~Mathew, A~Chroneos, and M~Fitzpatrick,
+\newblock ``Anomaly detection in time series data using a combination of
+  wavelets, neural networks and Hilbert transform.,''
+\newblock in {\em IISA}, 2015, pp. 1--6.
+
+\bibitem{schmidhuber2015deep}
+J{\"u}rgen Schmidhuber,
+\newblock ``Deep learning in neural networks: An overview,''
+\newblock {\em Neural networks}, vol. 61, pp. 85--117, 2015.
+
+\bibitem{bengio2009learning}
+Yoshua Bengio et~al.,
+\newblock ``Learning deep architectures for AI,''
+\newblock {\em Foundations and trends{\textregistered} in Machine Learning},
+  vol. 2, no. 1, pp. 1--127, 2009.
+
+\bibitem{werbos1990backpropagation}
+Paul~J Werbos,
+\newblock ``Backpropagation through time: what it does and how to do it,''
+\newblock {\em Proceedings of the IEEE}, vol. 78, no. 10, pp. 1550--1560, 1990.
+
+\bibitem{zhang2018detecting}
+Huichu Zhang, Yu~Zheng, and Yong Yu,
+\newblock ``Detecting Urban Anomalies Using Multiple Spatio-Temporal Data
+  Sources,''
+\newblock {\em Proceedings of the ACM on Interactive, Mobile, Wearable and
+  Ubiquitous Technologies}, vol. 2, no. 1, pp. 54, 2018.
+
+\bibitem{lee2018stan}
+Sangmin Lee, Hak~Gu Kim, and Yong~Man Ro,
+\newblock ``STAN: Spatio-Temporal Adversarial Networks for Abnormal Event
+  Detection,''
+\newblock {\em arXiv preprint arXiv:1804.08381}, 2018.
+
+\bibitem{szeker2014spatio}
+M{\'A}T{\'E} SZEK{\'E}R,
+\newblock ``Spatio-temporal outlier detection in streaming trajectory data,''
+  2014.
+
+\bibitem{nie2018spatio}
+Laisen Nie, Yongkang Li, and Xiangjie Kong,
+\newblock ``Spatio-Temporal Network Traffic Estimation and Anomaly Detection
+  Based on Convolutional Neural Network in Vehicular Ad-Hoc Networks,''
+\newblock {\em IEEE Access}, vol. 6, pp. 40168--40176, 2018.
+
+\bibitem{dereszynski2011spatiotemporal}
+Ethan~W Dereszynski and Thomas~G Dietterich,
+\newblock ``Spatiotemporal models for data-anomaly detection in dynamic
+  environmental monitoring campaigns,''
+\newblock {\em ACM Transactions on Sensor Networks (TOSN)}, vol. 8, no. 1, pp.
+  3, 2011.
+
+\bibitem{poon2011sum}
+Hoifung Poon and Pedro Domingos,
+\newblock ``Sum-product networks: A new deep architecture,''
+\newblock in {\em Computer Vision Workshops (ICCV Workshops), 2011 IEEE
+  International Conference on}. IEEE, 2011, pp. 689--690.
+
+\bibitem{rezaeinia2017improving}
+Seyed~Mahdi Rezaeinia, Ali Ghodsi, and Rouhollah Rahmani,
+\newblock ``Improving the Accuracy of Pre-trained Word Embeddings for Sentiment
+  Analysis,''
+\newblock {\em arXiv preprint arXiv:1711.08609}, 2017.
+
+\bibitem{naili2017comparative}
+Marwa Naili, Anja~Habacha Chaibi, and Henda Hajjami~Ben Ghezala,
+\newblock ``Comparative study of word embedding methods in topic
+  segmentation,''
+\newblock {\em Procedia Computer Science}, vol. 112, pp. 340--349, 2017.
+
+\bibitem{altszyler2016comparative}
+Edgar Altszyler, Mariano Sigman, Sidarta Ribeiro, and Diego~Fern{\'a}ndez
+  Slezak,
+\newblock ``Comparative study of LSA vs Word2vec embeddings in small corpora: a
+  case study in dreams database,''
+\newblock {\em arXiv preprint arXiv:1610.01520}, 2016.
+
+\bibitem{schnabel2015evaluation}
+Tobias Schnabel, Igor Labutov, David Mimno, and Thorsten Joachims,
+\newblock ``Evaluation methods for unsupervised word embeddings,''
+\newblock in {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, 2015, pp. 298--307.
+
+\bibitem{bertero2017experience}
+Christophe Bertero, Matthieu Roy, Carla Sauvanaud, and Gilles Tr{\'e}dan,
+\newblock ``Experience Report: Log Mining using Natural Language Processing and
+  Application to Anomaly Detection,''
+\newblock in {\em Software Reliability Engineering (ISSRE), 2017 IEEE 28th
+  International Symposium on}. IEEE, 2017, pp. 351--360.
+
+\bibitem{bakarov2018anomaly}
+Amir Bakarov, Vasiliy Yadrintsev, and Ilya Sochenkov,
+\newblock ``Anomaly Detection for Short Texts: Identifying Whether Your Chatbot
+  Should Switch from Goal-Oriented Conversation to Chit-Chatting,''
+\newblock in {\em International Conference on Digital Transformation and Global
+  Society}. Springer, 2018, pp. 289--298.
+
+\bibitem{bamler2017dynamic}
+Robert Bamler and Stephan Mandt,
+\newblock ``Dynamic word embeddings,''
+\newblock {\em arXiv preprint arXiv:1702.08359}, 2017.
+
+\bibitem{kingma2013auto}
+Diederik~P Kingma and Max Welling,
+\newblock ``Auto-encoding variational bayes,''
+\newblock {\em arXiv preprint arXiv:1312.6114}, 2013.
+
+\bibitem{NIPS2014_5423}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio,
+\newblock ``Generative Adversarial Nets,''
+\newblock in {\em Advances in Neural Information Processing Systems 27},
+  Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q. Weinberger,
+  Eds., pp. 2672--2680. Curran Associates, Inc., 2014.
+
+\bibitem{goodfellow2014generative}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio,
+\newblock ``Generative adversarial nets,''
+\newblock in {\em Advances in neural information processing systems}, 2014, pp.
+  2672--2680.
+
+\bibitem{makhzani2015adversarial}
+Alireza Makhzani, Jonathon Shlens, Navdeep Jaitly, Ian Goodfellow, and Brendan
+  Frey,
+\newblock ``Adversarial autoencoders,''
+\newblock {\em arXiv preprint arXiv:1511.05644}, 2015.
+
+\bibitem{deecke2018anomaly}
+Lucas Deecke, Robert Vandermeulen, Lukas Ruff, Stephan Mandt, and Marius Kloft,
+\newblock ``Anomaly Detection with Generative Adversarial Networks,''
+\newblock 2018.
+
+\bibitem{ravanbakhsh2017abnormal}
+Mahdyar Ravanbakhsh, Moin Nabi, Enver Sangineto, Lucio Marcenaro, Carlo
+  Regazzoni, and Nicu Sebe,
+\newblock ``Abnormal event detection in videos using generative adversarial
+  nets,''
+\newblock in {\em Image Processing (ICIP), 2017 IEEE International Conference
+  on}. IEEE, 2017, pp. 1577--1581.
+
+\bibitem{eide2018applying}
+Aksel Wilhelm~Wold Eide,
+\newblock ``Applying generative adversarial networks for anomaly detection in
+  hyperspectral remote sensing imagery,''
+\newblock M.S. thesis, NTNU, 2018.
+
+\bibitem{vskvara2018generative}
+V{\'\i}t {\v{S}}kv{\'a}ra, Tom{\'a}{\v{s}} Pevn{\`y}, and V{\'a}clav
+  {\v{S}}m{\'\i}dl,
+\newblock ``Are generative deep models for novelty detection truly better?,''
+\newblock {\em arXiv preprint arXiv:1807.05027}, 2018.
+
+\bibitem{kim2014convolutional}
+Yoon Kim,
+\newblock ``Convolutional neural networks for sentence classification,''
+\newblock {\em arXiv preprint arXiv:1408.5882}, 2014.
+
+\bibitem{williams1989complexity}
+Ronald~J Williams,
+\newblock ``Complexity of exact gradient computation algorithms for recurrent
+  neural networks,''
+\newblock Tech. {R}ep., Technical Report Technical Report NU-CCS-89-27, Boston:
+  Northeastern~…, 1989.
+
+\bibitem{pearson1901liii}
+Karl Pearson,
+\newblock ``LIII. On lines and planes of closest fit to systems of points in
+  space,''
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and
+  Journal of Science}, vol. 2, no. 11, pp. 559--572, 1901.
+
+\bibitem{liou2008modeling}
+Cheng-Yuan Liou, Jau-Chi Huang, and Wen-Chie Yang,
+\newblock ``Modeling word perception using the Elman network,''
+\newblock {\em Neurocomputing}, vol. 71, no. 16-18, pp. 3150--3157, 2008.
+
+\bibitem{zhou2017anomaly}
+Chong Zhou and Randy~C Paffenroth,
+\newblock ``Anomaly detection with robust deep autoencoders,''
+\newblock in {\em Proceedings of the 23rd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}. ACM, 2017, pp. 665--674.
+
+\bibitem{liu2015drug}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, and Xiaolong Wang,
+\newblock ``{Drug name recognition}: Approaches and resources,''
+\newblock {\em Information}, vol. 6, no. 4, pp. 790--810, 2015.
+
+\bibitem{segura2015exploring}
+Isabel Segura-Bedmar, V{\i}ctor Su{\'a}rez-Paniagua, and Paloma Mart{\i}nez,
+\newblock ``Exploring word embedding for drug name recognition,''
+\newblock in {\em The 6th International Workshop on Health Text Mining and
+  Information Analysis}, 2015, p.~64.
+
+\bibitem{abacha2015text}
+Asma~Ben Abacha, Md~Faisal~Mahbub Chowdhury, Aikaterini Karanasiou, Yassine
+  Mrabet, Alberto Lavelli, and Pierre Zweigenbaum,
+\newblock ``Text mining for pharmacovigilance: Using machine learning for drug
+  name recognition and drug--drug interaction extraction and classification,''
+\newblock {\em Journal of Biomedical Informatics}, vol. 58, pp. 122--132, 2015.
+
+\bibitem{huber2013wbi}
+Tim Rockt{\"a}schel, Torsten Huber, Michael Weidlich, and Ulf Leser,
+\newblock ``{WBI-NER}: The impact of domain-specific features on the
+  performance of identifying and classifying mentions of drugs,''
+\newblock in {\em The 7th International Workshop on Semantic Evaluation}, 2013,
+  pp. 356--363.
+
+\bibitem{elman1990finding}
+Jeffrey~L Elman,
+\newblock ``Finding structure in time,''
+\newblock {\em Cognitive Science}, vol. 14, no. 2, pp. 179--211, 1990.
+
+\bibitem{jordan1986serial}
+Michael~I. Jordan,
+\newblock ``Serial order: A parallel distributed processing approach,''
+\newblock Tech. {R}ep., San Diego: University of California, Institute for
+  Cognitive Science, 1986.
+
+\bibitem{collobert2011natural}
+Ronan Collobert, Jason Weston, L{\'e}on Bottou, Michael Karlen, Koray
+  Kavukcuoglu, and Pavel Kuksa,
+\newblock ``Natural language processing (almost) from scratch,''
+\newblock {\em Journal of Machine Learning Research}, vol. 12, pp. 2493--2537,
+  2011.
+
+\bibitem{rocktaschel2012chemspot}
+Tim Rockt{\"a}schel, Michael Weidlich, and Ulf Leser,
+\newblock ``{ChemSpot}: A hybrid system for chemical named entity
+  recognition,''
+\newblock {\em Bioinformatics}, vol. 28, no. 12, pp. 1633--1640, 2012.
+
+\bibitem{liu2015feature}
+Shengyu Liu, Buzhou Tang, Qingcai Chen, Xiaolong Wang, and Xiaoming Fan,
+\newblock ``Feature engineering for drug name recognition in biomedical texts:
+  Feature conjunction and feature selection,''
+\newblock {\em Computational and Mathematical Methods in Medicine}, vol. 2015,
+  pp. 1--9, 2015.
+
+\bibitem{hinton2012deep}
+Geoffrey Hinton, Li~Deng, Dong Yu, George~E Dahl, Abdel-rahman Mohamed, Navdeep
+  Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara~N Sainath,
+  et~al.,
+\newblock ``Deep neural networks for acoustic modeling in speech recognition:
+  The shared views of four research groups,''
+\newblock {\em IEEE Signal Processing Magazine}, vol. 29, no. 6, pp. 82--97,
+  2012.
+
+\bibitem{mesnil2015using}
+Gr{\'e}goire Mesnil, Yann Dauphin, Kaisheng Yao, Yoshua Bengio, Li~Deng, Dilek
+  Hakkani-Tur, Xiaodong He, Larry Heck, Gokhan Tur, Dong Yu, et~al.,
+\newblock ``Using recurrent neural networks for slot filling in spoken language
+  understanding,''
+\newblock {\em IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, vol. 23, no. 3, pp. 530--539, 2015.
+
+\bibitem{bengio1994learning}
+Yoshua Bengio, Patrice Simard, and Paolo Frasconi,
+\newblock ``Learning long-term dependencies with gradient descent is
+  difficult,''
+\newblock {\em IEEE Transactions on Neural Networks}, vol. 5, no. 2, pp.
+  157--166, 1994.
+
+\bibitem{lafferty2001conditional}
+John Lafferty, Andrew McCallum, and Fernando Pereira,
+\newblock ``Conditional random fields: Probabilistic models for segmenting and
+  labeling sequence data,''
+\newblock in {\em ICML}, 2001, pp. 282--289.
+
+\bibitem{segura2013semeval}
+Isabel Segura-Bedmar, Paloma Mart{\'\i}nez, and Mar{\'\i}a Herrero~Zazo,
+\newblock ``Semeval-2013 task 9: Extraction of drug-drug interactions from
+  biomedical texts {(DDIExtraction 2013)},''
+\newblock in {\em The 7th International Workshop on Semantic Evaluation}, 2013.
+
+\bibitem{herrero2013ddi}
+Mar{\'\i}a Herrero-Zazo, Isabel Segura-Bedmar, Paloma Mart{\'\i}nez, and
+  Thierry Declerck,
+\newblock ``The {DDI} corpus: An annotated corpus with pharmacological
+  substances and drug--drug interactions,''
+\newblock {\em Journal of Biomedical Informatics}, vol. 46, no. 5, pp.
+  914--920, 2013.
+
+\bibitem{bergstra2010theano}
+James Bergstra, Olivier Breuleux, Fr{\'e}d{\'e}ric Bastien, Pascal Lamblin,
+  Razvan Pascanu, Guillaume Desjardins, Joseph Turian, David Warde-Farley, and
+  Yoshua Bengio,
+\newblock ``Theano: A {CPU} and {GPU} math compiler in {Python},''
+\newblock in {\em The 9th Python in Science Conference}, 2010, pp. 1--7.
+
+\bibitem{bergstra2012random}
+James Bergstra and Yoshua Bengio,
+\newblock ``Random search for hyper-parameter optimization,''
+\newblock {\em Journal of Machine Learning Research}, vol. 13, pp. 281--305,
+  2012.
+
+\bibitem{Nadeau:07}
+David Nadeau and Satoshi Sekine,
+\newblock ``A survey of named entity recognition and classification,''
+\newblock {\em Linguisticae Investigationes}, vol. 30, no. 1, pp. 3--26, 2007.
+
+\bibitem{Mikolov:13}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean,
+\newblock ``Distributed representations of words and phrases and their
+  compositionality,''
+\newblock in {\em NIPS}, 2013, pp. 3111--3119.
+
+\bibitem{Pennington:14}
+Jeffrey Pennington, Richard Socher, and Christopher~D. Manning,
+\newblock ``{GloVe}: Global vectors for word representation,''
+\newblock in {\em EMNLP}, 2014, pp. 1532--1543.
+
+\bibitem{kipper2008system}
+Karin Kipper-Schuler, Vinod Kaggal, James Masanz, Philip Ogren, and Guergana
+  Savova,
+\newblock ``System evaluation on a named entity corpus from clinical notes,''
+\newblock in {\em Language Resources and Evaluation Conference, LREC}, 2008,
+  pp. 3001--3007.
+
+\bibitem{berger1996maximum}
+Adam~L Berger, Vincent J~Della Pietra, and Stephen A~Della Pietra,
+\newblock ``A maximum entropy approach to natural language processing,''
+\newblock {\em Computational linguistics}, vol. 22, no. 1, pp. 39--71, 1996.
+
+\bibitem{joachims1998text}
+Thorsten Joachims,
+\newblock ``Text categorization with support vector machines: Learning with
+  many relevant features,''
+\newblock in {\em European conference on machine learning}. Springer, 1998, pp.
+  137--142.
+
+\bibitem{uzuner20112010}
+{\"O}zlem Uzuner, Brett~R South, Shuying Shen, and Scott~L DuVall,
+\newblock ``2010 i2b2/VA challenge on concepts, assertions, and relations in
+  clinical text,''
+\newblock {\em Journal of the American Medical Informatics Association}, vol.
+  18, no. 5, pp. 552--556, 2011.
+
+\bibitem{boagcliner}
+William Boag, Kevin Wacome, and MS~Tristan~Naumann,
+\newblock ``CliNER: A Lightweight Tool for Clinical Named Entity Recognition,''
+\newblock 2015.
+
+\bibitem{fu2014improving}
+Xiao Fu and Sophia Ananiadou,
+\newblock ``Improving the extraction of clinical concepts from clinical
+  records,''
+\newblock {\em Proceedings of BioTxtM14}, 2014.
+
+\bibitem{de2011machine}
+Berry de~Bruijn, Colin Cherry, Svetlana Kiritchenko, Joel Martin, and Xiaodan
+  Zhu,
+\newblock ``Machine-learned solutions for three stages of clinical information
+  extraction: the state of the art at i2b2 2010,''
+\newblock {\em Journal of the American Medical Informatics Association}, vol.
+  18, no. 5, pp. 557--562, 2011.
+
+\bibitem{jonnalagadda2012enhancing}
+Siddhartha Jonnalagadda, Trevor Cohen, Stephen Wu, and Graciela Gonzalez,
+\newblock ``Enhancing clinical concept extraction with distributional
+  semantics,''
+\newblock {\em Journal of biomedical informatics}, vol. 45, no. 1, pp.
+  129--140, 2012.
+
+\bibitem{wu2015study}
+Yonghui Wu, Jun Xu, Min Jiang, Yaoyun Zhang, and Hua Xu,
+\newblock ``A Study of Neural Word Embeddings for Named Entity Recognition in
+  Clinical Text,''
+\newblock in {\em AMIA Annual Symposium Proceedings}. American Medical
+  Informatics Association, 2015, vol. 2015, p. 1326.
+
+\bibitem{lebret2013word}
+R{\'e}mi Lebret and Ronan Collobert,
+\newblock ``Word emdeddings through hellinger PCA,''
+\newblock {\em arXiv preprint arXiv:1312.5542}, 2013.
+
+\bibitem{scholkopf2002support}
+Bernhard Sch{\"o}lkopf and Alexander~J Smola,
+\newblock ``Support vector machines, regularization, optimization, and
+  beyond,''
+\newblock {\em Learning with Kernels}, 2002.
+
+\bibitem{tax2004support}
+David~MJ Tax and Robert~PW Duin,
+\newblock ``Support vector data description,''
+\newblock {\em Machine learning}, vol. 54, no. 1, pp. 45--66, 2004.
+
+\bibitem{vapnik1998statistical}
+Vladimir~Naumovich Vapnik and Vlamimir Vapnik,
+\newblock {\em Statistical learning theory}, vol.~1,
+\newblock Wiley New York, 1998.
+
+\bibitem{vishwanathan2003simplesvm}
+SVN Vishwanathan, Alexander~J Smola, and M~Narasimha Murty,
+\newblock ``SimpleSVM,''
+\newblock in {\em Proceedings of the Twentieth International Conference on
+  International Conference on Machine Learning}. AAAI press, 2003, pp.
+  760--767.
+
+\bibitem{bengio2007scaling}
+Yoshua Bengio, Yann LeCun, et~al.,
+\newblock ``Scaling learning algorithms towards AI,''
+\newblock {\em Large-scale kernel machines}, vol. 34, no. 5, pp. 1--41, 2007.
+
+\bibitem{charubook}
+Charu~C Aggarwal,
+\newblock {\em Outlier Analysis},
+\newblock Springer, 2nd Edition, 2016.
+
+\bibitem{Scholkopf:2001}
+Bernhard Schölkopf, John~C Platt, John~C Shawe-Taylor, Alex~J Smola, and
+  Robert~C Williamson,
+\newblock ``Estimating the Support of a High-Dimensional Distribution,''
+\newblock {\em Neural Computation}, vol. 13, no. 7, pp. 1443–1471, Jul 2001.
+
+\bibitem{cao2003comparison}
+LJ~Cao, Kok~Seng Chua, WK~Chong, HP~Lee, and QM~Gu,
+\newblock ``A comparison of PCA, KPCA and ICA for dimensionality reduction in
+  support vector machine,''
+\newblock {\em Neurocomputing}, vol. 55, no. 1-2, pp. 321--336, 2003.
+
+\bibitem{neumann2005combined}
+Julia Neumann, Christoph Schn{\"o}rr, and Gabriele Steidl,
+\newblock ``Combined SVM-based feature selection and classification,''
+\newblock {\em Machine learning}, vol. 61, no. 1-3, pp. 129--150, 2005.
+
+\bibitem{marchi2017deep}
+Erik Marchi, Fabio Vesperini, Stefano Squartini, and Bj{\"o}rn Schuller,
+\newblock ``Deep Recurrent Neural Network-Based Autoencoders for Acoustic
+  Novelty Detection,''
+\newblock {\em Computational intelligence and neuroscience}, vol. 2017, 2017.
+
+\bibitem{sohaib2017hybrid}
+Muhammad Sohaib, Cheol-Hong Kim, and Jong-Myon Kim,
+\newblock ``A Hybrid Feature Model and Deep-Learning-Based Bearing Fault
+  Diagnosis,''
+\newblock {\em Sensors}, vol. 17, no. 12, pp. 2876, 2017.
+
+\bibitem{xu2010robust}
+Huan Xu, Constantine Caramanis, and Sujay Sanghavi,
+\newblock ``Robust {PCA} via outlier pursuit,''
+\newblock in {\em Advances in Neural Information Processing Systems}, 2010, pp.
+  2496--2504.
+
+\bibitem{boyd2004convex}
+Stephen Boyd and Lieven Vandenberghe,
+\newblock {\em Convex optimization},
+\newblock Cambridge university press, 2004.
+
+\bibitem{chollet2015keras}
+Fran\c{c}ois Chollet et~al.,
+\newblock ``Keras,'' \url{https://keras.io}, 2015.
+
+\bibitem{abadi2016tensorflow}
+Mart{\'\i}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Greg~S Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  et~al.,
+\newblock ``Tensorflow: Large-scale machine learning on heterogeneous
+  distributed systems,''
+\newblock {\em arXiv preprint arXiv:1603.04467}, 2016.
+
+\bibitem{lecun2010mnist}
+Yann LeCun, Corinna Cortes, and Christopher~JC Burges,
+\newblock ``MNIST handwritten digit database,''
+\newblock {\em AT\&T Labs [Online]. Available: http://yann. lecun.
+  com/exdb/mnist}, vol. 2, 2010.
+
+\bibitem{krizhevsky2009learning}
+Alex Krizhevsky and Geoffrey Hinton,
+\newblock ``Learning multiple layers of features from tiny images,''
+\newblock 2009.
+
+\bibitem{Hotelling:1933}
+H.~Hotelling,
+\newblock ``{Analysis of a complex of statistical variables into principal
+  components},''
+\newblock {\em J. Educ. Psych.}, vol. 24, 1933.
+
+\bibitem{candes2010robust}
+Emmanuel Cand{\'e}s, Xiaodong Li, Yi~Ma, and John Wright,
+\newblock ``Robust principal component analysis?: Recovering low-rank matrices
+  from sparse errors,''
+\newblock in {\em Sensor Array and Multichannel Signal Processing Workshop
+  (SAM), 2010 IEEE}. IEEE, 2010, pp. 201--204.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville,
+\newblock {\em Deep Learning},
+\newblock MIT Press, 2016,
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{bay03}
+Stephen~D. Bay and Mark Schwabacher,
+\newblock ``Mining distance-based outliers in near linear time with
+  randomization and a simple pruning rule,''
+\newblock in {\em International Conference on Knowledge Discovery and Data
+  Mining (KDD)}, 2003.
+
+\bibitem{Ghoting:2008}
+Amol Ghoting, Srinivasan Parthasarathy, Matthew Otey, Amol Ghoting, Srinivasan
+  Parthasarathy, and Matthew~E. Otey,
+\newblock ``{Fast mining of distance-based outliers in high-dimensional
+  datasets},''
+\newblock {\em Data Mining and Knowledge Discovery}, vol. 16, no. 3, pp.
+  349--364, 2008.
+
+\bibitem{knorr1997unified}
+Edwin~M Knorr and Raymond~T Ng,
+\newblock ``A Unified Notion of Outliers: Properties and Computation.,''
+\newblock in {\em KDD}, 1997, pp. 219--222.
+
+\bibitem{breunig2000lof}
+Markus~M Breunig, Hans-Peter Kriegel, Raymond~T Ng, and J{\"o}rg Sander,
+\newblock ``LOF: identifying density-based local outliers,''
+\newblock in {\em ACM sigmod record}. ACM, 2000, vol.~29, pp. 93--104.
+
+\bibitem{Zhao:2009}
+Manqi Zhao and Venkatesh Saligrama,
+\newblock ``Anomaly Detection with Score functions based on Nearest Neighbor
+  Graphs,''
+\newblock in {\em Advances in Neural Information Processing Systems (NIPS)},
+  2009, pp. 2250--2258.
+
+\bibitem{Bishop:2006}
+Christopher~M. Bishop,
+\newblock {\em Pattern Recognition and Machine Learning},
+\newblock Springer, 2006.
+
+\bibitem{xiong2011direct}
+Liang Xiong, Xi~Chen, and Jeff Schneider,
+\newblock ``Direct robust matrix factorizatoin for anomaly detection,''
+\newblock in {\em International Conference on Data Mining (ICDM)}. IEEE, 2011.
+
+\bibitem{Nguyen:2009}
+Minh~H. Nguyen and Fernando Torre,
+\newblock ``Robust Kernel Principal Component Analysis,''
+\newblock in {\em Advances in Neural Information Processing Systems (NIPS)},
+  2009.
+
+\bibitem{Jain:2008}
+Viren Jain and Sebastian Seung,
+\newblock ``Natural Image Denoising with Convolutional Networks,''
+\newblock in {\em Advances in Neural Information Processing Systems 21}, pp.
+  769--776. 2008.
+
+\bibitem{Huang:2010}
+Junzhou Huang and Tong Zhang,
+\newblock ``The benefit of group sparsity,''
+\newblock {\em Ann. Statist.}, vol. 38, no. 4, pp. 1978--2004, 08 2010.
+
+\bibitem{kingma2014adam}
+Diederik~P Kingma and Jimmy Ba,
+\newblock ``Adam: A method for stochastic optimization,''
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{Bach:2011}
+Francis Bach, Rodolphe Jenatton, Julien Mairal, and Guillaume Obozinski,
+\newblock ``{Convex Optimization with Sparsity-Inducing Norms},''
+\newblock in {\em Optimization for Machine Learning, MIT Press}. 2011.
+
+\bibitem{recht2010guaranteed}
+Benjamin Recht, Maryam Fazel, and Pablo~A Parrilo,
+\newblock ``Guaranteed minimum-rank solutions of linear matrix equations via
+  nuclear norm minimization,''
+\newblock {\em SIAM review}, vol. 52, no. 3, pp. 471--501, 2010.
+
+\bibitem{Sprechmann:2015}
+P.~Sprechmann, A.~M. Bronstein, and G.~Sapiro,
+\newblock ``Learning Efficient Sparse and Low Rank Models,''
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  vol. 37, no. 9, pp. 1821--1833, Sept 2015.
+
+\bibitem{Williams:2002}
+Graham Williams, Rohan Baxter, Hongxing He, Simon Hawkins, and Lifang Gu,
+\newblock ``A Comparative Study of RNN for Outlier Detection in Data Mining,''
+\newblock in {\em International Conference on Data Mining (ICDM)}, 2002.
+
+\bibitem{Zhai:2016}
+Shuangfei Zhai, Yu~Cheng, Weining Lu, and Zhongfei Zhang,
+\newblock ``Deep Structured Energy Based Models for Anomaly Detection,''
+\newblock in {\em International Conference on Machine Learning ({ICML})}, 2016.
+
+\bibitem{Lawrence:2009}
+Neil~D. Lawrence and Raquel Urtasun,
+\newblock ``Non-linear Matrix Factorization with Gaussian Processes,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2009.
+
+\bibitem{Sedhain:2015}
+Suvash Sedhain, Aditya~Krishna Menon, Scott Sanner, and Lexing Xie,
+\newblock ``AutoRec: Autoencoders Meet Collaborative Filtering,''
+\newblock in {\em International Conference on World Wide Web (WWW)}, 2015.
+
+\bibitem{hull1994database}
+Jonathan~J. Hull,
+\newblock ``A database for handwritten text recognition research,''
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  vol. 16, no. 5, pp. 550--554, 1994.
+
+\bibitem{Davis:2006}
+Jesse Davis and Mark Goadrich,
+\newblock ``The Relationship Between Precision-Recall and ROC Curves,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2006.
+
+\bibitem{ioffe2015batch}
+Sergey Ioffe and Christian Szegedy,
+\newblock ``Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift,''
+\newblock {\em arXiv preprint arXiv:1502.03167}, 2015.
+
+\bibitem{clevert2015fast}
+Djork-Arn{\'e} Clevert, Thomas Unterthiner, and Sepp Hochreiter,
+\newblock ``Fast and accurate deep network learning by exponential linear units
+  (elus),''
+\newblock {\em arXiv preprint arXiv:1511.07289}, 2015.
+
+\bibitem{Lopez-Paz:2014}
+David Lopez-Paz, Suvrit Sra, Alexander~J. Smola, Zoubin Ghahramani, and
+  Bernhard Sch\"{o}lkopf,
+\newblock ``Randomized Nonlinear Component Analysis,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2014.
+
+\bibitem{FGM}
+Liang Xiong, Barnab\'{a}s P\'{o}czos, and Jeff Schneider,
+\newblock ``Group Anomaly Detection using Flexible Genre Models,''
+\newblock in {\em Advances in Neural Information Processing Systems 24}, pp.
+  1071--1079. Curran Associates, Inc., 2011.
+
+\bibitem{Chandola}
+Varun Chandola, Arindam Banerjee, and Vipin Kumar,
+\newblock ``Anomaly Detection: A Survey,''
+\newblock {\em ACM Computing Surveys}, vol. 41, no. 3, pp. 15:1--15:58, 2009.
+
+\bibitem{Hodge}
+Victoria~J. Hodge and Jim Austin,
+\newblock ``A survey of outlier detection methodologies,''
+\newblock {\em Artificial Intelligence Review}, vol. 22, pp. 2004, 2004.
+
+\bibitem{SurveySocialMedia}
+R.~{Yu}, H.~{Qiu}, Z.~{Wen}, C.-Y. {Lin}, and Y.~{Liu},
+\newblock ``{A Survey on Social Media Anomaly Detection},''
+\newblock {\em ArXiv e-prints}, Jan. 2016.
+
+\bibitem{mammo}
+G.~Quellec, M.~Lamard, M.~Cozic, G.~Coatrieux, and G.~Cazuguel,
+\newblock ``Multiple-Instance Learning for Anomaly Detection in Digital
+  Mammography,''
+\newblock {\em IEEE Transactions on Medical Imaging}, vol. 35, no. 7, pp.
+  1604--1614, July 2016.
+
+\bibitem{chairs}
+P.~{Perera} and V.~M. {Patel},
+\newblock ``{Learning Deep Features for One-Class Classification},''
+\newblock {\em ArXiv e-prints}, Jan. 2018.
+
+\bibitem{OCSMM}
+Krikamol Muandet and Bernhard Sch\"olkopf,
+\newblock ``One-Class Support Measure Machines for Group Anomaly Detection,''
+\newblock {\em Conference on Uncertainty in Artificial Intelligence}, 2013.
+
+\bibitem{GLAD}
+Rose Yu, Xinran He, and Yan Liu,
+\newblock ``{GLAD:} Group Anomaly Detection in Social Media Analysis,''
+\newblock in {\em Proceedings of the 20th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, New York, NY, USA, 2014, KDD '14,
+  pp. 372--381, ACM.
+
+\bibitem{survideos1}
+W.~{Sultani}, C.~{Chen}, and M.~{Shah},
+\newblock ``{Real-world Anomaly Detection in Surveillance Videos},''
+\newblock {\em ArXiv e-prints}, Jan. 2018.
+
+\bibitem{MGM}
+Liang Xiong, Barnab\'{a}s P\'{o}czos, Jeff Schneider, Andrew Connolly, and Jake
+  VanderPlas,
+\newblock ``Hierarchical Probabilistic Models for Group Anomaly Detection,''
+\newblock in {\em AISTATS 2011}, 2011.
+
+\bibitem{OCSVM}
+Bernhard Sch\"{o}lkopf, John~C. Platt, John~C. Shawe-Taylor, Alex~J. Smola, and
+  Robert~C. Williamson,
+\newblock ``Estimating the Support of a High-Dimensional Distribution,''
+\newblock {\em Neural Comput.}, vol. 13, no. 7, pp. 1443--1471, July 2001.
+
+\bibitem{SIFT-OCSVM}
+Ryfial Azhar, Desmin Tuwohingide, Dasrit Kamudi, Sarimuddin, and Nanik Suciati,
+\newblock ``Batik Image Classification Using SIFT Feature Extraction, Bag of
+  Features and Support Vector Machine,''
+\newblock {\em Procedia Computer Science}, vol. 72, pp. 24 -- 30, 2015,
+\newblock The Third Information Systems International Conference 2015.
+
+\bibitem{Kingma2013}
+Diederik~P Kingma and Max Welling,
+\newblock ``Auto-encoding variational bayes,''
+\newblock {\em arXiv preprint arXiv:1312.6114}, 2013.
+
+\bibitem{doersch2016tutorial}
+Carl Doersch,
+\newblock ``Tutorial on variational autoencoders,''
+\newblock {\em arXiv preprint arXiv:1606.05908}, 2016.
+
+\bibitem{pixabayImages}
+Pixabay,
+\newblock ``Image Source License: CC Public Domain,'' 2018.
+
+\bibitem{sift}
+David~G Lowe,
+\newblock ``Object recognition from local scale-invariant features,''
+\newblock in {\em Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}. Ieee, 1999, vol.~2, pp. 1150--1157.
+
+\bibitem{hog}
+Navneet Dalal and Bill Triggs,
+\newblock ``Histograms of oriented gradients for human detection,''
+\newblock in {\em Computer Vision and Pattern Recognition, 2005. CVPR 2005.
+  IEEE Computer Society Conference on}. IEEE, 2005, vol.~1, pp. 886--893.
+
+\bibitem{SMDD}
+Jorge Guevara, Stephane Canu, and R~Hirata,
+\newblock ``Support Measure Data Description for group anomaly detection,''
+\newblock {\em ODDx3 Workshop on Outlier Definition, Detection, and Description
+  at KDD2015}, 2015.
+
+\bibitem{ATD}
+H.~Soleimani and D.~J. Miller,
+\newblock ``ATD: Anomalous Topic Discovery in High Dimensional Discrete Data,''
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, vol. 28,
+  no. 9, pp. 2267--2280, Sept 2016.
+
+\bibitem{ERACD}
+Hanbo Dai, Feida Zhu, Ee-Peng Lim, and Hwee Hwa~Pang,
+\newblock ``Detecting extreme rank anomalous collections,''
+\newblock in {\em Proceedings of the 2012 SIAM International Conference on Data
+  Mining}. SIAM, 2012, pp. 883--894.
+
+\bibitem{GLETS}
+Xi~C. Chen, Abdullah Mueen, Vijay~K Narayanan, Nikos Karampatziakis, Gagan
+  Bansal, and Vipin Kumar,
+\newblock ``{Online Discovery of Group Level Events in Time Series},''
+\newblock {\em Proceedings of the 2014 SIAM International Conference on Data
+  Mining}, pp. 632--640, 2014.
+
+\bibitem{WSARE}
+Weng-Keen Wong, Andrew Moore, Gregory Cooper, and Michael Wagner,
+\newblock ``WSARE: what’s strange about recent events?,''
+\newblock {\em Journal of urban health: bulletin of the New York Academy of
+  Medicine}, vol. 80, no. Suppl 1, pp. i66, 2003.
+
+\bibitem{NASA}
+NASA's Goddard Space Flight Center Scientific~Visualization Studio,
+\newblock ``Sun Continues to Emit Solar Flares,'' 2018.
+
+\bibitem{PTM}
+Hossein Soleimani and David~J Miller,
+\newblock ``Parsimonious topic models with salient word discovery,''
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering}, vol. 27,
+  no. 3, pp. 824--837, 2015.
+
+\bibitem{LDA}
+David~M. Blei, Andrew~Y. Ng, and Michael~I. Jordan,
+\newblock ``{Latent Dirichlet Allocation},''
+\newblock {\em J. Mach. Learn. Res.}, vol. 3, pp. 993--1022, Mar. 2003.
+
+\bibitem{wong-rule}
+Weng-Keen Wong, Andrew Moore, Gregory Cooper, and Michael Wagner,
+\newblock ``Rule-based Anomaly Pattern Detection for Detecting Disease
+  Outbreaks,''
+\newblock in {\em Proceedings of the 18th National Conference on Artificial
+  Intelligence}. 2002, MIT Press.
+
+\bibitem{xie2013}
+Y.~{Xie} and D.~{Siegmund},
+\newblock ``{Sequential multi-sensor change-point detection},''
+\newblock {\em ArXiv e-prints}, July 2012.
+
+\bibitem{ClusterValidity}
+Maria Halkidi, Yannis Batistakis, and Michalis Vazirgiannis,
+\newblock ``On Clustering Validation Techniques,''
+\newblock {\em Journal of Intelligent Information Systems}, vol. 17, no. 2-3,
+  pp. 107--145, 2001.
+
+\bibitem{Campos2016}
+Guilherme~O Campos, Arthur Zimek, J{\"o}rg Sander, Ricardo~JGB Campello,
+  Barbora Micenkov{\'a}, Erich Schubert, Ira Assent, and Michael~E Houle,
+\newblock ``On the evaluation of unsupervised outlier detection: measures,
+  datasets, and an empirical study,''
+\newblock {\em Data Mining and Knowledge Discovery}, vol. 30, no. 4, pp.
+  891--927, 2016.
+
+\bibitem{Quessy2011}
+Jean-François Quessy, Anne-Catherine Favre, Mériem Saïd, and Maryse
+  Champagne,
+\newblock ``Statistical inference in Lombard's smooth-change model,''
+\newblock {\em Environmetrics}, vol. 22, no. 7, pp. 882--893, 2011.
+
+\end{thebibliography}

@@ -1,0 +1,89 @@
+% !TEX root=../main.tex
+\section{The Proposed Approach}
+\label{sec:method}
+\begin{table*}[ht]
+    \small
+    \centering
+    \scalebox{0.9}{
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+            \hline \bf Sentence & \textit{Cimetidine}& \textit{reduces} & \textit{clearance}& \textit{of} & \textit{ALFENTA} &\textit{and} &\textit{volatile} &\textit{inhalation} &\textit{anesthetics}  \\
+            \hline \textbf{Entity class}& \textit{B-drug}& \textit{O}& \textit{O} & \textit{O}& \textit{B-brand} & \textit{O} & \textit{B-group } & \textit{I-group} & \textit{I-group}  \\
+            \hline
+        \end{tabular}}
+        \caption{Example sentence in a DNR task with entity classes represented in IOB format.}
+        \label{table1}
+\end{table*}
+
+\begin{table*}[ht]
+    \centering
+    \scalebox{0.9}{
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \multirow{3}{*}{} &
+        \multicolumn{2}{c|}{\bf {\small DDI-DrugBank}} &
+        \multicolumn{2}{c|}{\bf {\small DDI-MedLine}} \\
+        \cline{2-5}
+        \cline{2-5}
+        & Training+Test for DDI task & Test for DNR & Training+Test for DDI task & Test for DNR\\
+        \hline
+        documents &$730$ &$54$ & $175$ & $58$ \\
+        sentences &$6577$&$145$ &$1627$  & $520$\\
+        \hline
+        drug\_n  & $124$   & $6$ &  $520$ & $115$ \\
+        group&  $3832$ & $65$&  $234$ & $90$\\
+        brand& $1770$ & $53$ &  $36$ & $6$\\
+        drug&  $9715$ & $180$& $1574$ & $171$\\  \hline
+    \end{tabular}}
+    \caption{Statistics of training and test datasets used for SemEval-2013 Task 9.1.}
+    \label{table2}
+\end{table*}
+
+DNR can be formulated as a joint segmentation and classification task over a predefined set of classes. As an example, consider the input sentence provided in Table~\ref{table1}. The notation follows the widely adopted in/out/begin (IOB) entity representation with, in this instance, \textit{Cimetidine} as the drug, \textit{ALFENTA} as the brand, and words \textit{volatile inhalation anesthetics} together as the group. In this paper, we approach the DNR task by recurrent neural networks and we therefore provide a brief description hereafter. In an RNN, each word in the input sentence is first mapped to a random real-valued  vector of arbitrary dimension, $d$. Then, a measurement for the word, noted as $x(t)$, is formed by concatenating the word's own vector with a window of preceding and following vectors (the "context''). An example of input vector with a context window of size $s = 3$ is:
+
+\vspace{-0.7 cm}
+
+\begin{equation}
+\begin{split}
+w_{3}(t) = [Cimetidine, \textbf{reduces}, effect], \\
+`reduces' \rightarrow x_{reduces} \in \mathbb{R}^{d}, \\
+`Cimetidine' \rightarrow x_{Cimetidine} \in \mathbb{R}^{d}, \\
+`effect' \rightarrow x_{effect} \in \mathbb{R}^{d}, \\
+x(t) = [x_{Cimetidine}, x_{\textbf{reduces}}, x_{effect}] \in \mathbb{R}^{3d}
+\end{split}
+\end{equation}
+
+\noindent where $w_{3}(t)$ is the context window centered around the $t$-th word, $'reduces'$, and $x_{word}$ represents the numerical vector for $word$.
+
+For the Elman network, both $x(t)$ and the output from the hidden layer at time $t-1$, $h(t -1)$, are input into the hidden layer for frame $t$. The recurrent connection from the past time frame enables a short-term memory, while hidden-to-hidden neuron connections make the network Turing-complete. This architecture, common in RNNs, is suitable for prediction of sequences. Formally, the hidden layer is described as:
+
+\vspace{-0.4 cm}
+\begin{equation}
+ h(t) = f(U \bullet x(t) + V \bullet h(t-1) )
+\end{equation}
+
+\noindent where $U$ and $V$ are randomly-initialized weight matrices between the input and the hidden layer, and between the past and current hidden layers, respectively. Function $f(\cdot)$ is the sigmoid function:
+
+\begin{equation}
+f(x)=\frac{1}{1+e^{-x}}
+\end{equation}
+
+\noindent that adds non-linearity to the layer. Eventually, $h(t)$ is input in the output layer:
+
+\vspace{-0.6 cm}
+
+\begin{equation}
+\label{eq4}
+y(t) = g(W \bullet h(t)), \hspace{0.03in} \text{with} \hspace{0.03in}  g(z_{m}) = \frac{e^{z_{m}}} {\Sigma _{k=1}^Ke^{z_{k}} }
+\end{equation}
+
+\noindent and convolved with the output weight matrix, $W$. The output is normalized by a multi-class logistic function, $g(\cdot)$, to become a proper probability over the class set. The output dimensionality is therefore determined by the number of entity classes (i.e., $4$ for the DNR task).
+
+The Jordan network is very similar to the Elman network, except that the feedback is sourced from the output layer rather than the previous hidden layer:
+
+
+\begin{equation}
+h(t) = f( U \bullet x(t) + V \bullet y(t-1) ).
+\end{equation}
+
+
+Although the Elman and Jordan networks can learn long-term dependencies, their exponential decay biases them toward their most recent inputs~\cite{bengio1994learning}. The LSTM was designed to overcome this limitation by incorporating a gated memory-cell to capture long-range dependencies within the data~\cite{hochreiter1997long}. In the bidirectional LSTM, for any given sentence, the network computes both a left, $\overrightarrow{h}(t)$, and a right, $\overleftarrow{ h}(t)$, representations of the sentence context at every input, $x(t)$. The final representation is created by concatenating them as $h(t) = [\overrightarrow{h}(t)$;$\overleftarrow{ h}(t)]$. All these networks utilize the $h(t)$ layer as an implicit feature for entity class prediction: although this model has proved effective in many cases, it is not able to provide joint decoding of the outputs in a Viterbi-style manner (e.g., an I-group cannot follow a B-brand; etc). Thus, another modification to the bidirectional LSTM is the addition of a conditional random field (CRF)~\cite{lafferty2001conditional} as the output layer to provide optimal sequential decoding. The resulting network is commonly referred to as the bidirectional LSTM-CRF \cite{lample2016neural}.

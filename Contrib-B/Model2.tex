@@ -1,0 +1,232 @@
+\section{  The GT$\Delta$ Algorithm } \label{Sec:Model}
+
+		\begin{table}[h]
+	\tabcolsep=0.1cm
+	\begin{center}
+	\scalebox{0.95}{
+	\begin{tabular}{llcl  }
+	\hline\\[-2mm]
+	% \hline
+Symbol & Description  
+	 \\%[2mm] 
+	 \hline\\[-2mm]
+Problem Definition \\[1mm]
+	 $N', \, V, \, T$ & Number of 
+	 stochastic processes, dimensions, time steps \\[1mm] 
+$ { X}_{nv}(t)$ & $n$th observation of $v$th dimension at time $t$\\[1mm]
+   $h: \mathbb{R}^{N'\times V}  \to \mathbb{R}^{V} $ & Function applied to a random vector \\[1mm]
+ $H: \mathbb{R}^{N'} \times \mathbb{R}^{N'}  \to \mathbb{R} $ & Function comparing two random vectors  \\[1mm] 
+%$2^\mathcal{A}$ & Power set of a set $\mathcal{A}$ \\[1mm]
+${\boldsymbol \alpha}(t)    $ & Group metric vector (GMV) at time $t$ \\[1mm]
+ % \mathcal{T} =
+$\mathcal{T}_{r}\subseteq \{1,2,\dots,T\} $ & Time sequence defined for a reference set  \\[1mm]
+$\{ {\boldsymbol \alpha}(t) \}_{t\in\mathcal{T}_r} $ & Reference set with times   $ \mathcal{T}_r$ 
+\\[1mm]
+ $|\cdot|$ & Cardinality of a set \\[1mm]
+$\phi: \mathbb{R}^{\mathcal{U} \times |  \mathcal{T}_r|} \to \mathbb{R}^\mathcal{U} $ & Aggregation function on a reference set \\[1mm]
+ \hline \\[-2mm]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Model Formulation \\[1mm]
+$\mathcal{O}(\cdot)$ & Big O notation \\[1mm]
+$ \stackrel{p}{\to}$ %( \stackrel{\mathcal{D}}{\to}) $ 
+& Convergence in probability  \\[1mm]
+$q(\beta)$ 
+& $\beta$-quantile of a distribution  %\\    $\mathbb{R}_{\ge 0}=[0,\infty]$ & The set of non-negative real numbers 
+\\[1mm]
+$\mathcal{N}(a',b')$ &  Gaussian distribution with mean $a'$ and variance $b'$ \\[1mm]
+$\chi^2 _{\mathcal{U}}$ & Chi-square distribution with $\mathcal{U}$ degrees of freedom\\[1mm]
+$F_{df_1,df_2}$ & $F$-distribution with degrees of freedom $df_1$ and $ df_2$\\[1mm]
+ $\mathcal{U}$ & Number of values in a GMV \\[1mm]
+$w_s > \mathcal{U}$ & Minimum window size for a reference set \\[1mm]
+	 \hline\\[-2mm]
+	 \end{tabular}
+	 }
+	\end{center}
+	\caption{  Summary of notation from problem definition in Section \ref{Sec:GCDProblem} and preliminary notation introduced for our model formulation. }
+\label{Tab:GCDNotation}
+\end{table} 
+
+
+ This section  describes the GT$\Delta$ algorithm  for sequentially detecting temporal changes in a  GSP. Table \ref{Tab:GCDNotation} summarises previous notation for our problem definition and also introduces preliminary notation for our proposed model.  In our proposed method,  domain experts have the flexibility of analysing
+one or more statistical properties that abruptly change over   time.  
+Many methods compute scores  for temporal changes in a  time series however
+in order to obtain statistical significance in a GSP,  additional assumptions are required. 
+  Based on the selection of functions from Table \ref{Tab:Des}, a reasonable assumption is that any group metric vector for $t \in \mathcal{T}$ 
+  has a multivariate Gaussian distribution with   
+\begin{align}
+ {\boldsymbol \alpha}(t) \sim \mathcal{N} \Big( \tilde{\boldsymbol \mu}_\alpha , \tilde{\boldsymbol \Sigma }_\alpha \Big ) \label{Zgauss}
+\end{align} 
+where $\big( \tilde{\boldsymbol \mu}_\alpha , \tilde{\boldsymbol \Sigma}_\alpha \big) $ are the true parameters of a Gaussian distribution under the null hypothesis in (\ref{Eqn:Hyp}). 
+  
+  
+%  In this paper,
+We now highlight conditions under which a Gaussian assumption is valid. 
+Since we examine a variety of statistical properties, it is difficult to assume a single set of conditions that satisfy  (\ref{Zgauss}).   
+The  most common assumption  that is explored in the literature of  asymptotic distribution theory involves   {\it independent and identically distributed } (IID) random variables. 
+Under IID assumptions, details of  asymptotic Gaussian results for  parametric measures in Table \ref{Tab:Des} are explained by: % where random variables are \\
+\begin{enumerate}
+\item Berkes and Endre   \cite{CLT} for the  central limit theorem involving  normalised mean of random variables;
+\item Dixon  et al. \cite{dixon1969} provide details for  variance and Pearsons' correlation;
+\item Bai and Ng \cite{Kdist} %for parametric measures
+for sample skewness and kurtosis.
+\end{enumerate}
+ Under more relaxed IID assumptions,   parametric measures still achieve  asymptotic Gaussian behaviours in: % where random variables are \\
+\begin{enumerate}
+\item Hoeffding  \cite{hoeffding1948} for  normalised mean of a weakly dependent series;  
+%\item Gonzalo and Pitarakis \cite{GP1998} further derives the limiting distribution of moments for non-stationary autoregressive process at lag 1. 
+\item Hilhorst \cite{hilhorst2009} highlights cases where a sum of non-identical variables is asymptotically Gaussian;
+\item  Shang \cite{dCLT}  for functions applied to identical but weakly dependent random  variables. % where functions may represent variance, skewness or kurtosis. %that are examined in this study. 
+\end{enumerate}
+ 
+ 
+ 
+Generally  robust  measures achieve asymptotic Gaussian distributions under less strict conditions.
+Parametric functions are based on moments  where a necessary condition for   the $l$-th sample moment to obtain a non-degenerate asymptotic distribution is that the $2l$-th moment must be finite.     For example,  the limiting distribution of the parametric measure for  kurtosis (involves fourth moments)  requires finite   8th moments.  Without requiring assumptions of finite moments, robust measures
+are more effective for describing statistical properties when data has outliers or heavy-tailed distributions.  
+%and  $\beta$-quantiles for $\beta \in (0,1)$
+ The robust measures introduced in Table \ref{Tab:Des}  are functions of sample quantiles and asymptotic Gaussian distributions of sample quantiles 
+ are described under various conditions in: 
+\begin{enumerate}
+\item  Angus \cite{Quantiles} for quantiles under an IID assumption;
+ \item Sen \cite{sen1968} examines quantiles when random variables have weak dependence at small lags;
+\item Babu and Rao \cite{babu1988} derive the joint  distribution of sample quantiles under IID assumptions.
+\end{enumerate}
+ The asymptotic Gaussian distribution for   robust measures of kurtosis and dependence are respectively derived by  Suaray \cite{suaray2015}  and
+Ornstein \& Lyhagen \cite{SpearmanRho}. 
+For further descriptions of lesser known robust measures in Table \ref{Tab:Des}, refer to details of the robust version of skewness in Hinkley   \cite{hinkley1975},  
+robust kurtosis by Moors \cite{RobustK} and Spearman's rank correlation in Spearman \cite{Spearman}. Since there is extensive research  for Gaussian results for parametric and robust measures that are applied in our proposed algorithm, the initial Gaussian assumption on GMVs is justified in many scenarios.  
+ 
+
+In practice, the true parameters in Equation (\ref{Zgauss}) are unknown and require estimation.  
+ The most natural estimates for $ \tilde{\boldsymbol \mu}_\alpha $ and $ \tilde{\boldsymbol \Sigma}_\alpha$ respectively are  mean aggregation function $ \phi_1$ from Equation (\ref{meanfunction})
+and  variance aggregation function $ \phi_2$  where
+\begin{align}
+ &\phi_2 \Big[ \{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big]= \frac{1}{ |\mathcal{T}_{r}| -1 }  
+  \underset{ t \in \mathcal{T}_{r} }{\sum}
+ \Big({  {\boldsymbol \alpha}(t) -  \phi_1 \Big[\{ {\boldsymbol \alpha}(t) } \}_{t \in \mathcal{T}_{r}}   \Big] \Big) 
+  \Big( {\boldsymbol \alpha}(t) -  \phi_1 \Big[\{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \Big)'   \label{varfunction}
+ \end{align}
+ % where it is assumed no significant changes occur 
+ It is assumed that for a large reference set $|\mathcal{T}_r| \to \infty$, % satisfies the null hypothesis  in (\ref{Eqn:Hyp}) where
+  consistent estimators for   true Gaussian  parameters 
+ %The mean and variance aggregation functions are     consistent estimators for the true parameters
+%  $ \tilde{\boldsymbol \mu}_\alpha $ and $ \tilde{\boldsymbol \Sigma}_\alpha$
+   are obtained with 
+\begin{align}
+%\tilde{\boldsymbol  \mu} \big[ \mathcal{T}_{r} \big]=
+\phi_1 \Big[ \{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big]  \stackrel{p}{\to}  \tilde{\boldsymbol  \mu}_\alpha     \mbox{ \, and \, }
+ \phi_2 \Big[ \{  {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \stackrel{p}{\to} 
+  \tilde{\boldsymbol \Sigma}_\alpha  %\tilde{\boldsymbol \sigma}^{(2)}  
+  \label{consistent1} 
+  % \label{consistent2}
+\end{align} 
+where $\stackrel{p}{\to}$ referring to convergence in probability. 
+%for  $\mathcal{T}_{r}=\{2,3,\dots,t-1\}$  as $\tau \to \infty$. 
+This  signifies that mean and variance aggregation functions provide more reliable estimates of true parameters for a larger window size of a reference sequence.  
+
+
+
+Now if a group metric vector has a multivariate Gaussian distribution given by Equation (\ref{Zgauss}), then we construct a test statistic based on a squared Mahalanobis distance  
+\begin{align}
+ \Big (  {\boldsymbol \alpha}(t)    - \tilde{\boldsymbol \mu}_\alpha \Big) \; \;\tilde{ \boldsymbol \Sigma}_\alpha^{-1} \; \Big ( {\boldsymbol \alpha}(t) - \tilde{\boldsymbol \mu}_\alpha \Big)' \sim   \chi^2_\mathcal{U} \label{Ytrue}
+\end{align} 
+where $\chi^2_\mathcal{U} $ is a Chi-squared distribution with $\mathcal{U}$ degrees of freedom.  %Based on respectively estimating  true parameters $\tilde{\boldsymbol \mu}_\alpha $ and $ \tilde{\boldsymbol \Sigma}_\alpha $  by mean and variance aggregation functions from Equation  (\ref{meanfunction}) and  (\ref{varfunction}),
+The squared Mahalanobis distance naturally satisfies the aggregation function and distance metric for our hypothesis in (\ref{Eqn:Hyp}). {   This distance function is also more appropriate than Euclidean distance from the previous section as the inverse covariance matrix in Equation (\ref{Ytrue}) accounts for individual variances and de-correlates statistical properties. }
+ From Marozzi \cite{marozzi2016}, an estimated test statistic for a reference sequence  on $\mathcal{T}_r$  has a null distribution of
+\begin{align}  
+ Y(\tau)&=\mathcal{D}\Big(\, \phi_1 \Big[\{ {\boldsymbol \alpha}(t)   \}_{t \in \mathcal{T}_{r}}  \Big]  , \, {\boldsymbol \alpha}(\tau)    \Big) \nonumber \\
+ &=
+ \Big ( {\boldsymbol \alpha}(\tau)  - \phi_1 \Big[ \{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \Big)
+ \phi_2 \Big[ \{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big]^{-1}\Big ( {\boldsymbol \alpha}(\tau) - \phi_1 \Big[ \{ {\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \Big)'  \nonumber \\
+ &
+  \sim  \frac{|\mathcal{T}_{r}|\,\mathcal{U} }{|\mathcal{T}_{r}| - \mathcal{U}+1}
+\scalebox{1}[1.0]{$ F_{\mathcal{U} ,|\mathcal{T}_{r}| -\mathcal{U} +1} $} \label{distance}  
+ \end{align}
+where   $ F_{df_1,df_2} $ is  a $F$-distribution with degrees of freedom $df_1$ and $df_2$.  Our proposed test statistic simply compares a reference sequence with the group observation at time $\tau$. 
+This requires $|\mathcal{T}_{r}| >\mathcal{U}$ so that  the covariance matrix is invertible and our test statistic has a non-degenerate distribution. 
+%  When the window size of a reference sequence $|\mathcal{T}_r|$ is large, the distribution in (\ref{distance}) is approximately Chi-squared with $\mathcal{U}$ degrees of freedom. 
+  Thus we compute the test statistic in Equation (\ref{distance})  based on a minimum window size $w_s > \mathcal{U}$.  
+  
+ 
+
+Since our problem involves sequential  hypothesis  testing, an additional $p$-value adjustment is required for our proposed framework. We test for multiple temporal changes in a GSP with  an adaptive significance threshold using a Holm-Bonferroni correction \cite{HB2010}. The Holm-Bonferroni step-down approach involves ordering observed test statistics  % (p-values)
+ from smallest to largest %(largest to smallest) 
+and adjusting significant levels by   respective ranks. % by $p_{(1)},p_{(2)},\dots,p_{(k)}$ 
+% A null hypothesis that has a p-value with the $k$th highest rank is rejected when the p-value is less than $\theta/k$. % The ranked test statistics for the $k$ hypotheses are denoted by $\hat{Y}_{(1)}(k), \dots, \hat{Y}_{(k)}(k) $. 
+ If a test statistic  at time $\tau$ has the $k$-th smallest value then  
+a null hypothesis is rejected (a temporal change at $\tau$ is flagged)   when
+\begin{align}
+   \hat{Y}(\tau)     >  \epsilon_{\theta,k}=
+ \frac{|\mathcal{T}_{r}|\,\mathcal{U} }{|\mathcal{T}_{r}| - \mathcal{U}+1} 
+  F_{\mathcal{U} ,|\mathcal{T}_{r}| -\mathcal{U} +1}   \bigg( 1 -  \frac{\theta}{k}  \bigg )
+ \label{CritVal}
+\end{align}
+where   $ F_{df_1,df_2}(1-\theta)$ 
+is the 100$(1-\theta)^{th}$ percentile  of a $F$-distribution with degrees of freedom $df_1$ and $df_2$.  %To evaluate multiple hypotheses, further adjustments are required. 
+The Holm-Bonferroni adjustment strategy is chosen because Blakesley et al. \cite{MultiComp}
+find that the Holm-Bonferroni procedure achieves a similar power and lowest Type I error rate when compared
+to other correction methods. 
+ Algorithm \ref{Tab:GTD} summarises the sequential detection of temporal changes in a GSP using  the GT$\Delta$ algorithm where estimates are reset after a significant change is detected.  
+
+We are also interested in understanding the possible reasons behind detected changes in a GSP. When examining a variety  of measures, it may not be clear which statistical properties have the greatest contribution towards a detected change. By  comparing the  $u$th statistical property in a GMV $\alpha_u(\tau)$ with previously  observed values $\{\alpha_u(t)\}_{t \in \mathcal{T}_r } $, we quantify a contribution score by  
+ \begin{align}
+ \tilde{\mathcal{S}}_u (\tau) =\frac{  \mathcal{S}_u (\tau) }{  \displaystyle \sum_{u=1}^\mathcal{U} \mathcal{S}_u (\tau)} \quad \mbox{ with }\quad \mathcal{S}_u (\tau) %&= \mathcal{D}\Big(\, \phi_1 \Big[ \{ \alpha_u(t)  \}_{t \in \mathcal{T}_{r}}  \Big]  , \, \alpha_u(\tau) \Big) \\
+= \frac{\Big(\,  \alpha_u(\tau) -  \phi_1 \Big[ \{ \alpha_u(t)  \}_{t \in \mathcal{T}_{r}}  \Big]  \Big)^2 } { \phi_2 \Big[ \{ \alpha_u(t)  \}_{t \in \mathcal{T}_{r}}  \Big]  }  \label{Score}
+\end{align}
+where the positive score $\mathcal{S}_u (\tau)$ is   equivalent to the squared Mahalanobis distance from (\ref{distance}) with $\mathcal{U}=1$ as  a score is computed for each statistical property. 
+
+Due to multiple  testing issues we do not impose additional assumptions to develop hypothesis tests involving contribution scores for statistical properties.    
+Instead contribution scores allow users to examine which statistical properties have the largest weighting for detected changes. If location is  associated with greatest contribution  scores then   more accurate results are obtained by re-computing the GT$\Delta$ algorithm solely based on location estimates. %Once temporal changes are detected for a variety  of statistical properties, 
+  The GT$\Delta$ algorithm  in Algorithm \ref{Tab:GTD} can be re-computed based on statistical properties with the greatest  contribution scores for detected changes. 
+{   Further research will involve an automated  selection of statistical properties in GT$\Delta$ using calculated contribution scores. }%  
+
+ 
+\begin{algorithm}
+    \caption{: GT$\Delta$ algorithm  for sequentially detecting a temporal change in a GSP }
+  \begin{algorithmic}[1]
+%  \textsize
+    \INPUT 
+Groups $\{{\bf G}(t)\}_{t \in [1,\tau]}$
+then select  statistical properties  from Table \ref{Tab:Des} for the  set  $\tilde{h} \in 2^\mathcal{A}$    where  $\mathcal{A}=\{h_1,h_2,h_3,h_4,H\}$.  
+   Initialise significance level $\theta$ and minimum window size for a reference sequence with $\tau = w_s  > \mathcal{U}$.  %such that $\tau_0 = \max\{\mathcal{U}+1,s\}$.   
+\vspace{2mm} 
+
+   \For  {$\tau < T$}%
+
+{ %\BlankLine
+  Set reference sequence over $\mathcal{T}_{r}=\{1,2,\dots,\tau-1\}$.} % and $\mathcal{T}^*=\{\mathcal{T}_{r} \cup \tau\}$. %  and test instance at $t$.
+% \vspace{2mm}
+  \begin{align}
+ \mbox{ Test \,}
+\scalebox{1}[1.0]{$H_0:  \mathcal{D}\Big(\,   \phi \big[\{ { \boldsymbol \alpha} { (\, t\, ) } \}_{t \in \mathcal{T}_{r}}   \big], \, {\boldsymbol \alpha}( \, \tau \, )   \Big) \le \epsilon$}  \,
+\nonumber \\ 
+\mbox{ vs. }  \,
+ \scalebox{1}[1.0]{$ H_1:  \mathcal{D}\Big(\,   \phi \big[\{ { \boldsymbol \alpha} { (\, t\, ) } \}_{t \in \mathcal{T}_{r}}   \big], \, {\boldsymbol \alpha}( \, \tau \, )   \Big) > \epsilon $}.  
+  \end{align}
+{\BlankLine
+ Calculate the group metric vector for all observed times $t \in \{1,2,\dots,\tau\}$,
+\[   
+ \hat{\boldsymbol \alpha}(t) =  \Bigg(  \stackplus
+   {\tiny \tilde{h} \in 2^\mathcal{A} }{} \tilde{h} \big[ {\bf G} (t)\big]  \Bigg) %\in \mathbb{R}^\mathcal{U}
+\] }
+   {\BlankLine Compute the test statistic using squared  Mahalanobis distance in Equation (\ref{distance}),% from (\ref{Zscore}),  \\ \hspace{10mm}    \vspace{-4mm}
+%$ {\bf   Z }(t)= \Big(  {\boldsymbol \alpha}(t) -  \hat{ \boldsymbol\mu}_{ {\boldsymbol \alpha(t)} }  \Big)\,  \hat{ \boldsymbol \Sigma}^{-1/2} _{\boldsymbol \alpha(t)}  $.
+\[\textstyle \hat{Y}(\tau) =  \Big ( { \hat {\boldsymbol\alpha} }(\tau)  - \phi_1 \Big[ \{ { \hat {\boldsymbol\alpha} }(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \Big)
+ \phi_2 \Big[ \{ \hat{\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big]^{-1}\Big ( \hat{\boldsymbol \alpha}(\tau) - \phi_1 \Big[ \{ \hat{\boldsymbol \alpha}(t)  \}_{t \in \mathcal{T}_{r}}   \Big] \Big)' 
+% \mathcal{D}\Big(\, \phi_1 \Big[\{ \hat{\boldsymbol \alpha}(t)   \}_{t \in \mathcal{T}_{r}}  \Big]  , \, \hat{\boldsymbol \alpha}(t)    \Big) 
+\] }
+            \Case{ 
+          $\hat{Y}(\tau) >\epsilon_{\theta,k}$ { where } $\epsilon_{\theta,k}$ is described %the Holm-Bonferroni adjusted  threshold
+           in Equation (\ref{CritVal}). %C_{\theta,\tau} %\frac{|\mathcal{T}_{r}|\,\mathcal{U} }{|\mathcal{T}_{r}| - \mathcal{U}+1} F_{\mathcal{U} ,|\mathcal{T}_{r}| -\mathcal{U} +1}    (1-\frac{\theta}{k}) 	$     
+%where p-value at time $\tau$ has rank $k$.    
+        }   %\\ \vspace{2mm} 
+       
+       detects a temporal change  at time $\tau$. %significant level $\theta$.
+       \BREAK 
+      \Else { $\tau=\tau+1$}
+
+     \OUTPUT A significant temporal change  is flagged  at time $\tau$ otherwise no change is detected. To interpret which statistical properties  contribute towards a detected change, contribution scores $\{ \tilde{\mathcal{S}}_u (\tau)\}_{u=1}^\mathcal{U}$  are calculated from Equation (\ref{Score})
+  \end{algorithmic}  
+  \label{Tab:GTD}
+\end{algorithm}
+  

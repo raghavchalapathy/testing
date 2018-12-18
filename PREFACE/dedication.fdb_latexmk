@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1540181322 "dedication.tex" "dedication.pdf" "dedication" 1540181322
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm" 1136768653 1508 efecb4a315fe0975509670a272d75ef5 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1442619646 3849859 bc9eaa9fdc19b5dbc06bcf6c1dd88e9f ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "dedication.aux" 1539950707 1125 8e39eecca9b13c1bdb987b4976550398 ""
+  "dedication.tex" 1540181315 359 26df85cf5612028aca6bead60b282e47 ""
+  (generated)
+  "dedication.pdf"
+  "dedication.log"

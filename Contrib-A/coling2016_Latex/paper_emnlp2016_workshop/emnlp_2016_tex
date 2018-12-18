@@ -1,0 +1,196 @@
+%
+% File emnlp2016.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2016}
+\usepackage{times}
+\usepackage{latexsym}
+
+% Uncomment this line for the final submission:
+%\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Deep Sequential Neural Network For Drug Name Recognition}
+%\Thanks{This
+%    document has been adapted from the instructions for earlier ACL
+%    and NAACL proceedings, including those for
+%    NAACL-HLT 2016 by Margaret Mitchell and Adam Lopez,
+%    NAACL HLT15 by Matt Post and Adam Lopez,
+%    NAACL HLT12 by Nizar Habash and William Schuler,
+%    NAACL HLT10 by Claudia Leacock and Richard Wicentowski,
+%    NAACL HLT09 by Joakim Nivre and Noah Smith, 
+%    for ACL05 by Hwee Tou Ng and Kemal Oflazer,
+%    for ACL02 by Eugene Charniak and Dekang Lin, and earlier ACL and
+%    EACL formats.  Those versions were written by several people,
+%    including John Chen, Henry S. Thompson and Donald Walker.
+%    Additional elements were taken from the formatting instructions of
+%    the {\em International Joint Conference on Artificial Intelligence}
+%    and the {\em Conference on Computer Vision and Pattern Recognition}.}
+    
+
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Siddharth Patwardhan \and Daniele Pighin\\
+  {\tt publication@emnlp2016.net}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	Drug name recognition (DNR) is analogous to Named-Entity Recognition (NER) is an essential step in Pharmacovigilance (PV) pipeline. DNR aims to find  drug name mentions in unstructured biomedical texts and tabulate them into pre-defined categories. Sequential  Recurrent Neural 
+	Networks (SRNNs) and Deep Neural Networks (DNNs) are powerful models that have accomplished excellent  performance on difficult Natural Language Processing (NLP) tasks including NER.This
+	 paper explores the effectiveness of deep sequential recurrent neural networks to identify drug names as an alternative to  hand-crafted feature engineering approach.The experiments conducted on the DrugBank and MedLine data sets demonstrate sequential RNN models outperform traditional Conditional Random Field (CRF), ontology based, feature-and kernel-based methods.
+\end{abstract}
+
+
+\section{Introduction}
+Pharmacovigilance (PV) is defined by the World Health Organization as the science and activities related to the detection, assessment, understanding and prevention of adverse effects or any other drug-related problem.Drug name recognition (DNR) is a fundamental step in Pharmacovigilance (PV) pipeline and is  analogous to Named-Entity Recognition (NER), a well studied research problem in natural language processing.DNR aims to find drug name mentions in unstructured biomedical texts and classify them into pre-defined categories.
+Conventional  research techniques  for DNR  are  dictionary-based methods(Hettne, K. et.al, 2009), rule-based methods(Hamon, T et.al, 2010) and statistical machine learning methods (Shengyu Liu et.al, 2015) (Alberto Lavelli et.al, 2015).Unstructured medical text incorporates abbreviated words and lack  formal sentence structure and  punctuation rules which renders  rule based systems as ineffective and not scalable.DNR naming convention do not follow specific pattern. For instance, the drug “quetiapine” (generic name) has the brand name “Seroquel XR”, while its systematic International Union of Pure and Applied Chemistry (IUPAC) name is “2-[2-(4-dibenzo [b,f][1,4] thiazepin-11-ylpiperazin-1-yl) ethoxy] ethanol”. With rapid explosion of discovery of new drugs , some drug names are coined following mundane english words or phrases. For instance, brand names of “oxymetazoline nasal” and “caffeine” are “Duration” and “Stay Awake”, respectively(Shengyu Liu et.al, 2015). These inconsistencies pose challenges for dictionary-based methods.
+The machine learning models such as Support Vector Machine (SVM) [3], Maximum Entropy (ME) [4], Hidden Markov Model (HMM) [5] and Conditional Random Fields (CRF) [6], have been adopted to address DNR task  offers superior performance over rule-based and dictionary  methods. But these machine learning methods require hand-crafted features to be designed which is time consuming and expensive. Also for different medical  corpora and languages feature engineering is laborious. Some drug names may correspond to non-continuous strings of text. For example, “loop diuretics” and “potassium-sparing diuretics” in the sentence “In some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics”(Shengyu Liu et.al, 2015). Such examples pose great difficulties to DNR. Although there are a few approaches proposed to recognize both continuous and non-continuous named entities such as disorders   [96] [98], they still perform poorly for non-continuous named entities. 
+Deep learning has been applied on NER in recent years. Collobert et al. [7].  Leveraging RNN’s recurrent property, in this paper we explore  two simple types of RNN models Elman-type and Jordan-type networks on DrugBank and MedLine dataset(SemEval, 2013). The experimental results prove the effectiveness of deep sequential recurrent neural networks to identify drug names as an alternative to hand-crafted feature engineering approach.
+
+
+\section{Related Work}
+
+
+Additionally features extracted  from (i) Jochem  a dictionary for the identification of small molecules and drugs in text\cite{hettne2009dic} (ii) the PHARE ontology (Coulet et al., 2011) and (iii) the ChEBI ontology (De Matos et al., 2010) was also included as feature inputs resulted in improved performance of the CRF classifier. 
+A hybrid machine learning technique combining a feature-based method and a kernel-based  system for drug name recognition  was ranked second in the DDI-Extraction-2011 challenge, and DDI detection and classification was ranked first in the DDI-Extraction-2013 task at SemEval (Asma Ben Abacha et al., 2015) with best strict evaluation F1 score of 0.8 and 0.37 for DrugBank and MedLine datasets respectively with a macro-average F1 score of 0.63 on the on the whole dataset DrugBank and MedLine. The hybrid  approach  exploits the scope of negation cues and the semantic roles of the involved entities.There are two major  limitations  reported by the best performing WBI-NER (Rockt¨aschel et al., 2013).Firstly  system fails to  correctly classify entities of the minority class (DrugN)  in order to overcome this  features derived from external annotated resources. Secondly it requires domain adaptation techniques to obtain better performance due to the  differences between DrugBank and MEDLINE documents.
+Drug name recognition (DNR) is  analogous to Named-Entity Recognition (NER) a well studied research problem in natural language processing.The  models proposed by (Collobert et al., 2011) followed by many including ( Mensil et al., 2013; Mensil et al., 2015) leverage recurrent neural networks( RNNs) to deliver end-to-end NER. With this approach a usefull embedding is automatically extracted through back-propogation over the network's layers starting from initial random values of network parameters or  basic embedding vectors. This 
+paper explores the effectiveness of  recurrent neural networks (RNNs) to  jointly perform feature extraction and  classification in a sequential mode. The experiments conducted on SemEval-2013 Task 9.1: Recognition and classification of pharmacological substances containing DrugBank  and Medline datasets  demonstrate  RNN models significantly outperform state of art methods.
+
+
+
+Manuscripts must be in two-column format.  Exceptions to the two-column
+format include the title, as well as the authors' names and complete
+addresses (only in the final version, not in the version submitted for
+review), which must be centered at the top of the first page (see the
+guidelines in Subsection~\ref{ssec:first}), and any full-width figures or
+tables.  Type single-spaced.  Do not number the pages in the camera-ready
+version. Start all pages directly under the top margin.  See the guidelines
+later regarding formatting the first page.  Also see 
+Section~\ref{sec:length} for the page limits.
+
+By uncommenting {\small\verb|\emnlpfinalcopy|} at the top of this document,
+it will compile to produce an example of the camera-ready formatting; by
+leaving it commented out, the document will be anonymized for initial
+submission.  When you first create your submission on softconf, please fill
+in your submitted paper ID where {\small\verb|***|} appears in the
+{\small\verb|\def\emnlppaperid{***}|} definition at the top.
+
+The review process is double-blind, so do not include any author information
+(names, addresses) when submitting a paper for review. However, you should
+maintain space for names and addresses so that they will fit in the final
+(accepted) version.  The EMNLP 2016 \LaTeX\ style will create a titlebox
+space of 2.5in for you when {\small\verb|\emnlpfinalcopy|} is commented out.
+
+\section{The Proposed Approach}
+The EMNLP 2016 style defines a printed ruler which should be present in the
+version submitted for review.  The ruler is provided in order that
+reviewers may comment on particular lines in the paper without
+circumlocution.  If you are preparing a document without the provided
+style files, please arrange for an equivalent ruler to
+appear on the final output pages.  The presence or absence of the ruler
+should not change the appearance of any other content on the page.  The
+camera ready copy should not contain a ruler. (\LaTeX\ users may uncomment
+the {\small\verb|\emnlpfinalcopy|} command in the document preamble.)  
+
+Reviewers:
+note that the ruler measurements do not align well with lines in the paper
+--- this turns out to be very difficult to do well when the paper contains
+many figures and equations, and, when done, looks ugly.  Just use fractional
+references (e.g., the first line on this page is at mark $096.5$), although
+in most cases one would expect that the approximate location will be
+adequate.
+
+\subsection{Deep Sequential Modelling for DNR}
+
+EMNLP provides this description to authors in \LaTeX2e{} format
+and PDF format, along with the \LaTeX2e{} style file used to format it
+({\small\tt emnlp2016.sty}) and an ACL bibliography style
+({\small\tt emnlp2016.bst}) and example bibliography
+({\small\tt emnlp2016.bib}). A Microsoft Word template file
+({\small\tt emnlp2016.dotx}) is also available. We strongly recommend the
+use of these style files, which have been appropriately tailored for the
+EMNLP 2016 proceedings.
+
+
+
+
+\section{Experiments}
+\label{sec:length}
+
+The EMNLP 2016 main conference accepts submissions of long papers and
+short papers.  Long papers may consist of up to eight (8) pages of content, plus
+two (2) pages for references. Upon acceptance, final versions of long papers
+will be given one additional page (i.e., up to 9 pages) for content, with
+unlimited pages for references --- so that reviewers' comments can be taken
+into account.  Short papers may consist of up to four (4) pages of content,
+plus two (2) pages for references. Upon acceptance, the final version of
+short papers will be given five (5) pages in the proceedings, with unlimited
+pages for references.  For both long and short papers, all illustrations and
+appendices must be accommodated within these page limits, observing the
+formatting instructions given in the present document.  Papers that do not
+conform to the specified length and formatting requirements are subject to
+be rejected without review.
+
+EMNLP 2016 encourages submitting software and data that is described in the
+paper as supplementary material. EMNLP 2016 also encourages reporting
+preprocessing decisions, model parameters, and other details necessary for the
+exact replication of the experiments described in the paper. Papers may be
+accompanied by supplementary material, consisting of software, data, pseudo-code,
+detailed proofs or derivations that do not fit into the paper, lists of features
+or feature templates, parameter specifications, and sample inputs and outputs
+for a system. The paper should not rely on the supplementary material: while the
+paper may refer to and cite the supplementary material and the supplementary
+material will be available to reviewers, they will not be asked to review the
+supplementary material.
+
+\subsection{Experimental Results}
+\label{ssec:accessibility}
+
+In an effort to accommodate the color-blind (and those printing to paper),
+grayscale readability of papers is encouraged. Color is not forbidden, but 
+authors should ensure that tables and figures do not rely solely on color to
+convey critical distinctions.
+
+\section{Conclusion}
+\label{sec:blind}
+
+Rapid progress in pharmaceutical research has led to continuous  discoveries of  new drugs, which inturn necessitates automatic drug name discovery in unstructured biomedical texts. This paper investigates, the effectiveness of  short term memory (STM) networks essentially Elman and Jordon type  RNNs to jointly perform feature extraction and  classification in a sequential mode for SemEval-2013 Task 9.1 Drug Name Recognition. The  experimental results are very promising and demonstrate that STM networks based DNR system substantially  outperforms  state-of-the-art methods. These models set a new state-of-the-art in this area. Investigation of variants of STM architectures for more challenging DNR tasks, for example ones that involve a number of symbols mixed with common words, which pose boundary detection challenges, is part of future work. Additionally,  extending  the experiments  to the ChemdNER corpus in order to compare our approach to the participating systems of the BioCreative IV CHEMDNER task is also an interesting furture direction.
+
+
+
+\bibliography{emnlp2016}
+\bibliographystyle{emnlp2016}
+
+\end{document}

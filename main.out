@@ -1,0 +1,127 @@
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Publications}{}% 3
+\BOOKMARK [0][-]{section*.6}{Table of Contents}{}% 4
+\BOOKMARK [0][-]{section*.8}{List of Figures}{}% 5
+\BOOKMARK [0][-]{section*.10}{List of Tables}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Deep Learning for Anomaly Detection: A Survey}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{ What are anomalies ?}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{What are novelties ?}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Motivation and Challenges: Deep anomaly detection \(DAD\) techniques}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{Related Work}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.6}{ Our Contributions}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.7}{Organization}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.8}{Different aspects of deep learning-based anomaly detection. }{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.8.1}{ Nature of Input Data}{section.1.8}% 16
+\BOOKMARK [2][-]{subsection.1.8.2}{Based on Availability of labels}{section.1.8}% 17
+\BOOKMARK [3][-]{subsubsection.1.8.2.1}{Supervised anomaly detection:}{subsection.1.8.2}% 18
+\BOOKMARK [3][-]{subsubsection.1.8.2.2}{Semi-supervised anomaly detection:}{subsection.1.8.2}% 19
+\BOOKMARK [3][-]{subsubsection.1.8.2.3}{Unsupervised anomaly detection \(USAD\):}{subsection.1.8.2}% 20
+\BOOKMARK [2][-]{subsection.1.8.3}{Based on training objective}{section.1.8}% 21
+\BOOKMARK [3][-]{subsubsection.1.8.3.1}{Deep Hybrid Models \(DHM\):}{subsection.1.8.3}% 22
+\BOOKMARK [3][-]{subsubsection.1.8.3.2}{One-Class Neural Networks \(OC-NN\):}{subsection.1.8.3}% 23
+\BOOKMARK [2][-]{subsection.1.8.4}{Type of Anomaly}{section.1.8}% 24
+\BOOKMARK [3][-]{subsubsection.1.8.4.1}{Point Anomalies.}{subsection.1.8.4}% 25
+\BOOKMARK [3][-]{subsubsection.1.8.4.2}{Contextual Anomaly Detection.}{subsection.1.8.4}% 26
+\BOOKMARK [3][-]{subsubsection.1.8.4.3}{Collective or Group Anomaly Detection.}{subsection.1.8.4}% 27
+\BOOKMARK [2][-]{subsection.1.8.5}{Output of DAD Techniques}{section.1.8}% 28
+\BOOKMARK [3][-]{subsubsection.1.8.5.1}{Anomaly Score:}{subsection.1.8.5}% 29
+\BOOKMARK [3][-]{subsubsection.1.8.5.2}{Labels:}{subsection.1.8.5}% 30
+\BOOKMARK [1][-]{section.1.9}{Applications of Deep Anomaly Detection}{chapter.1}% 31
+\BOOKMARK [2][-]{subsection.1.9.1}{Intrusion Detection}{section.1.9}% 32
+\BOOKMARK [3][-]{subsubsection.1.9.1.1}{Host-Based Intrusion Detection Systems \(HIDS\):}{subsection.1.9.1}% 33
+\BOOKMARK [3][-]{subsubsection.1.9.1.2}{Network Intrusion Detection Systems \(NIDS\):}{subsection.1.9.1}% 34
+\BOOKMARK [2][-]{subsection.1.9.2}{Fraud Detection}{section.1.9}% 35
+\BOOKMARK [3][-]{subsubsection.1.9.2.1}{Banking fraud:}{subsection.1.9.2}% 36
+\BOOKMARK [3][-]{subsubsection.1.9.2.2}{Mobile cellular network fraud:}{subsection.1.9.2}% 37
+\BOOKMARK [3][-]{subsubsection.1.9.2.3}{Insurance fraud:}{subsection.1.9.2}% 38
+\BOOKMARK [3][-]{subsubsection.1.9.2.4}{Health insurance fraud:}{subsection.1.9.2}% 39
+\BOOKMARK [2][-]{subsection.1.9.3}{Malware Detection}{section.1.9}% 40
+\BOOKMARK [2][-]{subsection.1.9.4}{Medical Anomaly Detection:}{section.1.9}% 41
+\BOOKMARK [2][-]{subsection.1.9.5}{Deep learning for Anomaly detection in Social Networks}{section.1.9}% 42
+\BOOKMARK [2][-]{subsection.1.9.6}{Log Anomaly Detection:}{section.1.9}% 43
+\BOOKMARK [2][-]{subsection.1.9.7}{Internet of things \(IoT\) Big Data Anomaly Detection}{section.1.9}% 44
+\BOOKMARK [2][-]{subsection.1.9.8}{Industrial Anomalies Detection}{section.1.9}% 45
+\BOOKMARK [2][-]{subsection.1.9.9}{Anomaly Detection in Time Series }{section.1.9}% 46
+\BOOKMARK [2][-]{subsection.1.9.10}{Video Surveillance}{section.1.9}% 47
+\BOOKMARK [1][-]{section.1.10}{Deep Anomaly Detection \(DAD\) Models}{chapter.1}% 48
+\BOOKMARK [2][-]{subsection.1.10.1}{Supervised Deep Anomaly Detection}{section.1.10}% 49
+\BOOKMARK [2][-]{subsection.1.10.2}{Semi-supervised Deep Anomaly Detection \(DAD\)}{section.1.10}% 50
+\BOOKMARK [2][-]{subsection.1.10.3}{Hybrid Deep Anomaly Detection \(DAD\) Models}{section.1.10}% 51
+\BOOKMARK [2][-]{subsection.1.10.4}{One class Neural Networks \(OC-NN\) for Anomaly Detection}{section.1.10}% 52
+\BOOKMARK [2][-]{subsection.1.10.5}{Un-supervised Deep Anomaly Detection \(UDAD\)}{section.1.10}% 53
+\BOOKMARK [2][-]{subsection.1.10.6}{Miscellaneous Techniques}{section.1.10}% 54
+\BOOKMARK [3][-]{subsubsection.1.10.6.1}{Transfer Learning based anomaly detection : }{subsection.1.10.6}% 55
+\BOOKMARK [3][-]{subsubsection.1.10.6.2}{Zero Shot learning based anomaly detection:}{subsection.1.10.6}% 56
+\BOOKMARK [3][-]{subsubsection.1.10.6.3}{Ensemble based anomaly detection:}{subsection.1.10.6}% 57
+\BOOKMARK [3][-]{subsubsection.1.10.6.4}{Clustering based anomaly detection:}{subsection.1.10.6}% 58
+\BOOKMARK [3][-]{subsubsection.1.10.6.5}{Deep Reinforcement Learning \(DRL\) based anomaly detection:}{subsection.1.10.6}% 59
+\BOOKMARK [3][-]{subsubsection.1.10.6.6}{Statistical Techniques based anomaly detection: }{subsection.1.10.6}% 60
+\BOOKMARK [1][-]{section.1.11}{Deep Neural Network Architectures for Locating Anomalies}{chapter.1}% 61
+\BOOKMARK [2][-]{subsection.1.11.1}{Deep Neural Networks}{section.1.11}% 62
+\BOOKMARK [2][-]{subsection.1.11.2}{Spatio Temporal Networks \(STN\)}{section.1.11}% 63
+\BOOKMARK [2][-]{subsection.1.11.3}{ Sum-Product Networks \(SPN\)}{section.1.11}% 64
+\BOOKMARK [2][-]{subsection.1.11.4}{Word2vec Models}{section.1.11}% 65
+\BOOKMARK [2][-]{subsection.1.11.5}{Generative Models }{section.1.11}% 66
+\BOOKMARK [2][-]{subsection.1.11.6}{Convolutional Neural Networks }{section.1.11}% 67
+\BOOKMARK [2][-]{subsection.1.11.7}{Sequence Models}{section.1.11}% 68
+\BOOKMARK [2][-]{subsection.1.11.8}{Autoencoders}{section.1.11}% 69
+\BOOKMARK [1][-]{section.1.12}{ Relative Strengths and Weakness : Deep Anomaly Detection Methods}{chapter.1}% 70
+\BOOKMARK [1][-]{section.1.13}{Conclusion}{chapter.1}% 71
+\BOOKMARK [0][-]{chapter.2}{Supervised Deep Anomaly Detection Methods}{}% 72
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 73
+\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 74
+\BOOKMARK [1][-]{section.2.3}{The Proposed Approach}{chapter.2}% 75
+\BOOKMARK [1][-]{section.2.4}{Experimental Setup}{chapter.2}% 76
+\BOOKMARK [2][-]{subsection.2.4.1}{Datasets}{section.2.4}% 77
+\BOOKMARK [2][-]{subsection.2.4.2}{Evaluation Methodology}{section.2.4}% 78
+\BOOKMARK [1][-]{section.2.5}{Experimental Results}{chapter.2}% 79
+\BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 80
+\BOOKMARK [1][-]{section.2.7}{Problem Introduction}{chapter.2}% 81
+\BOOKMARK [1][-]{section.2.8}{Related Work}{chapter.2}% 82
+\BOOKMARK [1][-]{section.2.9}{Method}{chapter.2}% 83
+\BOOKMARK [2][-]{subsection.2.9.1}{Word Embeddings}{section.2.9}% 84
+\BOOKMARK [2][-]{subsection.2.9.2}{Bidirectional LSTM-CRF Networks}{section.2.9}% 85
+\BOOKMARK [1][-]{section.2.10}{ Experiment Setup}{chapter.2}% 86
+\BOOKMARK [2][-]{subsection.2.10.1}{Datasets}{section.2.10}% 87
+\BOOKMARK [2][-]{subsection.2.10.2}{Evaluation Methodology}{section.2.10}% 88
+\BOOKMARK [2][-]{subsection.2.10.3}{Results and Analysis}{section.2.10}% 89
+\BOOKMARK [1][-]{section.2.11}{Conclusion }{chapter.2}% 90
+\BOOKMARK [0][-]{chapter.3}{One-Class Neural Networks for Anomaly Detection}{}% 91
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 92
+\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 93
+\BOOKMARK [2][-]{subsection.3.2.1}{Robust Deep Autoencoders for anomaly detection}{section.3.2}% 94
+\BOOKMARK [2][-]{subsection.3.2.2}{One-Class SVM for anomaly detection}{section.3.2}% 95
+\BOOKMARK [1][-]{section.3.3}{Experimental Setup}{chapter.3}% 96
+\BOOKMARK [2][-]{subsection.3.3.1}{Methods compared}{section.3.3}% 97
+\BOOKMARK [2][-]{subsection.3.3.2}{Datasets}{section.3.3}% 98
+\BOOKMARK [2][-]{subsection.3.3.3}{Evaluation of Models}{section.3.3}% 99
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Baseline Model Parameters:}{subsection.3.3.3}% 100
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{ Deep Baseline Models:}{subsection.3.3.3}% 101
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{ One-class neural Networks \(OC-NN\):}{subsection.3.3.3}% 102
+\BOOKMARK [1][-]{section.3.4}{Experimental Results}{chapter.3}% 103
+\BOOKMARK [2][-]{subsection.3.4.1}{OC-NN for Synthetic Data}{section.3.4}% 104
+\BOOKMARK [2][-]{subsection.3.4.2}{OC-NN on MNIST and CIFAR-10}{section.3.4}% 105
+\BOOKMARK [2][-]{subsection.3.4.3}{Detecting Adversarial attacks on GTSRB stop signs using OC-NN }{section.3.4}% 106
+\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 107
+\BOOKMARK [0][-]{chapter.4}{Unsupervised Deep Anomaly Detection Methods}{}% 108
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 109
+\BOOKMARK [1][-]{section.4.2}{Related Work}{chapter.4}% 110
+\BOOKMARK [2][-]{subsection.4.2.1}{A tour of anomaly detection methods}{section.4.2}% 111
+\BOOKMARK [2][-]{subsection.4.2.2}{PCA for anomaly detection}{section.4.2}% 112
+\BOOKMARK [2][-]{subsection.4.2.3}{Autoencoders for anomaly detection}{section.4.2}% 113
+\BOOKMARK [2][-]{subsection.4.2.4}{Robust PCA}{section.4.2}% 114
+\BOOKMARK [2][-]{subsection.4.2.5}{Direct robust matrix factorization}{section.4.2}% 115
+\BOOKMARK [2][-]{subsection.4.2.6}{Robust kernel PCA}{section.4.2}% 116
+\BOOKMARK [1][-]{section.4.3}{The Proposed Approach}{chapter.4}% 117
+\BOOKMARK [2][-]{subsection.4.3.1}{Robust \(convolutional\) autoencoders}{section.4.3}% 118
+\BOOKMARK [2][-]{subsection.4.3.2}{Training the model}{section.4.3}% 119
+\BOOKMARK [2][-]{subsection.4.3.3}{Predicting with the model}{section.4.3}% 120
+\BOOKMARK [2][-]{subsection.4.3.4}{Connection to robust PCA}{section.4.3}% 121
+\BOOKMARK [2][-]{subsection.4.3.5}{Relation to existing models}{section.4.3}% 122
+\BOOKMARK [1][-]{section.4.4}{Experimental Setup}{chapter.4}% 123
+\BOOKMARK [2][-]{subsection.4.4.1}{Methods compared}{section.4.4}% 124
+\BOOKMARK [2][-]{subsection.4.4.2}{Datasets}{section.4.4}% 125
+\BOOKMARK [2][-]{subsection.4.4.3}{Evaluation methodology}{section.4.4}% 126
+\BOOKMARK [2][-]{subsection.4.4.4}{Network parameters}{section.4.4}% 127

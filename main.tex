@@ -1,0 +1,255 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Basic Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[oneside,12pt,a4paper]{report}
+\usepackage{SETUP/Suthesis-2e}
+\usepackage{datetime}
+\usepackage[textwidth=14.5cm,inner=3.75cm,outer=2.75cm,top=1in,bottom=1in,footskip=20pt,includehead,includefoot,heightrounded]{geometry}
+\usepackage{bibentry}
+\nobibliography* % provides bibliography entries in list of publications
+%=== Other Packages Required As Needed =================
+\usepackage{tabularx,enumerate,graphicx, times, epsfig, amssymb,amsfonts, amsmath, xcolor, rotating, url, pifont, pbox, booktabs, float, caption,titlesec}
+\graphicspath{ {FIGURES/} }
+\usepackage[colorlinks=true,linkcolor=blue, linktocpage,
+  citecolor=red]{hyperref}
+
+%% Survey Paper
+\usepackage{multirow,verbatim,soul,color,colortbl,url}
+\newcommand{\yeah}{\checkmark}
+\newcommand{\nope}{ {\small \ding{55}} }
+
+%% Static GAD paper
+\usepackage[noend]{algpseudocode}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{cuted}
+
+\usepackage{amssymb}
+\usepackage{pbox}
+\usepackage{amsmath}
+\usepackage{pbox}
+\usepackage{balance}
+\usepackage{flushend}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+
+\usepackage{mathtools}
+
+
+% \usepackage[tableposition=top]{caption}
+% \usepackage{url}
+% \usepackage{graphicx}
+% \usepackage{caption,booktabs}
+% \usepackage{multirow}
+%
+% \usepackage{subfig}
+%
+
+% \captionsetup{
+%   justification = centering
+% }
+
+
+\providecommand\phantomsection{}
+
+
+%Fancy placeholder figures in LaTeX:
+\newcommand{\dummyfig}[1]{
+	\centering
+	\fbox{
+		\begin{minipage}[c][0.2\textheight][c]{0.5\textwidth}
+			\centering{#1}
+		\end{minipage}
+	}
+}
+
+\newcommand{\HRule}{
+\begin{center}
+\rule{0.9\textwidth}{.4pt}
+\end{center}
+}
+
+
+%% Dynamic GAD paper
+%%% SYMBOLS
+\usepackage{stackengine}
+\newcommand\stackplus[2]{%
+\mathrel{\stackunder[4pt]{\stackon[2pt]{$\oplus$}{$\scriptstyle#2$}}{%
+$  \scriptstyle#1$}}
+}
+\newcommand\stackcup[2]{%
+\mathrel{\stackunder[4pt]{\stackon[2pt]{$\cup$}{$\scriptstyle#2$}}{%
+$  \scriptstyle#1$}}
+}
+
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+\algnewcommand\INPUT{\item[\textbf{Input:}] }%
+\algnewcommand\OUTPUT{\item[\textbf{Output:}]  }%
+\usepackage[mathscr]{euscript}
+\newcommand{\powerset}{\raisebox{.15\baselineskip}{\Large\ensuremath{\wp}}}
+\newcommand{\algorithmicbreak}{\textbf{break}}
+\newcommand{\BREAK}{\State \algorithmicbreak}
+
+%=== Some Definitions ==================================
+%\setcounter{page}{1}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{4}
+%
+\renewcommand{\contentsname}{Table of Contents}
+
+
+%%%% Some New Definitions
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\E}{\mathbf{E}}
+\newcommand{\I}{\mathbf{I}}
+\newcommand{\J}{\mathbf{J}}
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\R}{\mathbf{R}}
+\renewcommand{\S}{\mathbf{S}}
+\newcommand{\T}{\mathbf{T}}
+\newcommand{\U}{\mathbf{U}}
+\newcommand{\V}{\mathbf{V}}
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\sanjay}[1]{\hl{\footnote{\hl{Sanjay: #1}}}}
+\usepackage{upgreek}
+\newcommand{\sign}{\mathrm{sign}}
+\newcommand{\argmin}{\operatorname{argmin}\, }
+% \newcommand{\argmax}{\operatorname{argmax}\, }
+
+% \newcommand{\E}[2]{\mathbb{E}_{#1}\left[ #2 \right]}
+
+\newcommand{\indicator}[1]{\llbracket #1 \rrbracket}
+\newcommand{\bias}{r}
+\newcommand{\XCal}{\mathscr{X}}
+\newcommand{\HCal}{\mathscr{H}}
+% \newcommand{\Real}{\mathbb{R}}
+\newcommand{\mbf}{\mathbf}% math bold
+\usepackage{amsthm}
+\usepackage{subcaption}
+% \usepackage{subfigure}
+\newtheorem{theorem}{Theorem}
+
+
+
+% End of some new definitions
+
+
+
+
+
+
+%=== Read-In Compile Options ===========================
+%\input{SETUP/draftmode.tex}		% Draft Mode
+%\input{SETUP/includeonly.tex}		% Chapters to Compile
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Begin Main Body %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%=== Begin Thesis ======================================
+\begin{document}
+%\begin{thesis}
+
+%\headingsoff
+
+%=== Include Sub-LaTeX files ===========================
+
+%--- Cover Page ---------------------
+\include{PREFACE/cover}
+
+%--- Preface ------------------------
+\include{PREFACE/abstract}
+\include{PREFACE/dedication}
+\include{PREFACE/acknowledgement}
+\include{PREFACE/listofpublications}
+\include{PREFACE/ToC}
+
+
+%\headingson
+%--- Chapters -----------------------
+%%% Survey Paper
+\include{Survey/Intro}
+\include{Survey/aspectsOfAnomalyDetection}
+\include{Survey/applicationOfAD}
+\input{Survey/deepAnomalyDetectionModels}
+\input{Survey/locatingAnomalies}
+\input{Survey/relativeSOW}
+\input{Survey/conclusion}
+% \include{Survey/MyModel}
+% \include{Survey/Conclusion}
+% % GAD Survey
+% \include{Survey/Comparison}
+
+
+%% Chapter-2 Supervised DAD
+% Supervised DAD-1
+\include{Contrib-A/src/intro}
+\include{Contrib-A/src/background}
+\include{Contrib-A/src/method}
+\include{Contrib-A/src/experiment-setup}
+\include{Contrib-A/src/experiment-results}
+\include{Contrib-A/src/conclusion}
+% Supervised DAD-2
+\include{Contrib-B/Intro}
+\include{Contrib-B/Related}
+\include{Contrib-B/method}
+\include{Contrib-B/experiment-setup}
+\include{Contrib-B/experiment-results}
+\include{Contrib-B/Conclusion}
+
+%Chapter-3 OneClass Neural Networks for  DAD
+\include{Contrib-C/src/intro}
+\include{Contrib-C/src/background}
+% \include{Contrib-C/src/method}
+\include{Contrib-C/src/experiment-setup}
+\include{Contrib-C/src/experiment-results}
+\include{Contrib-C/src/conclusion}
+
+
+
+
+%Chapter-4 Unsupervised  DAD
+\include{Contrib-D/src/intro}
+\include{Contrib-D/src/background}
+\include{Contrib-D/src/method}
+\include{Contrib-D/src/experiment-setup}
+\include{Contrib-D/src/experiment-results}
+\include{Contrib-D/src/conclusion}
+
+% Group Anomaly detection using DGM
+% DGMs
+\include{Contrib-E/src/intro}
+\include{Contrib-E/src/background}
+\include{Contrib-E/src/preliminaries}
+\include{Contrib-E/src/method}
+\include{Contrib-E/src/experiment-setup}
+\include{Contrib-E/src/experiment-results}
+\include{Contrib-E/src/conclusion}
+
+
+% Ending
+\include{discussion}
+\include{conclusion}
+
+
+
+%--- Bibliography -------------------
+%\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{SETUP/thesis_bib}
+\bibliography{MyBibFile,outlier}
+
+
+%=== End Thesis ========================================
+%\end{thesis}
+\end{document}

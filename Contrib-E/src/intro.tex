@@ -1,0 +1,71 @@
+\section[Deep Generative Models]{Group Anomaly Detection using Deep Generative Models \footnote{Joint paper where deep generative models are applied for detecting group anomalies. I specialise in formulating the deep generative models for group anomaly detection while Eddie specialise and describe the area of group anomaly detection.}
+} \label{sec:dgm}
+%\section{Introduction}
+This chapter proposes deep generative models (DGMs) for solving the static group anomaly detection (GAD) problem. GAD is a non-trivial problem for many real-world applications especially for more complicated group distributions in image datasets.  Images can be considered as groups of pixels or visual features however it is difficult to characterise the statistical properties of images.  Xiong et al. \cite{FGM} propose a novel GAD method applied to image data  however we attempt to improve these results by applying DGMS as they are successfully applied in many high-dimensional datasets %
+  \cite{schlegl2017unsupervised,xu2018unsupervised,an2015variational}.
+      The GAD problem in image datasets is useful and applicable to similar real-world challenges where group distributions are more complex and difficult to characterise.
+
+  Figure \ref{fig:GAD} depicts examples of  group anomalies where the innermost circle contains images exhibiting regular behaviours whereas the outer circle conveys group anomalies.
+% For example, if regular groups represent cat images then tiger images are point-based  group anomalies while a rotated cat is a distribution-based group anomaly (rotated cat features).
+ { Figure \ref{fig:GAD} (a) displays  anomalous  tiger images
+as well as $180^\circ$ rotation of cat images. %with rotated distributions of visual cat features.
+}  Plot (b) illustrates irregular mixtures of cats and dogs in a single image while plot (c) portrays anomalous images stitched  from different scene categories of cities, mountains and coastlines. %regular images involve  while the outer circle contains stitched images from different scenes.
+Our image data experiments will mainly focus on detecting group anomalies in these scenarios.
+
+
+ \begin{figure}[h]
+%\includegraphics[scale=0.38]
+\includegraphics[scale=0.5,%width=8.5cm, height=9.8cm,
+trim=0.5cm 0.2cm 0.5cm 0.8cm]
+%{inputGADAnomalies}
+{GADExample}
+\centering
+\caption{ Examples of point-based and distribution-based group anomalies in our image data experiments. The regular group behaviours represents images in the inner concentric circle while the outer circle contains images that are group anomalies. %Mean embedding vector $\mu$ characterises the expected group pattern.
+}
+\label{fig:GAD}
+\end{figure}
+
+
+
+%%ASK1 {Challenges} in Image Application
+%Even though the GAD for image datasets may seem like a straightforward comparison of images, many complications and challenges arise.
+ Many additional complications and challenges arise in GAD for image data.
+ As there is a dependency between the location of pixels in a high-dimensional space, appropriate features in an image are difficult to extract. An effective detection of group anomalies requires an adequate characterisation of images for model training.   Image quality is affected by factors include low resolution, poor illumination intensity, different viewing angles, different scaling and so on. % Another issue is that ground truth labels are usually unavailable for training or evaluation purposes so anomaly injection is usually applied.
+ Pre-processing, feature extraction and other techniques may resolve some of these challenges.
+
+
+In order to detect  group anomalies in various image applications, we propose using  deep generative models (DGMs).
+The main contributions of this chapter are: %\vspace{-1mm}
+\begin{itemize}
+\item We formulate DGMs for the GAD problem  using a group reference function.   Although DGMs have been applied in various image applications, they have not been applied for GAD. % of detecting group anomalies.
+\item  A comparison study is conducted  on both  synthetic and real-world datasets to demonstrate the effectiveness of  DGMs as compared to other GAD techniques. % that detect point-based anomalous images.
+%\item {\bf Scalability:} DNN  can be rapid and scalable compared to other ...
+\vspace{1mm}
+\end{itemize}
+
+
+\begin{comment}
+Figure~\ref{mse} shows the output of using a robust and deep autoencoder
+to recover images. The data set consists of images of dogs where each
+image has been corrupted with a small amount of noise. The proposed
+autoencoder is able to reconstruct the dog images but fails to
+properly reconstruct an image which has a dog and a boy. In fact,
+the image of the dog with the boy was discovered as part of the
+anomaly detection process using autoencoders.
+\begin{figure}[!t]
+	\centering
+	\includegraphics[scale=0.5]{otherClass}
+	\caption{Illustration of the  anomaly detection capability of deep inductive convolutional autoencoders.
+		The data set consists of ``dog'' images (first column).
+		Our proposed robust autoencoder decomposes an image $\X = \hat{\X} + \N$.
+		The $\hat{\X}$ (second column) shows the reconstructed image and $\N$ (third column) shows the difference between the original and the reconstructed image.
+		In the first row, a dog image is normal, while in the second row, an image of a flight  (an anomaly) is  reconstructed with high mean square error.}
+	\label{mse}
+	\vspace{-\baselineskip}
+\end{figure}
+\end{comment}
+
+The rest of the chapter is organised as follows. An overview of related work is provided (Section~\ref{DGM:RelatedWork}) and preliminaries for understanding approaches for detecting  group anomalies are described in Section~\ref{sec:preliminaries}.
+We formulate the GAD problem and then proceed to elaborate on our proposed solution that involves deep generative models (Section~\ref{sec:method}).
+Our experimental setup and key results are presented in Section~ \ref{sec:experiment-setup}  and Section ~\ref{sec:experiment-results} respectively.
+Finally, Section~\ref{sec:conclusion} provides a summary of our findings. % as well as recommends future directions for GAD research.

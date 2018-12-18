@@ -1,0 +1,127 @@
+\contentsline {chapter}{Abstract}{1}{chapter*.2}
+\contentsline {chapter}{Acknowledgements}{3}{chapter*.4}
+\contentsline {chapter}{List of Publications}{4}{chapter*.5}
+\contentsline {chapter}{Table of Contents}{6}{section*.6}
+\contentsline {chapter}{List of Figures}{11}{section*.8}
+\contentsline {chapter}{List of Tables}{13}{section*.10}
+\contentsline {chapter}{\numberline {1}Deep Learning for Anomaly Detection: A Survey}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2} What are anomalies ?}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}What are novelties ?}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Motivation and Challenges: Deep anomaly detection (DAD) techniques}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Related Work}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6} Our Contributions}{5}{section.1.6}
+\contentsline {section}{\numberline {1.7}Organization}{6}{section.1.7}
+\contentsline {section}{\numberline {1.8}Different aspects of deep learning-based anomaly detection. }{8}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1} Nature of Input Data}{8}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Based on Availability of labels}{8}{subsection.1.8.2}
+\contentsline {subsubsection}{\numberline {1.8.2.1}Supervised anomaly detection:}{9}{subsubsection.1.8.2.1}
+\contentsline {subsubsection}{\numberline {1.8.2.2}Semi-supervised anomaly detection:}{9}{subsubsection.1.8.2.2}
+\contentsline {subsubsection}{\numberline {1.8.2.3}Unsupervised anomaly detection (USAD):}{10}{subsubsection.1.8.2.3}
+\contentsline {subsection}{\numberline {1.8.3}Based on training objective}{10}{subsection.1.8.3}
+\contentsline {subsubsection}{\numberline {1.8.3.1}Deep Hybrid Models (DHM):}{10}{subsubsection.1.8.3.1}
+\contentsline {subsubsection}{\numberline {1.8.3.2}One-Class Neural Networks (OC-NN):}{11}{subsubsection.1.8.3.2}
+\contentsline {subsection}{\numberline {1.8.4}Type of Anomaly}{12}{subsection.1.8.4}
+\contentsline {subsubsection}{\numberline {1.8.4.1}Point Anomalies.}{12}{subsubsection.1.8.4.1}
+\contentsline {subsubsection}{\numberline {1.8.4.2}Contextual Anomaly Detection.}{12}{subsubsection.1.8.4.2}
+\contentsline {subsubsection}{\numberline {1.8.4.3}Collective or Group Anomaly Detection.}{13}{subsubsection.1.8.4.3}
+\contentsline {subsection}{\numberline {1.8.5}Output of DAD Techniques}{14}{subsection.1.8.5}
+\contentsline {subsubsection}{\numberline {1.8.5.1}Anomaly Score:}{14}{subsubsection.1.8.5.1}
+\contentsline {subsubsection}{\numberline {1.8.5.2}Labels:}{14}{subsubsection.1.8.5.2}
+\contentsline {section}{\numberline {1.9}Applications of Deep Anomaly Detection}{15}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Intrusion Detection}{15}{subsection.1.9.1}
+\contentsline {subsubsection}{\numberline {1.9.1.1}Host-Based Intrusion Detection Systems (HIDS):}{15}{subsubsection.1.9.1.1}
+\contentsline {subsubsection}{\numberline {1.9.1.2}Network Intrusion Detection Systems (NIDS):}{16}{subsubsection.1.9.1.2}
+\contentsline {subsection}{\numberline {1.9.2}Fraud Detection}{16}{subsection.1.9.2}
+\contentsline {subsubsection}{\numberline {1.9.2.1}Banking fraud:}{19}{subsubsection.1.9.2.1}
+\contentsline {subsubsection}{\numberline {1.9.2.2}Mobile cellular network fraud:}{20}{subsubsection.1.9.2.2}
+\contentsline {subsubsection}{\numberline {1.9.2.3}Insurance fraud:}{21}{subsubsection.1.9.2.3}
+\contentsline {subsubsection}{\numberline {1.9.2.4}Health insurance fraud:}{21}{subsubsection.1.9.2.4}
+\contentsline {subsection}{\numberline {1.9.3}Malware Detection}{23}{subsection.1.9.3}
+\contentsline {subsection}{\numberline {1.9.4}Medical Anomaly Detection:}{23}{subsection.1.9.4}
+\contentsline {subsection}{\numberline {1.9.5}Deep learning for Anomaly detection in Social Networks}{24}{subsection.1.9.5}
+\contentsline {subsection}{\numberline {1.9.6}Log Anomaly Detection:}{25}{subsection.1.9.6}
+\contentsline {subsection}{\numberline {1.9.7}Internet of things (IoT) Big Data Anomaly Detection}{26}{subsection.1.9.7}
+\contentsline {subsection}{\numberline {1.9.8}Industrial Anomalies Detection}{27}{subsection.1.9.8}
+\contentsline {subsection}{\numberline {1.9.9}Anomaly Detection in Time Series }{27}{subsection.1.9.9}
+\contentsline {subsection}{\numberline {1.9.10}Video Surveillance}{30}{subsection.1.9.10}
+\contentsline {section}{\numberline {1.10}Deep Anomaly Detection (DAD) Models}{32}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Supervised Deep Anomaly Detection}{32}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Semi-supervised Deep Anomaly Detection (DAD)}{33}{subsection.1.10.2}
+\contentsline {subsection}{\numberline {1.10.3}Hybrid Deep Anomaly Detection (DAD) Models}{35}{subsection.1.10.3}
+\contentsline {subsection}{\numberline {1.10.4}One class Neural Networks (OC-NN) for Anomaly Detection}{38}{subsection.1.10.4}
+\contentsline {subsection}{\numberline {1.10.5}Un-supervised Deep Anomaly Detection (UDAD)}{39}{subsection.1.10.5}
+\contentsline {subsection}{\numberline {1.10.6}Miscellaneous Techniques}{42}{subsection.1.10.6}
+\contentsline {subsubsection}{\numberline {1.10.6.1}Transfer Learning based anomaly detection : }{42}{subsubsection.1.10.6.1}
+\contentsline {subsubsection}{\numberline {1.10.6.2}Zero Shot learning based anomaly detection:}{42}{subsubsection.1.10.6.2}
+\contentsline {subsubsection}{\numberline {1.10.6.3}Ensemble based anomaly detection:}{43}{subsubsection.1.10.6.3}
+\contentsline {subsubsection}{\numberline {1.10.6.4}Clustering based anomaly detection:}{43}{subsubsection.1.10.6.4}
+\contentsline {subsubsection}{\numberline {1.10.6.5}Deep Reinforcement Learning (DRL) based anomaly detection:}{43}{subsubsection.1.10.6.5}
+\contentsline {subsubsection}{\numberline {1.10.6.6}Statistical Techniques based anomaly detection: }{44}{subsubsection.1.10.6.6}
+\contentsline {section}{\numberline {1.11}Deep Neural Network Architectures for Locating Anomalies}{44}{section.1.11}
+\contentsline {subsection}{\numberline {1.11.1}Deep Neural Networks}{44}{subsection.1.11.1}
+\contentsline {subsection}{\numberline {1.11.2}Spatio Temporal Networks (STN)}{45}{subsection.1.11.2}
+\contentsline {subsection}{\numberline {1.11.3} Sum-Product Networks (SPN)}{45}{subsection.1.11.3}
+\contentsline {subsection}{\numberline {1.11.4}Word2vec Models}{45}{subsection.1.11.4}
+\contentsline {subsection}{\numberline {1.11.5}Generative Models }{46}{subsection.1.11.5}
+\contentsline {subsection}{\numberline {1.11.6}Convolutional Neural Networks }{46}{subsection.1.11.6}
+\contentsline {subsection}{\numberline {1.11.7}Sequence Models}{46}{subsection.1.11.7}
+\contentsline {subsection}{\numberline {1.11.8}Autoencoders}{47}{subsection.1.11.8}
+\contentsline {section}{\numberline {1.12} Relative Strengths and Weakness : Deep Anomaly Detection Methods}{48}{section.1.12}
+\contentsline {section}{\numberline {1.13}Conclusion}{49}{section.1.13}
+\contentsline {chapter}{\numberline {2}Supervised Deep Anomaly Detection Methods}{50}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{50}{section.2.1}
+\contentsline {section}{\numberline {2.2}Related Work}{52}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Proposed Approach}{53}{section.2.3}
+\contentsline {section}{\numberline {2.4}Experimental Setup}{56}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Datasets}{56}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Evaluation Methodology}{56}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Experimental Results}{57}{section.2.5}
+\contentsline {section}{\numberline {2.6}Conclusion}{58}{section.2.6}
+\contentsline {section}{\numberline {2.7}Problem Introduction}{59}{section.2.7}
+\contentsline {section}{\numberline {2.8}Related Work}{61}{section.2.8}
+\contentsline {section}{\numberline {2.9}Method}{63}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Word Embeddings}{63}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Bidirectional LSTM-CRF Networks}{64}{subsection.2.9.2}
+\contentsline {section}{\numberline {2.10} Experiment Setup}{65}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Datasets}{65}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Evaluation Methodology}{65}{subsection.2.10.2}
+\contentsline {subsection}{\numberline {2.10.3}Results and Analysis}{66}{subsection.2.10.3}
+\contentsline {section}{\numberline {2.11}Conclusion }{67}{section.2.11}
+\contentsline {chapter}{\numberline {3}One-Class Neural Networks for Anomaly Detection}{68}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{68}{section.3.1}
+\contentsline {section}{\numberline {3.2}Related Work}{71}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Robust Deep Autoencoders for anomaly detection}{71}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}One-Class SVM for anomaly detection}{72}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Experimental Setup}{73}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Methods compared}{73}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Datasets}{74}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Evaluation of Models}{74}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}\textbf {Baseline Model Parameters:}}{74}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2} \textbf {Deep Baseline Models:}}{75}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3} \textbf {One-class neural Networks (OC-NN):}}{75}{subsubsection.3.3.3.3}
+\contentsline {section}{\numberline {3.4}Experimental Results}{77}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\tt OC-NN for Synthetic Data}{77}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}\tt OC-NN on MNIST and CIFAR-10}{78}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}\tt Detecting Adversarial attacks on GTSRB stop signs using OC-NN }{79}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Conclusion}{82}{section.3.5}
+\contentsline {chapter}{\numberline {4}Unsupervised Deep Anomaly Detection Methods}{83}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{83}{section.4.1}
+\contentsline {section}{\numberline {4.2}Related Work}{85}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}A tour of anomaly detection methods}{85}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}PCA for anomaly detection}{85}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Autoencoders for anomaly detection}{86}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Robust PCA}{86}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Direct robust matrix factorization}{87}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Robust kernel PCA}{87}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}The Proposed Approach}{89}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Robust (convolutional) autoencoders}{89}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Training the model}{90}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Predicting with the model}{90}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Connection to robust PCA}{91}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Relation to existing models}{92}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Experimental Setup}{93}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Methods compared}{93}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Datasets}{93}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Evaluation methodology}{94}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Network parameters}{95}{subsection.4.4.4}

@@ -1,0 +1,34 @@
+%!TEX root = ../../main.tex
+\subsection{Deep learning for Anomaly detection in Social Networks}
+In recent times, online social networks has become part and parcel of daily life. Anomalies in social network
+are irregular often unlawfull behaviour pattern of individuals within a social network, such  individuals may be identified as  spammers, sexual predators, online fraudsters, fake users or rumour-mongers. Detecting these irregular patterns is of prime importance since if not detected, the act of such indivuals can have serious social impact. A survey of classical anomaly detection techniques in social networks is presented by ~\cite{savage2014anomaly,anand2017anomaly,yu2016survey,cao2018automatic,yu2016survey}.
+Besides the challenges of classical anomaly detection ~\cite{liu2017social} tasks, social network anomaly detection lead to new challenges due to  heterogeneous and dynamic nature of data. In this section we review the deep anomaly models used for anomaly detection in social networks as illustrated in Table ~\ref{tab:socialNetworkAnomalyDetect}.
+
+% Table
+\begin{table*}
+  \begin{center}
+   \caption{Examples of Deep learning anomaly detection techniques used to detect anomalies in social network.
+            \\CNN: Convolution Neural Networks, LSTM : Long Short Term Memory Networks
+            \\AE: Autoencoders, DAE: Denoising Autoencoders
+            \\SVM : Support Vector Machines., DNN : Deep Neural Network  }
+    \label{tab:socialNetworkAnomalyDetect}
+    \begin{tabular}{l|p{4cm}|p{5cm}}
+      \textbf{Technique Used} & \textbf{Section} & \textbf{References}\\
+      \hline
+      AE,DAE &  Section ~\ref{sec:ae}  & ~\cite{zhang2017detecting},~\cite{castellini2017fake}\\\hline
+      CNN-LSTM & Section ~\ref{sec:cnn}, ~\ref{sec:rnn_lstm_gru} & ~\cite{sun2018detecting},~\cite{shu2017doc},~\cite{yang2018anomaly}\\\hline
+      DNN & Section ~\ref{sec:dnn}  & ~\cite{li2017detecting}\\\hline
+      Hybrid Models (CNN-LSTM-SVM) & Section ~\ref{sec:hybridModels}  & ~\cite{wei2017new}\\\hline
+    \end{tabular}
+  \end{center}
+\end{table*}
+
+
+
+
+
+% Science is a belief in the ingnorance of experts
+% Measure of ignorance; Data Artist
+% Find Worst Case: Piano
+%New Ideas in Business and Intelligence and customer analytics
+%Learn the rules like a professional but break like an artist

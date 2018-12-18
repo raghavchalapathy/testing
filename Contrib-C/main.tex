@@ -1,0 +1,336 @@
+%%%% Small single column format, used for CIE, CSUR, DTRAP, JACM, JDIQ, JEA, JERIC, JETC, PACMCGIT, TAAS, TACCESS, TACO, TALG, TALLIP (formerly TALIP), TCPS, TDSCI, TEAC, TECS, THRI, TIIS, TIOT, TISSEC, TIST, TKDD, TMIS, TOCE, TOCHI, TOCL, TOCS, TOCT, TODAES, TODS, TOIS, TOIT, TOMACS, TOMM (formerly TOMCCAP), TOMPECS, TOMS, TOPC, TOPLAS, TOPS, TOS, TOSEM, TOSN, TRETS, TSAS, TSC, TSLP, TWEB.
+% \documentclass[format=acmsmall, review=false, screen=true]{acmart}
+
+%%%% Large single column format, used for IMWUT, JOCCH, PACMPL, POMACS, TAP, PACMHCI
+% \documentclass[acmlarge]{acmart}
+
+%%%% Large double column format, used for TOG
+% \documentclass[acmtog, authorversion]{acmart}
+
+%%%% Generic manuscript mode
+% add review
+\documentclass[manuscript, review, screen]{acmart}
+%\setcitestyle{super,sort&compress}
+\citestyle{acmauthoryear}
+\usepackage{booktabs} % For formal tables
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage[tableposition=top]{caption}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{subfig}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{booktabs} % For formal tables
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{soul,color,colortbl}
+\usepackage{xcolor}
+\usepackage{upgreek}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{subfig}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{cuted}
+\usepackage[noend]{algpseudocode}
+\usepackage{amssymb}
+\usepackage{pbox}
+\usepackage{amsmath}
+\usepackage{pbox}
+\usepackage{balance}
+\usepackage{flushend}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage{algorithm}
+
+
+\begingroup
+\catcode`[=\active \catcode`]=\active
+
+% Define a meaning for active [ and ]
+\gdef[{\llbracket} \gdef]{\rrbracket}
+
+% Now take care of the \delcode of [ and ] for \left and \right
+% First a temporary macro
+\def\getdelim#1#2#3#4\relax{"#4}
+% Use the temporary macro to get the right delcodes out of
+% the meaning of \llbracket and \rrbracket
+\global\delcode`[=\expandafter\getdelim\llbracket\relax
+\global\delcode`]=\expandafter\getdelim\rrbracket\relax
+\endgroup
+
+
+
+\newcommand{\sign}{\mathrm{sign}}
+\newcommand{\argmin}{\operatorname{argmin}\, }
+\newcommand{\argmax}{\operatorname{argmax}\, }
+
+\newcommand{\E}[2]{\mathbb{E}_{#1}\left[ #2 \right]}
+
+\newcommand{\indicator}[1]{\llbracket #1 \rrbracket}
+\newcommand{\bias}{r}
+\newcommand{\XCal}{\mathscr{X}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+% \newcommand{\E}{\mathbf{E}}
+\newcommand{\I}{\mathbf{I}}
+\newcommand{\J}{\mathbf{J}}
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\R}{\mathbf{R}}
+\renewcommand{\S}{\mathbf{S}}
+\newcommand{\T}{\mathbf{T}}
+% \newcommand{\U}{\mathbf{U}}
+\newcommand{\V}{\mathbf{V}}
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\HCal}{\mathscr{H}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\mbf}{\mathbf}% math bold
+
+\newcommand{\sanjay}[1]{\hl{\footnote{\hl{Sanjay: #1}}}}
+
+
+\newtheorem{theorem}{Theorem}
+
+
+
+% Metadata Information
+% \acmJournal{CIE}
+% \acmVolume{9}
+% \acmNumber{4}
+% \acmArticle{39}
+\acmYear{2018}
+% \acmMonth{3}
+
+%\acmBadgeL[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
+%\acmBadgeR[http://ctuning.org/ae/ppopp2016.html]{ae-logo}
+
+% Copyright
+% \setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+% DOI
+% \acmDOI{0000001.0000001}
+
+
+% Document starts
+\begin{document}
+% Title portion
+\title{Anomaly Detection using One-Class Neural Networks}
+\author{Raghavendra Chalapathy}
+\affiliation{
+  \institution{University of Sydney, Capital Markets CRC  }
+  \streetaddress{J12 Camperdown, 3/55 Harrington St }
+  \city{Sydney}
+  \state{NSW}
+  \postcode{2000}
+  \country{Australia}}
+\email{rcha9612@uni.sydney.edu.au}
+
+
+\author{ Aditya Krishna Menon }
+\affiliation{
+  \institution{Data61/CSIRO and the Australian National University }
+%  \streetaddress{J12 Camperdown, 3/55 Harrington St }
+  \city{Canberra}
+  \state{ACT}
+%   \postcode{2000}
+  \country{ }}
+\email{aditya.menon@data61.csiro.au}
+
+
+\author{Sanjay Chawla}
+\affiliation{
+  \institution{Qatar Computing Research Institute, Hamad Bin Khalifa University (HBKU)}
+  \streetaddress{Ar-Rayyan}
+  \city{ Qatar}
+  \state{Qatar}
+  \postcode{23185}
+  \country{Qatar}}
+\email{schawla@hbku.edu.qa}
+
+%  \titlenote{This is a titlenote}
+%  \subtitle{This is a subtitle}
+%  \subtitlenote{Subtitle note}
+
+% \author{Gang Zhou}
+% \orcid{1234-5678-9012-3456}
+% \affiliation{%
+%   \institution{College of William and Mary}
+%   \streetaddress{104 Jamestown Rd}
+%   \city{Williamsburg}
+%   \state{VA}
+%   \postcode{23185}
+%   \country{USA}}
+% \email{gang_zhou@wm.edu}
+% \author{Valerie B\'eranger}
+% \affiliation{%
+%   \institution{Inria Paris-Rocquencourt}
+%   \city{Rocquencourt}
+%   \country{France}
+% }
+% \email{beranger@inria.fr}
+% \author{Aparna Patel}
+% \affiliation{%
+%  \institution{Rajiv Gandhi University}
+%  \streetaddress{Rono-Hills}
+%  \city{Doimukh}
+%  \state{Arunachal Pradesh}
+%  \country{India}}
+% \email{aprna_patel@rguhs.ac.in}
+% \author{Huifen Chan}
+% \affiliation{%
+%   \institution{Tsinghua University}
+%   \streetaddress{30 Shuangqing Rd}
+%   \city{Haidian Qu}
+%   \state{Beijing Shi}
+%   \country{China}
+% }
+% \email{chan0345@tsinghua.edu.cn}
+% \author{Ting Yan}
+% \affiliation{%
+%   \institution{Eaton Innovation Center}
+%   \city{Prague}
+%   \country{Czech Republic}}
+% \email{yanting02@gmail.com}
+% \author{Tian He}
+% \affiliation{%
+%   \institution{University of Virginia}
+%   \department{School of Engineering}
+%   \city{Charlottesville}
+%   \state{VA}
+%   \postcode{22903}
+%   \country{USA}
+% }
+% \affiliation{%
+%   \institution{University of Minnesota}
+%   \country{USA}}
+% \email{tinghe@uva.edu}
+% \author{Chengdu Huang}
+% \author{John A. Stankovic}
+% \author{Tarek F. Abdelzaher}
+% \affiliation{%
+%   \institution{University of Virginia}
+%   \department{School of Engineering}
+%   \city{Charlottesville}
+%   \state{VA}
+%   \postcode{22903}
+%   \country{USA}
+% }
+
+% \renewcommand\shortauthors{Raghav, Chalapathy. et al}
+\renewcommand{\shortauthors}{R. Chalapathy et al.}
+
+
+
+\begin{abstract}
+\noindent\rule{\textwidth}{1pt}
+% \line(1,0){450}
+
+\input{src/abstract}
+\end{abstract}
+
+
+
+
+
+
+
+
+%
+% The code below should be generated by the tool at
+% http://dl.acm.org/ccs.cfm
+% Please copy and paste the code instead of the example below.
+%
+% \begin{CCSXML}
+% <ccs2012>
+%  <concept>
+%   <concept_id>10010520.10010553.10010562</concept_id>
+%   <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+%   <concept_significance>500</concept_significance>
+%  </concept>
+%  <concept>
+%   <concept_id>10010520.10010575.10010755</concept_id>
+%   <concept_desc>Computer systems organization~Redundancy</concept_desc>
+%   <concept_significance>300</concept_significance>
+%  </concept>
+%  <concept>
+%   <concept_id>10010520.10010553.10010554</concept_id>
+%   <concept_desc>Computer systems organization~Robotics</concept_desc>
+%   <concept_significance>100</concept_significance>
+%  </concept>
+%  <concept>
+%   <concept_id>10003033.10003083.10003095</concept_id>
+%   <concept_desc>Networks~Network reliability</concept_desc>
+%   <concept_significance>100</concept_significance>
+%  </concept>
+% </ccs2012>
+% \end{CCSXML}
+
+% \ccsdesc[500]{Computer systems organization~Embedded systems}
+% \ccsdesc[300]{Computer systems organization~Redundancy}
+% \ccsdesc{Computer systems organization~Robotics}
+% \ccsdesc[100]{Networks~Network reliability}
+
+% %
+% % End generated code
+% %
+
+
+
+\keywords{anomalies, outlier, novelty, deep learning}
+\maketitle
+
+
+
+\section{Anomaly detection: motivation and challenges}
+\input{src/intro}
+
+\section{Background and related work on anomaly detection}
+\label{sec:background}
+\label{sec:related}
+\input{src/background}
+
+\section{From One Class SVM  to One Class Neural Networks}
+\label{sec:method}
+\input{src/method}
+
+\section{Experimental setup}
+\label{sec:experiment-setup}
+\input{src/experiment-setup}
+% The new  experimental setup and results are forthcoming, and that there were technical issues discovered with previously posted results.
+
+\section{Experimental results}
+\label{sec:experiment-results}
+\input{src/experiment-results}
+% The new  experimental setup and results are forthcoming, and that there were technical issues discovered with previously posted results.
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{src/conclusion}
+
+% \input{samplebody-journals}
+% Bibliography
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-bibliography}
+\bibliography{outlier}
+\end{document}

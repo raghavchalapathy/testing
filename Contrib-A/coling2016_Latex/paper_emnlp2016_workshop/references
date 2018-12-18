@@ -1,0 +1,39 @@
+
+2. Warrer, P.; Hansen, W.; Juhl-Jensen, L.; Aagaard, L. Using text-mining techniques in electronic patient records to identify ADRs from medicine use. Br. J. Clin. Pharmacol. 2012, 73, 674–684.
+3. Segura-Bedmar, I.; Martínez, P.; Segura-Bedmar, M. Drug name recognition and classification in biomedical texts: A case study outlining approaches underpinning automated systems. Drug Discov. Today 2008, 13, 816–823.
+
+4 Text mining for pharmacovigilance: Using machine learning for
+drug name recognition and drug–drug interaction extraction and
+classification
+Asma Ben Abacha a,⇑
+, Md. Faisal Mahbub Chowdhury b
+, Aikaterini Karanasiou a
+, Yassine Mrabet a
+,
+Alberto Lavelli c
+, Pierre Zweigenbaum d
+a Luxembourg Institute of Science and Technology, Luxembourg
+b IBM Research, NY, USA
+c HLT Research Unit, FBK, Trento, Italy
+d LIMSI-CNRS, Orsay, France
+
+[5] Hettne, K.; Stierum, R.; Schuemie, M.; Hendriksen, P.J.; Schijvenaars, B.J.; Mulligen, E.M.; Kleinjans, J.; Kors, J.A. A dictionary to identify small molecules and drugs in free text. Bioinformatics 2009, 25, 2983–2991
+
+[6] Tikk, D.; Solt, I. Improving textual medication extraction using combined conditional random fields and rule-based systems. J. Am. Med. Inform. Assoc. 2010, 17, 540–544.
+
+[7] Hamon, T.; Grabar, N. Linguistic approach for identification of medication names and related information in clinical narratives. J. Am. Med. Inform. Assoc. 2010, 17, 549–554
+
+[8] Drug Name Recognition: Approaches and Resources Shengyu Liu †, Buzhou Tang †, Qingcai Chen * and Xiaolong Wang Information 2015, 6, 790-810; doi:10.3390/info6040790
+
+[9] Björne, J.; Kaewphan, S.; Salakoski, T. UTurku: Drug named entity detection and drug-drug interaction extraction using SVM classification and domain knowledge. In Proceedings of the 7th International Workshop on Semantic Evaluation, Atlanta, GA, USA, 14–15 June 2013; pp. 651–659
+
+[10] Malyszko, J.; Filipowska, A. Lexicon-free and context-free drug names identification methods using hidden markov models and pointwise mutual information. In Proceedings of the 6th International Workshop on Data and Text Mining in Biomedical Informatics, Maui, HI, USA, 29 October–2 November 2012; pp. 9–12
+
+[11] Halgrim, S.; Xia, F.; Solti,
+I.; Cadag, E.; Uzuner, O. A cascade of classifiers for extracting medication information from discharge summaries. J. Biomed. Semant. 2011, 2(S3), S2.
+
+[12]Abacha, A.B.; Chowdhury, M.F.M.; Karanasiou, A.; Mrabet, Y.; Lavelli, A.; Zweigenbaum, P. Text mining for pharmacovigilance: Using machine learning for drug name recognition and drug-drug interaction extraction and classification. J. Biomed. Inform. 2015, 58, 122–132.
+
+[13]Leal, A.; Martins, B.; Couto, F.M. ULisboa: Recognition and normalization of medical concepts. In Proceedings of the 9th International Workshop on Semantic Evaluation, Denver, CO, USA, 4–5 June 2015; pp. 406–411.
+
+[14] Tang, B.; Wu, Y.; Jiang, M.; Denny, J.; Xu, H. Recognizing and encoding disorder concepts in clinical text using machine learning and vector space model. In Proceedings of the Online Working Notes of the CLEF 2013 Evaluation Labs and Workshop, Valencia, Spain, 23–26 September 2013

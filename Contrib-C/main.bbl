@@ -1,0 +1,445 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{33}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Abadi, Agarwal, Barham, Brevdo, Chen, Citro,
+  Corrado, Davis, Dean, Devin, et~al\mbox{.}}{Abadi et~al\mbox{.}}{2016}]%
+        {abadi2016tensorflow}
+\bibfield{author}{\bibinfo{person}{Mart{\'\i}n Abadi}, \bibinfo{person}{Ashish
+  Agarwal}, \bibinfo{person}{Paul Barham}, \bibinfo{person}{Eugene Brevdo},
+  \bibinfo{person}{Zhifeng Chen}, \bibinfo{person}{Craig Citro},
+  \bibinfo{person}{Greg~S Corrado}, \bibinfo{person}{Andy Davis},
+  \bibinfo{person}{Jeffrey Dean}, \bibinfo{person}{Matthieu Devin},
+  {et~al\mbox{.}}} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Tensorflow: Large-scale machine learning on
+  heterogeneous distributed systems}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1603.04467}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Aggarwal}{Aggarwal}{2016}]%
+        {charubook}
+\bibfield{author}{\bibinfo{person}{Charu~C Aggarwal}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Outlier Analysis} (\bibinfo{edition}{2nd}
+  ed.)}.
+\newblock \bibinfo{publisher}{Springer}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrews, Morton, and Griffin}{Andrews
+  et~al\mbox{.}}{2016a}]%
+        {andrews2016detecting}
+\bibfield{author}{\bibinfo{person}{Jerone~TA Andrews},
+  \bibinfo{person}{Edward~J Morton}, {and} \bibinfo{person}{Lewis~D Griffin}.}
+  \bibinfo{year}{2016}\natexlab{a}.
+\newblock \showarticletitle{Detecting anomalous data using auto-encoders}.
+\newblock \bibinfo{journal}{\emph{International Journal of Machine Learning and
+  Computing}} \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{21}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrews, Tanay, Morton, and Griffin}{Andrews
+  et~al\mbox{.}}{2016b}]%
+        {andrews2016transfer}
+\bibfield{author}{\bibinfo{person}{Jerone~TA Andrews}, \bibinfo{person}{Thomas
+  Tanay}, \bibinfo{person}{Edward~J Morton}, {and} \bibinfo{person}{Lewis~D
+  Griffin}.} \bibinfo{year}{2016}\natexlab{b}.
+\newblock \showarticletitle{Transfer representation-learning for anomaly
+  detection}. ICML.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bengio, LeCun, et~al\mbox{.}}{Bengio
+  et~al\mbox{.}}{2007}]%
+        {bengio2007scaling}
+\bibfield{author}{\bibinfo{person}{Yoshua Bengio}, \bibinfo{person}{Yann
+  LeCun}, {et~al\mbox{.}}} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Scaling learning algorithms towards AI}.
+\newblock \bibinfo{journal}{\emph{Large-scale kernel machines}}
+  \bibinfo{volume}{34}, \bibinfo{number}{5} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1--41}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Boyd and Vandenberghe}{Boyd and
+  Vandenberghe}{2004}]%
+        {boyd2004convex}
+\bibfield{author}{\bibinfo{person}{Stephen Boyd} {and} \bibinfo{person}{Lieven
+  Vandenberghe}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Convex optimization}}.
+\newblock \bibinfo{publisher}{Cambridge university press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brendel, Rauber, and Bethge}{Brendel
+  et~al\mbox{.}}{2017}]%
+        {brendel2017decision}
+\bibfield{author}{\bibinfo{person}{Wieland Brendel}, \bibinfo{person}{Jonas
+  Rauber}, {and} \bibinfo{person}{Matthias Bethge}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Decision-based adversarial attacks: Reliable
+  attacks against black-box machine learning models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1712.04248}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cao, Chua, Chong, Lee, and Gu}{Cao
+  et~al\mbox{.}}{2003}]%
+        {cao2003comparison}
+\bibfield{author}{\bibinfo{person}{LJ Cao}, \bibinfo{person}{Kok~Seng Chua},
+  \bibinfo{person}{WK Chong}, \bibinfo{person}{HP Lee}, {and}
+  \bibinfo{person}{QM Gu}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{A comparison of PCA, KPCA and ICA for
+  dimensionality reduction in support vector machine}.
+\newblock \bibinfo{journal}{\emph{Neurocomputing}} \bibinfo{volume}{55},
+  \bibinfo{number}{1-2} (\bibinfo{year}{2003}), \bibinfo{pages}{321--336}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chalapathy, Menon, and Chawla}{Chalapathy
+  et~al\mbox{.}}{2017}]%
+        {chalapathy2017robust}
+\bibfield{author}{\bibinfo{person}{Raghavendra Chalapathy},
+  \bibinfo{person}{Aditya~Krishna Menon}, {and} \bibinfo{person}{Sanjay
+  Chawla}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Robust, Deep and Inductive Anomaly Detection}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1704.06743}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chandola, Banerjee, and Kumar}{Chandola
+  et~al\mbox{.}}{2007}]%
+        {chandola2007outlier}
+\bibfield{author}{\bibinfo{person}{Varun Chandola}, \bibinfo{person}{Arindam
+  Banerjee}, {and} \bibinfo{person}{Vipin Kumar}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Outlier detection: A survey}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} (\bibinfo{year}{2007}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chollet et~al\mbox{.}}{Chollet
+  et~al\mbox{.}}{2015}]%
+        {chollet2015keras}
+\bibfield{author}{\bibinfo{person}{Fran\c{c}ois Chollet} {et~al\mbox{.}}}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Keras}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/keras-team/keras}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chong and Tay}{Chong and Tay}{2017}]%
+        {chong2017abnormal}
+\bibfield{author}{\bibinfo{person}{Yong~Shean Chong} {and}
+  \bibinfo{person}{Yong~Haur Tay}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Abnormal event detection in videos using
+  spatiotemporal autoencoder}. In \bibinfo{booktitle}{\emph{International
+  Symposium on Neural Networks}}. Springer, \bibinfo{pages}{189--196}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Erfani, Rajasegarar, Karunasekera, and
+  Leckie}{Erfani et~al\mbox{.}}{2016}]%
+        {erfani2016high}
+\bibfield{author}{\bibinfo{person}{Sarah~M Erfani}, \bibinfo{person}{Sutharshan
+  Rajasegarar}, \bibinfo{person}{Shanika Karunasekera}, {and}
+  \bibinfo{person}{Christopher Leckie}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{High-dimensional and large-scale anomaly detection
+  using a linear one-class SVM with deep learning}.
+\newblock \bibinfo{journal}{\emph{Pattern Recognition}}  \bibinfo{volume}{58}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{121--134}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hawkins}{Hawkins}{1980}]%
+        {hawkins1980identification}
+\bibfield{author}{\bibinfo{person}{Douglas~M Hawkins}.}
+  \bibinfo{year}{1980}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Identification of outliers}}.
+  Vol.~\bibinfo{volume}{11}.
+\newblock \bibinfo{publisher}{Springer}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky and Hinton}{Krizhevsky and
+  Hinton}{2009}]%
+        {krizhevsky2009learning}
+\bibfield{author}{\bibinfo{person}{Alex Krizhevsky} {and}
+  \bibinfo{person}{Geoffrey Hinton}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Learning multiple layers of features from
+  tiny images}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{LeCun, Cortes, and Burges}{LeCun
+  et~al\mbox{.}}{2010}]%
+        {lecun2010mnist}
+\bibfield{author}{\bibinfo{person}{Yann LeCun}, \bibinfo{person}{Corinna
+  Cortes}, {and} \bibinfo{person}{Christopher~JC Burges}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{MNIST handwritten digit database}.
+\newblock \bibinfo{journal}{\emph{AT\&T Labs [Online]. Available: http://yann.
+  lecun. com/exdb/mnist}}  \bibinfo{volume}{2} (\bibinfo{year}{2010}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Ting, and Zhou}{Liu
+  et~al\mbox{.}}{2008}]%
+        {liu2008isolation}
+\bibfield{author}{\bibinfo{person}{Fei~Tony Liu}, \bibinfo{person}{Kai~Ming
+  Ting}, {and} \bibinfo{person}{Zhi-Hua Zhou}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Isolation forest}. In
+  \bibinfo{booktitle}{\emph{Data Mining, 2008. ICDM'08. Eighth IEEE
+  International Conference on}}. IEEE, \bibinfo{pages}{413--422}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Marchi, Vesperini, Squartini, and
+  Schuller}{Marchi et~al\mbox{.}}{2017}]%
+        {marchi2017deep}
+\bibfield{author}{\bibinfo{person}{Erik Marchi}, \bibinfo{person}{Fabio
+  Vesperini}, \bibinfo{person}{Stefano Squartini}, {and}
+  \bibinfo{person}{Bj{\"o}rn Schuller}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Deep Recurrent Neural Network-Based Autoencoders
+  for Acoustic Novelty Detection}.
+\newblock \bibinfo{journal}{\emph{Computational intelligence and neuroscience}}
+   \bibinfo{volume}{2017} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Masci, Meier, Cire{\c{s}}an, and
+  Schmidhuber}{Masci et~al\mbox{.}}{2011}]%
+        {masci2011stacked}
+\bibfield{author}{\bibinfo{person}{Jonathan Masci}, \bibinfo{person}{Ueli
+  Meier}, \bibinfo{person}{Dan Cire{\c{s}}an}, {and}
+  \bibinfo{person}{J{\"u}rgen Schmidhuber}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Stacked convolutional auto-encoders for
+  hierarchical feature extraction}. In \bibinfo{booktitle}{\emph{International
+  Conference on Artificial Neural Networks}}. Springer,
+  \bibinfo{pages}{52--59}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Neumann, Schn{\"o}rr, and Steidl}{Neumann
+  et~al\mbox{.}}{2005}]%
+        {neumann2005combined}
+\bibfield{author}{\bibinfo{person}{Julia Neumann}, \bibinfo{person}{Christoph
+  Schn{\"o}rr}, {and} \bibinfo{person}{Gabriele Steidl}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Combined SVM-based feature selection and
+  classification}.
+\newblock \bibinfo{journal}{\emph{Machine learning}} \bibinfo{volume}{61},
+  \bibinfo{number}{1-3} (\bibinfo{year}{2005}), \bibinfo{pages}{129--150}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pan and Yang}{Pan and Yang}{2010}]%
+        {pan2010survey}
+\bibfield{author}{\bibinfo{person}{Sinno~Jialin Pan} {and}
+  \bibinfo{person}{Qiang Yang}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{A survey on transfer learning}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on knowledge and data
+  engineering}} \bibinfo{volume}{22}, \bibinfo{number}{10}
+  (\bibinfo{year}{2010}), \bibinfo{pages}{1345--1359}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parzen}{Parzen}{1962}]%
+        {parzen1962estimation}
+\bibfield{author}{\bibinfo{person}{Emanuel Parzen}.}
+  \bibinfo{year}{1962}\natexlab{}.
+\newblock \showarticletitle{On estimation of a probability density function and
+  mode}.
+\newblock \bibinfo{journal}{\emph{The annals of mathematical statistics}}
+  \bibinfo{volume}{33}, \bibinfo{number}{3} (\bibinfo{year}{1962}),
+  \bibinfo{pages}{1065--1076}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Radford, Metz, and Chintala}{Radford
+  et~al\mbox{.}}{2015}]%
+        {radford2015unsupervised}
+\bibfield{author}{\bibinfo{person}{Alec Radford}, \bibinfo{person}{Luke Metz},
+  {and} \bibinfo{person}{Soumith Chintala}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Unsupervised representation learning with deep
+  convolutional generative adversarial networks}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1511.06434}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ruff, Vandermeulen, Goernitz, Deecke,
+  Siddiqui, Binder, M{\"u}ller, and Kloft}{Ruff et~al\mbox{.}}{2018}]%
+        {pmlrv80ruff18a}
+\bibfield{author}{\bibinfo{person}{Lukas Ruff}, \bibinfo{person}{Robert
+  Vandermeulen}, \bibinfo{person}{Nico Goernitz}, \bibinfo{person}{Lucas
+  Deecke}, \bibinfo{person}{Shoaib~Ahmed Siddiqui}, \bibinfo{person}{Alexander
+  Binder}, \bibinfo{person}{Emmanuel M{\"u}ller}, {and} \bibinfo{person}{Marius
+  Kloft}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Deep One-Class Classification}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 35th International Conference on
+  Machine Learning}} \emph{(\bibinfo{series}{Proceedings of Machine Learning
+  Research})}, \bibfield{editor}{\bibinfo{person}{Jennifer Dy} {and}
+  \bibinfo{person}{Andreas Krause}} (Eds.), Vol.~\bibinfo{volume}{80}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{address}{Stockholmsmässan, Stockholm
+  Sweden}, \bibinfo{pages}{4393--4402}.
+\newblock
+\urldef\tempurl%
+\url{http://proceedings.mlr.press/v80/ruff18a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Sch{\"o}lkopf and Smola}{Sch{\"o}lkopf and
+  Smola}{2002}]%
+        {scholkopf2002support}
+\bibfield{author}{\bibinfo{person}{Bernhard Sch{\"o}lkopf} {and}
+  \bibinfo{person}{Alexander~J Smola}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Support vector machines, regularization,
+  optimization, and beyond}.
+\newblock \bibinfo{journal}{\emph{MIT Press}}  \bibinfo{volume}{656}
+  (\bibinfo{year}{2002}), \bibinfo{pages}{657}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schölkopf, Platt, Shawe-Taylor, Smola, and
+  Williamson}{Schölkopf et~al\mbox{.}}{2001}]%
+        {Scholkopf:2001}
+\bibfield{author}{\bibinfo{person}{Bernhard Schölkopf},
+  \bibinfo{person}{John~C Platt}, \bibinfo{person}{John~C Shawe-Taylor},
+  \bibinfo{person}{Alex~J Smola}, {and} \bibinfo{person}{Robert~C Williamson}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Estimating the Support of a High-Dimensional
+  Distribution}.
+\newblock \bibinfo{journal}{\emph{Neural Computation}} \bibinfo{volume}{13},
+  \bibinfo{number}{7} (\bibinfo{date}{Jul} \bibinfo{year}{2001}),
+  \bibinfo{pages}{1443–1471}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sohaib, Kim, and Kim}{Sohaib
+  et~al\mbox{.}}{2017}]%
+        {sohaib2017hybrid}
+\bibfield{author}{\bibinfo{person}{Muhammad Sohaib},
+  \bibinfo{person}{Cheol-Hong Kim}, {and} \bibinfo{person}{Jong-Myon Kim}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A Hybrid Feature Model and Deep-Learning-Based
+  Bearing Fault Diagnosis}.
+\newblock \bibinfo{journal}{\emph{Sensors}} \bibinfo{volume}{17},
+  \bibinfo{number}{12} (\bibinfo{year}{2017}), \bibinfo{pages}{2876}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stallkamp, Schlipsing, Salmen, and
+  Igel}{Stallkamp et~al\mbox{.}}{2011}]%
+        {stallkamp2011german}
+\bibfield{author}{\bibinfo{person}{Johannes Stallkamp}, \bibinfo{person}{Marc
+  Schlipsing}, \bibinfo{person}{Jan Salmen}, {and} \bibinfo{person}{Christian
+  Igel}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{The German traffic sign recognition benchmark: a
+  multi-class classification competition}. In \bibinfo{booktitle}{\emph{Neural
+  Networks (IJCNN), The 2011 International Joint Conference on}}. IEEE,
+  \bibinfo{pages}{1453--1460}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tax and Duin}{Tax and Duin}{2004}]%
+        {tax2004support}
+\bibfield{author}{\bibinfo{person}{David~MJ Tax} {and}
+  \bibinfo{person}{Robert~PW Duin}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Support vector data description}.
+\newblock \bibinfo{journal}{\emph{Machine learning}} \bibinfo{volume}{54},
+  \bibinfo{number}{1} (\bibinfo{year}{2004}), \bibinfo{pages}{45--66}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vapnik and Vapnik}{Vapnik and Vapnik}{1998}]%
+        {vapnik1998statistical}
+\bibfield{author}{\bibinfo{person}{Vladimir~Naumovich Vapnik} {and}
+  \bibinfo{person}{Vlamimir Vapnik}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Statistical learning theory}}.
+  Vol.~\bibinfo{volume}{1}.
+\newblock \bibinfo{publisher}{Wiley New York}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vishwanathan, Smola, and Murty}{Vishwanathan
+  et~al\mbox{.}}{2003}]%
+        {vishwanathan2003simplesvm}
+\bibfield{author}{\bibinfo{person}{SVN Vishwanathan},
+  \bibinfo{person}{Alexander~J Smola}, {and} \bibinfo{person}{M~Narasimha
+  Murty}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{SimpleSVM}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Twentieth International
+  Conference on International Conference on Machine Learning}}. AAAI press,
+  \bibinfo{pages}{760--767}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xu, Caramanis, and Sanghavi}{Xu
+  et~al\mbox{.}}{2010}]%
+        {xu2010robust}
+\bibfield{author}{\bibinfo{person}{Huan Xu}, \bibinfo{person}{Constantine
+  Caramanis}, {and} \bibinfo{person}{Sujay Sanghavi}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Robust PCA via outlier pursuit}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}. \bibinfo{pages}{2496--2504}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhou and Paffenroth}{Zhou and
+  Paffenroth}{2017}]%
+        {zhou2017anomaly}
+\bibfield{author}{\bibinfo{person}{Chong Zhou} {and} \bibinfo{person}{Randy~C
+  Paffenroth}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Anomaly detection with robust deep autoencoders}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 23rd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}}. ACM,
+  \bibinfo{pages}{665--674}.
+\newblock
+
+
+\end{thebibliography}

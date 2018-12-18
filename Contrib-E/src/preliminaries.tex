@@ -1,0 +1,61 @@
+% !TEX root=../main.tex
+\section{Preliminaries} \label{sec:preliminaries}
+In this section, state-of-the-art GAD techniques  as well as DGMs are described.  
+
+\subsection{Mixture of Gaussian Mixture (MGM) Models  }
+\label{sec:mgmm} 
+
+A hierarchical generative approach MGM is proposed by Xiong et al. \cite{MGM} for GAD. The data generating process in MGM  assumes that groups follow different types of Gaussian mixtures. % where different types of regular mixture proportion are  possible.
+ Visual features are extracted from images then an anomalous group is characterised by an irregular mixture of visual features.  MGM is useful for distinguishing multiple types of group behaviours however poor results are obtained when group observations do  not appropriately follow the assumed generative process.
+
+\subsection{One-Class Support Measure Machines (OCSMM)}
+\label{sec:ocsmm}
+ Muandet et al. \cite{OCSMM} propose the discriminative method OCSMM to maximise the margin that separates regular and anomalous group behaviours.    Each image is characterised by extracted visual features then OCSMM applies mean embedding functions and separates groups using a parameterised hyperplane.  OCSMM classifies groups as regular or anomalous however careful model  selection is required.   
+
+\subsection{One-Class Support Vector Machines (OCSVM) }
+\label{sec:ocsvm}
+ If a group can be  reduced into a  single vector then pointwise anomaly detection methods such as OCSVM % from Sch{\"o}lkopf et al.
+  \cite{OCSVM} are applicable.    We follow a bag of features approach in Azhar et al. \cite{SIFT-OCSVM}, where $k$-means is applied to extracted visual features and centroids are clustered into histogram intervals before implementing OCSVM.  OCSVM separates data using a parametrised hyperplane similar to OCSMM however it may not accurately detect group anomalies if  initial group characterisations are inadequate.  
+
+
+\subsection{Deep Generative Models  (DGMs)}
+\label{sec:adversarialAE}
+This section  describes %the mathematical background of
+ DGMs that are applied for the GAD problem. %used for outlier detection.
+Consider  $M$ groups  where the $m$th group is denoted as input $G_m$ with a reconstructed output ${\hat G}_m$.  Firstly an autoencoder consists of  encoder $f_\phi$ to embed  inputs to latent variables %representation
+ and  decoder $g_\psi$ which reconstructs inputs.  Autoencoders aim to reduce reconstruction error between inputs and ouputs with 
+${ L_r(G_{m},\hat G_{m} )} = ||{ G_m - \hat G_m }||^2  \hspace{0.5cm}  %\mbox{where } G_m \in \mathbb{R}^{N \times V}
+$.  
+%\label{eqn:aeloss} \end{equation}
+Reconstruction errors are treated as anomaly scores where groups with significantly high errors are considered anomalous. 
+
+% Variational autoencoder
+\subsubsection{Variational Autoencoders (VAE)}
+\label{sec:Vautoencoders}
+ Using variational inference (VI),   variational autoencoders (VAE)~\cite{Kingma2013}  
+ infer latent variables $z$ that are produced by encoder $f_\phi$ with  assumed prior  $P(G_m)$. The core idea is to learn $P(z)$ from $P(z|G_m)$ %where reconstruction error
+with loss function 
+\begin{equation}
+{ L(G_m,\hat G_m)} = { L_r(G_m,\hat G_m)} + KL(f_\phi(z|G_m)\, || \, g_\psi(z))  %\hspace{0.5cm}  G_m \in \mathbb{R}^{N \times V}
+\label{eqn:vaeloss}
+\end{equation}
+In order to optimise Kullback-Leibler (KL) divergence, VAE parametrises groups by vectors of means and standard deviations ($\boldsymbol \mu$,$\boldsymbol \sigma$).  
+A new sample  is generated from parameters ($\boldsymbol \mu$,$\boldsymbol \sigma$)  and  
+  decoder $g_\psi$ reconstructs group inputs.   VAE utilises reconstruction probabilities~\cite{an2015variational} or reconstruction error to compute anomaly scores.
+
+\subsubsection{Adversarial Autoencoders (AAE)}
+\label{sec:aae}
+One of the main limitations of VAE is lack of closed-form analytical solution for the KL divergence term except for few distributions. Adversarial autoencoders (AAE)~\cite{makhzani2015adversarial} avoid using KL divergence by adopting adversarial learning, to characterise broader set of distributions.   Firstly AAE infers latent representation $z$  according to generator network $f_\phi(z|G_m)$ and decoder $g_\psi$ reconstructs input %with $\hat G_m$.
+  from $z$.  The weights of encoder $f_\phi$ and decoder $g_\psi$ are updated by backpropagating the reconstruction error between $ G_m$ and $\hat G_m$. 
+Secondly discriminator $D$ receives $z$ and %$z \sim f_\phi(z|G_m)$ and  
+$z' \sim P(z)$ then computes reconstruction scores  with $D(z)$ and $D(z')$ respectively. %The loss incurred is minimised by backpropagating through the discriminator to update its weights. 
+The loss functions for autoencoder (or generator) $L_G$ and %is composed of reconstruction errors along with the loss for
+ discriminator $L_D$ are given by  
+\begin{equation}
+\begin{aligned}
+{L_G} = \frac{1}{M'} \sum_{m=1}^{M'} \log D(z_m) \mbox{ \;  and \; } L_D = -\frac{1}{M'} \sum_{m=1}^{M'} \big [\log D(z'_m)+ \log(1- D(z_m)) \big ]
+\end{aligned}
+\label{eqn:aaeloss}
+\end{equation}
+where $M'$ is the minibatch size %while $z$ represents the latent code generated by encoder 
+and $z'$ is a sample generated from the true prior $P(z)$.

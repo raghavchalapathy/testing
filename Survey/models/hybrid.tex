@@ -1,0 +1,67 @@
+%!TEX root = ../../main.tex
+\subsection{Hybrid Deep Anomaly Detection (DAD) Models}
+\label{sec:hybridModels}
+The hidden layer representation of deep learning models  has been utilized  for choosing features, to best support outlier detection~\cite{andrews2016detecting}. Feeding these hidden representations into traditional algorithms like one-class Radial Basis Function (RBF) , Support Vector Machine (SVM) classifiers forms a new class Hybrid models ~\cite{erfani2016high,erfani2016robust,wu2015harvesting} that are shown to produce good results. The Table ~\cite{tab:hybridModels} illustrates the list of Hybrid models utilized for anomaly detection.
+
+%%%%%%% Begin table industrial damage detection
+\begin{table*}
+\begin{center}
+\caption{Examples of  Hybrid Deep learning anomaly detection Techniques.
+        \\CNN: Convolution Neural Networks, LSTM : Long Short Term Memory Networks
+        \\DBN: Deep Belief Networks, DNN : Deep Neural Networks.
+        \\AE: Autoencoders, DAE: Denoising Autoencoders, SVM: Support Vector Machines
+        \\SVDD: Support Vector Data Description, RNN : Recurrent Neural Networks
+        \\Relief: Feature selection Algorithm, KNN: K- Nearest Neighbours
+        \\CSI: Capture, Score, and Integrate. }
+    \label{tab:hybridModels}
+    \begin{tabular}{ | p{3cm} | p{2cm} | p{6cm} |}
+    \hline
+     \textbf{Techniques}  & \textbf{Section} & \textbf{References} \\ \hline
+     AE-OCSVM, AE-SVM & 21D & ~\cite{andrews2016detecting} \\\hline
+     DBN-SVDD, AE-SVDD & 21D & ~\cite{erfani2016high},~\cite{kim2015deep} \\\hline
+     DNN-SVM & 21D & ~\cite{inoue2017anomaly} \\\hline
+     DAE-KNN, DBN-Random Forest,CNN-Relief,CNN-SVM & 21D & ~\cite{song2017hybrid},~\cite{shi2017semi},~\cite{zhu2018hybrid,urbanowicz2018relief} \\\hline
+     AE-CNN, AE-DBN & Section 7.1.2 &  ~\cite{wang2018effective},~\cite{li2015hybrid} \\\hline
+     AE+ KNN & 21B & ~\cite{song2017hybrid} \\\hline
+     CNN-LSTM-SVM & Section 7.2.1  & ~\cite{wei2017new}\\
+     RNN-CSI & Section 7.2.1  & ~\cite{ruchansky2017csi}\\
+     CAE-OCSVM &  Section 7.2.X  & ~\cite{gutoskidetection}, ~\cite{dotti2017unsupervised}\\\hline
+    \end{tabular}
+\end{center}
+\end{table*}
+%%%%%%%%% End of Hybrid Models
+
+\textbf{Assumptions : } \\
+The deep hybrid models proposed for anomaly detection rely on one the following assumptions to detect outliers:
+\begin{itemize}
+ \item  Hybrid models tend to perform better on on complex, highdimensional datasets since traditional non-parametric learning models such as SVMs,complexity grows quadratically with the number of records.
+  \item Robust features are extracted within hidden layers of deep neural network, which aid in separating out the irrelevant features which can conceal the presence of anomalies.
+  \item Building a robust anomaly detection model in complex, high-dimensional spaces needs both an unsupervised feature extractor and an anomaly detector. Various anomaly detectors used alongwith are illustrated in Table ~\cite{tab:hybridModels}
+\end{itemize}
+
+\textbf{Computational Complexity :} \\
+Computational complexity of an hybrid model includes complexity of both deep architectures as well as traditional algorithms used within. The deeper models tend to perform better,if the individual layers are pre-trained ~\cite{saxe2011random} which introduces computational expenditure. Additionally  an inherent issue of non-trivial choice of deep network architecture and parameters which involves searching optimized parameters in a considerably larger space introduces the computational complexity of using deep layers within hybrid models. Furthermore considering the classical algorithms such as  linear SVM which has prediction complexity  of $O(d)$ with d the number of input dimensions. For most kernels, including polynomial and RBF, the complexity is $O(nd)$ where $n$ is the number of support vectors although an approximation $O(d^2)$ is considered for SVMs with an RBF kernel.
+
+\textbf{Advantages and Disadvantages of Classification Based Techniques :}\\
+The advantages of semi-supervised deep anomaly detection techniques are as follows:
+\begin{itemize}
+\item  A promising technique for learning robust features, and can greatly reduce the ‘curse of dimensionality’ especially in high dimensional domain.
+\item  Linear or nonlinear kernel models may be used to utilize the rich features extracted rending the model more scalable and computationally efficient.
+\end{itemize}
+The significant disadvantages of hybrid techniques for anomaly detection are:
+\begin{itemize}
+\item  The hybrid approach of learning deep features using an deep neural network and then feeding the features into a separate anomaly detection method like one-class SVM (OC-SVM) is suboptimal because it is unable to influence representational learning in the hidden layers.
+\item  Although using generic pre-trained networks for transfer learning representations is efficient, learning representations from scratch, on a moderately sized dataset, for a specific task of anomaly detection is shown to perform better~\cite{andrews2016transfer}.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+

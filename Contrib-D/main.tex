@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%% file typeinst.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is the LaTeX source for the instructions to authors using
+% the LaTeX document class 'llncs.cls' for contributions to
+% the Lecture Notes in Computer Sciences series.
+% http://www.springer.com/lncs       Springer Heidelberg 2006/05/04
+%
+% It may be used as a template for your own input - copy it
+% to a new file with a new name and use it as the basis
+% for your article.
+%
+% NB: the document class 'llncs' has its own and detailed documentation, see
+% ftp://ftp.springer.de/data/pubftp/pub/tex/latex/llncs/latex2e/llncsdoc.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage[colorlinks=true,citecolor=blue]{hyperref}
+\usepackage{amsmath,amssymb}
+\setcounter{tocdepth}{3}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{verbatim}
+
+\urldef{\mailsa}\path|rcha9612@uni.sydney.edu.au, aditya.menon@data61.csiro.au, schawla@qf.org.qa|
+
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{soul,color,colortbl}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{upgreek}
+
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\E}{\mathbf{E}}
+\newcommand{\I}{\mathbf{I}}
+\newcommand{\J}{\mathbf{J}}
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\R}{\mathbf{R}}
+\renewcommand{\S}{\mathbf{S}}
+\newcommand{\T}{\mathbf{T}}
+\newcommand{\U}{\mathbf{U}}
+\newcommand{\V}{\mathbf{V}}
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\Z}{\mathbf{Z}}
+
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\sanjay}[1]{\hl{\footnote{\hl{Sanjay: #1}}}}
+
+\let\oldFootnote\footnote
+\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+    \oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+    \ifx\footnote\nextToken\textsuperscript{,}\fi}
+
+\begin{document}
+
+\mainmatter  % start of an individual contribution
+
+% first the title is needed
+\title{Robust, Deep and Inductive Anomaly Detection}
+
+% a short form should be given in case it is too long for the running head
+\titlerunning{Robust, Deep and Inductive Anomaly Detection}
+
+% the name(s) of the author(s) follow(s) next
+%
+% NB: Chinese authors should write their first names(s) in front of
+% their surnames. This ensures that the names appear correctly in
+% the running heads and the author index.
+%
+\author{Raghavendra Chalapathy\inst{1} \and Aditya Krishna Menon\inst{2} \and Sanjay Chawla\inst{3}}
+
+%
+\authorrunning{Chalapathy, Menon and Chawla}
+% (feature abused for this document to repeat the title also on left hand pages)
+
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+\institute{University of Sydney and Capital Markets Cooperative Research Centre (CMCRC)
+\and 
+Data61/CSIRO and the Australian National University
+\and
+Qatar Computing Research Institute \\
+\mailsa\\
+ }
+
+%
+% NB: a more complex sample for affiliations and the mapping to the
+% corresponding authors can be found in the file "llncs.dem"
+% (search for the string "\mainmatter" where a contribution starts).
+% "llncs.dem" accompanies the document class "llncs.cls".
+%
+
+\toctitle{Lecture Notes in Computer Science}
+\tocauthor{Authors' Instructions}
+\maketitle
+
+
+\begin{abstract}
+\input{src/abstract}
+\end{abstract}
+
+\section{Anomaly detection: motivation and challenges}
+\input{src/intro}
+
+\section{Background and related work on anomaly detection}
+\label{sec:background}
+\label{sec:related}
+\input{src/background}
+
+\section{From robust PCA to robust autoencoders}
+\label{sec:method}
+\input{src/method}
+
+\section{Experimental setup}
+\label{sec:experiment-setup}
+\input{src/experiment-setup}
+
+\section{Experimental results}
+\label{sec:experiment-results}
+\input{src/experiment-results}
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{src/conclusion}
+
+\bibliographystyle{splncs03}
+\bibliography{MyBibFile,outlier}
+
+\end{document}

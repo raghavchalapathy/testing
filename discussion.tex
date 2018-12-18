@@ -1,0 +1,256 @@
+ \chapter{Discussion} \label{chpt:disc}
+ % Data Description 
+ % Many domains 
+ % Useful 
+ % draw from intro
+From previous chapters, we have reviewed group deviation detection methods with their application to a variety of datasets. 
+%In GAD and GCD problems,   ground truth labels are usually unavailable when analysing data. 
+Table \ref{Tab:GAD_Summary}  summarises  different datasets that have been used to evaluate GAD methods where anomaly injection is usually employed while other datasets contain known group anomalies. For dynamic GCD techniques, Table \ref{Tab:GCD_Summary} highlights that since  ground truth labels are unavailable in most cases, detected group changes are interpreted based on domain knowledge.
+Synthetically generated data is also useful for  evaluating methods % such as in Muandet et al. \cite{OCSMM}, Xiong et al. \cite{FGM} and Yu et al. \cite{GLAD}. In these simulations,   
+where regular behaviour is generated from an underlying distribution and group deviations follow different distributions. 
+ 
+ 
+ A comparison study may be conducted for evaluating various group deviation detection techniques. In static GAD applications, the proposed method DGMs may be compared with OCSMM,  SMDD, LDA, MGM, FGM on the first five datasets in Table \ref{Tab:GAD_Summary}. When dealing with image data, GAD methods require additional pre-processing to extract visual features than are not required by DGMs. From Table \ref{Tab:GCD_Summary}, the GT$\Delta$ algorithm may be compared to WSARE and MSSD for only detecting temporal changes in the location parameter of a GSP. 
+ It is also important to note that naturally occurring group anomalies in data may occur when applying anomaly injection on real-world applications. For example, anomalies naturally occur in the SDSS data such that more anomalous galaxy clusters are injected into the dataset for valid evaluation. Proper evaluation and careful construction of group deviation data is essential for a better understanding of GAD and GCD techniques.  
+ \begin{table}[H]%
+{
+\begin{center}
+ \scalebox{0.9}{
+ 	\tabcolsep=0.2cm 	\renewcommand{\arraystretch}{0.8}
+\begin{tabularx}{\linewidth}{p{3cm}p{11cm}p{2cm}p{2cm} }%{cccccccccc }%\begin{tabular}{cccccccc} 
+ \hline\\[-4mm]
+ Datasets &  Description %&  Methods 
+   \\[1mm] \hline\\[-4mm]  \hline \\[-4mm]
+{ $\mbox{Sloan Digital}$ $\mbox{Sky Survey } $ $\mbox{(SDSS)}$ \cite{MGM,OCSMM,SMDD} }  &   { \it Regular groups} : Spatial clusters of galaxies.  % with each cluster contains about 10-50 galaxies. 
+ \newline   { \it Anomaly injection}: Groups are generated randomly sampling features from different galaxies.  %  &  Standard GAD 
+\\ \hline \\[-4mm]
+$\mbox{High Energy}$ $\mbox{Particle Physics} \, \cite{OCSMM}$  & 
+{ {\it Regular groups}: Collisions with
+only background signals. \newline  {\it Anomaly injection}: Groups  with  Higgs boson collision events. } %  & Standard GAD
+\\ \hline \\[-4mm]
+Scene Image Data \cite{FGM} &   {\it Regular groups}: Images from different scene categories. \newline %'mountain', 'coast', and 'inside city'. 
+{\it Anomaly injection}:  Images are stitched from different scene categories. 
+%  &  Standard GAD 
+\\ \hline \\[-4mm]
+ {\tt cifar-10} Dataset~\cite{krizhevsky2009learning} &  {\it Regular groups}: Images from the category of cats. \newline %'mountain', 'coast', and 'inside city'. 
+{\it Anomaly injection}:  Anomalous images such as tigers or cats and dogs together are obtained from  Pixabay~\cite{pixabayImages}.  %rescaled to match the image dimension of cats. 
+\\ \hline \\[-4mm]
+$\mbox{JHU Turbulence}$ Database $\mbox{Cluster}$ \cite{FGM}   &  {  {\it Regular groups}: Groups of velocities due to fluid motion.  \newline {\it Unknown Anomalies}: Groups are detected based on irregular velocity distributions. }
+\\ \hline \\[-4mm]
+Scientific $\mbox{Publications}$ \cite{GLAD} &  { {\it Regular groups}: Inferred clusters using  academic papers (bag of words) and co-authorship  (network). \newline 
+{\it Anomaly Injection}: Clusters with papers whose topics originate from a variety of  domains.}
+\\ \hline \\[-4mm]
+20-Newsgroup Corpus \cite{ATD} & {\it Regular behaviour}: Collection of regular topics in training set. \newline {\it  Known Anomalies}: Known clusters of documents whose topics are anomalous. 
+%& ATD
+\\ \hline \\[-4mm]
+ $ \mbox{Reuters Corpus}$ \cite{ATD} &  {  {\it Regular behaviour}: Collection of documents with regular topics in the training set. \newline {\it  Known Anomalies}: 
+Known clusters of documents whose topics are anomalous.  }  %& ATD
+\\ \hline \\[-4mm]  
+WEBSPAM-UK20063 \cite{ERACD}
+&  {   {\it Regular behaviour}: Collection of features extracted from a web host  graph. \newline {\it Unknown Anomalies}:  Clusters of spammers with an extreme combination of features. } %& ERACD  
+\\ \hline \\[-4mm]
+$\mbox{IMDB dataset}$ \cite{ERACD} &
+ { {\it Regular behaviour}: Collection of regular actor and neighbourhood features. \newline {\it Unknown anomalies}:
+Clusters contain extremely ranked actors with an irregular mixture of features.} %& ERACD 
+\\[2mm]
+\hline \\[-8mm]
+	\end{tabularx}
+	}
+	\end{center}
+	\caption{  A summary of datasets used to evaluate GAD techniques by comparing regular group behaviours with anomaly injection, known anomalies and unknown anomalies. }
+ \label{Tab:GAD_Summary}
+ }
+\end{table}
+
+
+ 
+{ 
+ \begin{table}[H]
+  { 
+\begin{center}
+ \scalebox{0.9}{
+ 	\tabcolsep=0.2cm 	\renewcommand{\arraystretch}{0.8}
+\begin{tabularx}{\linewidth}{p{3.5cm}p{10cm}p{2cm}p{2cm} }%{cccccccccc }%\begin{tabular}{cccccccc} 
+ \hline\\[-4mm]
+ Datasets &  Description %&  Applicable Methods 
+   %\\[1mm] \hline\\[-4mm] 
+   \\[1mm] \hline\\[-4mm]  \hline \\[-4mm]
+%& GLAD 
+%\\ \hline \\[-4mm]
+ US Senate \newline Voting \cite{GLAD} & {\it Regular GSP}:
+  { Inferred clusters using  voting records of senators and their connections over time. \newline {\it  Unknown time of group change}: An abrupt change is detected in role mixture proportions of senator clusters.}
+%& DGLAD, GLAD 
+\\ \hline \\[-5mm]
+Enhanced \newline Vegetation \newline Index (EVI) Data \cite{GLETS} &
+ {   {\it Regular GSP}: EVI time series representing forest coverage.\newline {\it Unknown time of group change}: Significant decrease in EVI values indicating forest fires in certain geographical areas.}
+% & GLETS 
+\\ \hline \\[-5mm]
+Stock Price Data  \cite{GLETS} & 
+{\it Regular GSP}:   Prices of real estate stocks. \newline {\it Unknown time of group change}: A group disbands with increased variability in time series. 
+%& GLETS  
+\\ \hline \\[-5mm]
+Emergency \newline Department \newline Database
+ \cite{WSARE} {\footnotemark[6]} & 
+ {  {\it Regular GSP}:  Demographic groups of patients admitted to the emergency department. \newline {\it Unknown time of group change}: Outbreak of potential epidemic for a particular group.}
+%& WSARE
+\\ \hline \\[-5mm]
+NASA Solar Flare Video  \cite{NASA} & 
+{\it Regular GSP}: Monitoring regular solar activity. \newline {\it Known time of group change}: Emergence of solar flare. 
+%& GLETS  
+\\ \hline \\[-4mm]
+
+	\end{tabularx}
+	}
+	\end{center}
+    \vspace{-4mm}
+ \raggedright {\footnotemark[6]} 
+It is difficult to obtain ground truth labels for the ED database such that  Wong et al. \cite{WSARE} resort to evaluating WSARE using a simulated dataset.
+	\caption{  A summary of  datasets used to evaluate dynamic GCD techniques where the time of group change is usually unknown. }
+ \label{Tab:GCD_Summary}
+ }
+\end{table}
+}
+
+
+ 
+ 
+ 
+ 
+ Table \ref{Tab:GADtechniques} summarises group deviation detection techniques in terms of the four key components as  described in Section \ref{Sec:Problem}. Discriminative methods OCSMM and SMDD respectively  optimise a classification threshold based on a parametrised hyperplane and minimum volume set  whereas GLETS requires a user defined threshold.   Generative models such as  AAE, VAE, LDA, MGM, FGM, GLAD and DGLAD produce scores where groups with  highest scores are subjectively chosen as group deviations. AAE and VAE have similar characterisation functions however the generative process has different assumptions.    In hypothesis tests GT$\Delta$, ATD, ERACD and WSARE, a group deviation is detected when a $p$-value is less than a statistical threshold  while MSSD  sequentially evaluates  whether test statistics over time  are greater than an estimated critical value.  
+ 
+ 
+ 
+\begin{table}[H]%
+ \hspace{-1cm}
+\tabcolsep=0.01cm 
+	\renewcommand{\arraystretch}{1.2}
+\scalebox{0.85}{
+\begin{tabular}{ccccccc }
+\hline\\[-3mm]
+  Methods  %${\bf G}_{test}$ & ${\bf G}_{train}$ 
+  & $f_1({\bf G}_{train})$  &  $f_2({\bf G}_{test})$ & Measure $ \mathcal{D}\big(f_1 ({\bf G}_{train}) , f_2({\bf G}_{test} )\big )$& Sign & Threshold $\epsilon $
+  \\[2mm] \hline\\[-2mm]  
+   OCSMM & ${\bf w}= \displaystyle \sum_{m=1}^M \alpha_m  \mu_{\mathbb{P}_m}  $& $\mu_{\mathbb{P}_m}$  &  $  \big\langle {\bf w},\mu_{\mathbb{P}_m } \big \rangle_\mathcal{H}  $ & $>$ &  $ \rho$ \\[5mm]
+   SMDD  & ${\bf c}=\displaystyle \sum_{m=1}^M \alpha_m \mu_{\mathbb{P}_m} $& $\mu_{\mathbb{P}_m}$ &  $|| \mu_{\mathbb{P}_m }-  {\bf c} ||^2_\mathcal{H}  $ & $<$ &  $   R^2 $ \\[5mm]  
+\small LDA, MGM   &\multirow{ 2}{*}{  $\Theta $} &  \multirow{ 2}{*}{ $Z_m$ } & 
+\multirow{ 2}{*}{  $ - E_{Z_{m}} [\ln P({Z}_{m} | \Theta) ] $} &  \multicolumn{ 2}{l}{ \multirow{ 2}{*}{\small Select highest scores}  } \\ 
+ \small FGM, GLAD & & & \\[2mm]
+%FGM  &    & $\Theta=\{\alpha,\beta,\gamma\}$ &   &    \\[2mm]
+%GLAD &    & $\Theta=\{\alpha,\phi,\theta, B\}$ &   &    \\[2mm]
+\multirow{ 2}{*}{  ATD}  % =\sum_{m \in \mathcal{C}} \ln P (m | \mathcal{M}_1 ) $
+ &  \multirow{ 2}{*}{  $ \displaystyle l_0(\mathcal{C})$ }%= \sum_{m \in \mathcal{C}}  \ln P(m| \mathcal{M}_0) $
+ & \multirow{ 2}{*}{  $ \displaystyle l_1(\mathcal{C})$ } &  $ \displaystyle \frac{1} {B+1} \sum_{b=1}^B \Big[I \Big(b : \mathcal{S}(\mathcal{C}_b) > \mathcal{S}(\mathcal{C}) \Big)+1 \Big] $ & \multirow{ 2}{*}{$<$} & \multirow{ 2}{*}{ $\alpha$} \\[2mm]
+ & & & where $ \mathcal{S}(\mathcal{C}) = {l_1 (\mathcal{C}) -l_0 (\mathcal{C})} $   & \\[5mm]
+ERACD  % & $\big ( X^{(m)}_{ij}\big) \in \mathbb{D}^{N_m \times V} $ & ${\bf X}=  ( {X}_{ij}\big) \in \mathbb{D}^{N \times V}$  
+&  $|{\bf X}_{v}  (r^*) | $ &  $| \mathcal{C}_{v}  (r^*) | $ 
+  & $\displaystyle \sum_{n = |\mathcal{C}_v (r^*) | |} ^ {\min(| {\bf X}_v (r^*) |,| \mathcal{C}| )}  P (n, N,|{\bf X}_{v}  (r^*)|,|\mathcal{C}  | )$
+& $<$ & $\alpha/V$
+\\[5mm]
+DGM (VAE) & $ g_\psi(\mathcal{G}|z) $ & $ (\mu_m,\sigma_m) %= f_\phi(z|G_m) 
+$ & $\mathcal{D}(g_\psi(\mathcal{G}|z),G_m) $ &  \multicolumn{ 2}{l}{ \multirow{ 2}{*}{\small Select highest scores}  }   
+\\[2mm]
+& \multicolumn{ 3}{l}{
+where $z \sim \mathcal{N}(\mu,\,\sigma)$ and 
+$(\mu,\sigma)=\displaystyle\frac{1}{M} \sum_{m=1}^M (\mu_m,\sigma_m)$ } 
+& \\ 
+% $(\mu,\sigma) = \frac{1}{M}\sum_{m=1}^{M}      (\mu_m,\sigma_m$)\;
+    %  reconstruct sample using decoder $\mathcal{G}^{(ref)}=    g_\psi(\mathcal{G}|z)$\;
+DGM (AAE) & $ g_\psi(\mathcal{G}|z) $ & $ (\mu_m,\sigma_m) % = f_\phi(z|G_m) 
+$ & $\mathcal{D}(g_\psi(\mathcal{G}|z),G_m) $ & %\multirow{ 2}{*}{Select highest scores}   
+\multicolumn{ 2}{l}{ \multirow{ 2}{*}{\small Select highest scores}  }
+\\
+& where   $z \sim f_\phi(z|\mathcal{G})$                     
+& & & 
+  \\[4mm]
+ \hline\\
+ DGLAD  &   $\theta_m(t-1)$  &   $\theta_m(t)$   & $|| \theta_m(t) -\theta_m(t-1) ||$
+  & \multicolumn{ 2}{l}{ \small 
+  Select highest scores  } 
+  
+  \\[2mm]
+ GLETS 
+&   $H({\bf G}_{train}) $ &  $ H({\bf G}_{test}) $  & $ \displaystyle \frac{ H({\bf G}_{test})}{H({\bf G}_{train}) }   $ 
+& $>$ & $th$ %\multirow{2}{*}{$th$} 
+\\[3mm]
+&  \multicolumn{3}{l}{ 
+ where $  H({\bf G}_{train}) = \displaystyle -\frac{1}{N'}\sum_{n=1}^{N'} \ln \Big(  \frac{1}{{N'}}\sum_{n'=1}^{N'}  \exp\big[-d({\bf X}_{n}(t),{\bf X}_{n'}(t),[\tau,\tau+a] )\,\big ] \Big)  $} &  \\[6mm]
+ WSARE & $O_{past}$  & $O_{today}$ & $\displaystyle  \frac{1}{B} \sum_{b=1}^ B I ( \tilde{p}_b > \tilde{p} )  $ &$<$ & $\alpha_{FDR}$   \\[4mm]
+ MSSD  & $\{ \mu_n(T) \}_{n=1}^{N'} $  & $\{ \mu_n(\tau) \}_{n=1}^{N'}  $  
+ & $ \displaystyle Z_{\tau,T}=\sum_{n=1}^{N'} g\Big( \frac{  
+\big( T \mu_n(T) - \tau \mu_n(\tau) \big) }{(T-\tau)^{1/2} }
+% \bigg(  \sum_{t=1}^T   X_{n}(t) -  \sum_{t=1}^\tau   X_{n}(t) \bigg) 
+ \, , \, p_0  \Big) $ % \max_{0\le \tau \le T} \sum_{n=1}^N (\tau-s)^{-1/2} \Big(S_{\tau n} - S_{\tau n} \Big) $
+& $>$ & $b$% \multirow{3}{*}{$b$ } 
+ \\[2mm]
+&  \multicolumn{3}{l}{
+  where $ \displaystyle \mu_n(\tau) = \sum_{t=1}^\tau    X_{n}(t) $ \, and \, $ g(u,p_0)= \displaystyle\ln \Big(1-p_0+p_0 \exp\Big[\frac{(u^+)^2}{2}\Big]\Big)$ } 
+   %\left\{ \begin{array}{ll} \ln \big(1-p_0+p_0 \exp[(u^+)^2/2]\big) \\ (u^+)^2/2 + \ln p_0 \end{array} \right. $  
+& \\[5mm]
+GT$\Delta$ & $\phi \big[\{ { \boldsymbol \alpha} { (\, t\, ) } \}_{t \in \mathcal{T}_{r}}   \big] $ & $ \, {\boldsymbol \alpha}( \, \tau \, )$ & $   \mathcal{D}\Big(\,   \phi \big[\{ { \boldsymbol \alpha} { (\, t\, ) } \}_{t \in \mathcal{T}_{r}}   \big], \, {\boldsymbol \alpha}( \, \tau \, )   \Big)  $
+&$>$&$\epsilon_{\theta,k}$ 
+\\[2mm]
+\hline
+ \end{tabular}
+ }
+%\end{center}
+\smallskip
+\caption{Summary of key components for state-of-the-art group deviation detection techniques. The first half of the table describes static GAD techniques while the remaining part provides  details of dynamic GCD methods.  }
+ \label{Tab:GADtechniques}
+\end{table} 
+
+
+
+
+
+  
+
+
+We also compare the computational complexity of group deviation methods for static and dynamic applications. % We do not include the computational complexity of DGMs because it depends on the chosen architecture as well as the number of steps for backpropagation. 
+When group memberships are known a priori, DGMs have higher computational complexity than state-of-the-art GAD methods. 
+In GCD applications, GT$\Delta$ has the lowest computational complexity especially when dimension $V$ of time series is relatively small.   
+ Generally when group memberships are unknown, methods incur a larger computational complexity. The computational complexity of ATD accounts for applying the parsimonious topic model \cite{PTM} however the overall computation of ATD is more expensive with bootstrapping and clustering procedures.  Similarly, the computational complexity of ERACD is given for the exact algorithm however an heuristic approximation is also proposed in Dai et al. \cite{ERACD}. The inference approach of generative models  impacts computational complexity as variational inference is applied in GLAD  while DGLAD utilises Monte Carlo sampling. 
+ %MGM is inferred by variational inference while Gibbs sampling is applied in FGM.   
+%Both GLAD and DGLAD include additional network information where  GLAD parameters are inferred by variational inference while DGLAD is computed using Monte Carlo sampling. 
+%Since ATD is a supervised method and does not involve , 
+%We also note that the computational complexity of ATD accounts for  applying the parsimonious topic model \cite{PTM} however the overall computation of ATD is more expensive with bootstrapping and clustering procedures.
+ 
+\begin{table}[H]
+  { 
+\begin{center}
+ \scalebox{0.95}{
+ 	\tabcolsep=0.2cm 	\renewcommand{\arraystretch}{0.9}
+\begin{tabular}{cccccccc} 
+ \hline\\[-4mm]
+ Techniques & Group Memberships   &     Computational Complexity 
+    \\[1mm] \hline\\[-4mm] % \hline\\[-5mm] 
+	OCSMM 	\cite{OCSMM} &  Known   
+	 & {$O\big( N^2 V^3 M^2 \big)$} \\ 
+	SMDD  \cite{SMDD} &  Known   &  	  {$O\big( N^2 V^3 M^2 \big)$} \\ 
+LDA	\cite{LDA}&	 Known 
+ & $ O\big(N^2 K I \big)$ 
+\\ 
+MGM \cite{MGM} &	Known &        $O\big(N^2 K J I \big)$ \\ 
+	 FGM	\cite{FGM}&	Known  & $O\big(N+MVI+JKI \big) $ \\ 
+	 {DGM}  &	Known  &   $O\big(N^3 M \big)$\\ 	  
+	   GLAD \cite{GLAD}  & Unknown   &        $O\big(N^3 M K I \big)$\\
+   	ATD  	 \cite{ATD}  	& Unknown &  	 $O\big( K^2 M NI +KNI  \big) $   	 \\ 
+	ERACD		\cite{ERACD}  &   Unknown  &   $O\big( N \log K + N^3 \log N  \big)$\\[2mm]    \hline \\[-5mm]
+ {DGLAD}  \cite{GLAD} &  Unknown   & $ %\scriptstyle
+ \; O\big(I [N' TMV +N' M^2 +N'K+TM] \big) $ & \\ 
+	 GLETS 	 \cite{GLETS}&	Unknown  & $O\big(a N'^2 \big)$\\ 
+	 WSARE 	 \cite{wong-rule} &   Known          &     $O\big(N'T+ T\log T \big)$\\
+	  MSSD \cite{xie2013} &	Known  &       $O\big(N'T^2 \big)$\\  
+	 {  GT$\Delta$} & Known &     $O\big(N'VT \big)$\\  
+	  \hline \\[-8mm]
+	\end{tabular}
+	}
+	\end{center}
+	\raggedright
+%Data inputs are either known groups $G_m = (X_{mnv})$ for $m=1,\dots, M$, data instances with unknown group structures $(X_{\cdot nv})$ or equivalent notations for time dependent data. 
+Data may involve the number of data instances $N$, number of stochastic processes $N'$, dimensions  $V$, groups $M$, types of groups  $J$, topics $K$, time observations $T$, window size $a$ and iterations $I$. % to further reduce computation. 
+	\caption{   A summary of computational complexity for different  group deviation techniques where the first half of the table  describes static GAD methods while the second half represents dynamic GCD techniques.  \\ 
+	}
+ \label{Tab:Computation}
+ }
+\end{table}
+

@@ -1,0 +1,34 @@
+% !TEX root=../main.tex
+
+GAD applications are emerging areas of research where most state-of-the-art techniques have been more recently developed.  While group anomalies are briefly discussed in anomaly detection surveys such as Chandola et al. \cite{Chandola} and Austin \cite{Hodge},  Xiong \cite{Collective} provides a more detailed description of current state-of-the-art GAD methods.  Yu et al. \cite{SurveySocialMedia} further reviews GAD techniques where group structures are not previously known however  clusters are inferred based on additional information of pairwise relationships between data instances. 
+%is available,  group anomalies are discovered by  aggregating data instances and then comparing inferred clusters. 
+We explore  group anomalies when group memberships are known a priori such as in image applications. 
+
+Previous studies on image anomaly detection % involving image   applications 
+can be understood in terms of group anomalies. 
+%Anomaly detection has been  previously studied in a variety of image classification applications. 
+Quellec et al.  \cite{mammo} examine mammographic images  where point-based group anomalies represent potentially cancerous regions. Perera and Patel \cite{chairs} learn features from a collection of images containing regular chair objects and detect point-based group anomalies where chairs have abnormal shapes, colors and other irregular characteristics. On the other hand, regular categories in Xiong et al. \cite{FGM}  represent scene images such as inside city, mountain or coast  and distribution-based group anomalies are stitched images with a mixture of different scene categories. At a pixel level,   Xiong et al. \cite{MGM} apply GAD methods to detect anomalous galaxy clusters with irregular proportions of RGB pixels. We emphasize detecting distribution-based group anomalies rather than point-based anomalies in our subsequent  image applications.
+
+The discovery of group anomalies is of interest to a number of diverse domains.  %that motivate different avenues of research.
+  Muandet et al.	\cite{OCSMM} investigate GAD for physical phenomena in high energy particle physics where Higgs bosons are observed as slight excesses in a collection of collision events rather than individual  events. Xiong et al. \cite{FGM} analyze a fluid dynamics application where a group anomaly represents unusual vorticity and turbulence in  fluid motion.   In topic modeling,  Soleimani and Miller \cite{ATD} characterize documents by topics and anomalous clusters of documents are discovered by their irregular  topic mixtures.  By incorporating additional information from pairwise connection data, Yu et al. \cite{GLAD} find potentially irregular communities of co-authors in various research communities.
+Thus there are many GAD application other than image anomaly detection.
+ %however the study of GAD techniques is not limited to image datasets.
+
+% A  related disclipline to image anomaly detection is video anomaly detection that is usually applied for surveillance purposes. A video  can be treated as a group of pixels evolving over time where anomalous behaviors can be identified by comparing previous frames.  Murugan et al. \cite{survideos3} uses background subtraction for an online response for video surveillance for detecting anomalous object or events from low resolution footage.
+%  Sultani  et al.  \cite{survideos1} detect real-world anomalies such as burglary, fighting, vandalism and so on from  CCTV footage using deep learning methods.  Many techniques involving deep learning architectures have been applied to detect temporal changes in a video surveillance application.
+ 
+
+A  related discipline to image anomaly detection is video anomaly detection where many deep learning architectures have been applied. %A video  can be treated as a group of pixels evolving over time where anomalous behaviors can be identified by comparing previous frames.  Murugan et al. \cite{survideos3} uses background subtraction for an online response for video surveillance for detecting anomalous object or events from low resolution footage.
+ Sultani  et al.  \cite{survideos1} detect real-world anomalies such as burglary, fighting, vandalism and so on from  CCTV footage using deep learning methods.  %Many techniques involving deep learning architectures have been applied to detect temporal changes in a video surveillance application.    
+ In a review, Kiran et al. \cite{survideos2} compare DGMs with different  convolution architectures for  video anomaly detection applications. 
+Recent work ~\cite{schlegl2017unsupervised,xu2018unsupervised,an2015variational} illustrate the effectiveness of generative models for high-dimensional anomaly detection. Although, there are existing works that have applied deep generative models in image related applications, they have not been formulated as a GAD problem. We leverage  autoencoders for DGMs % both adversarial autoencoders  and variational autoencoders
+to detect group anomalies in a variety of data experiments. 
+
+%achieve state-of-the-art performance on image dataset for the formulated group anomaly detection (GAD) task. however We focus on static situations for group anomaly detection rather than anomalous behaviors in time-dependent images.  
+%PCA has been applied to image anomaly detection however it ignores the spatial structure and location of pixels in an image called permutation invariant.
+
+
+%multi-spectral imagery data to detect spatial outliers
+
+
+

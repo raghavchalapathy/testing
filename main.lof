@@ -1,0 +1,27 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Performance Comparision of Deep learning-based algorithms Vs Traditional Algorithms.\relax }}{2}{figure.caption.12}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Deep learning-based anomaly detection algorithms successfull applications. (a) Video Survelliance, Image Analysis: Illegal Traffic detection\nobreakspace {}\cite {xie2017real} , (b) Healthcare: Detecting Retinal Damage\nobreakspace {}\cite {schlegl2017unsupervised} (c) Networks: Cyber-intrusion detection\nobreakspace {}\cite {javaid2016deep} (d) Sensor Networks: Internet of Things (IoT) big-data anomaly detection\nobreakspace {}\cite {mohammadi2017deep} \relax }}{3}{figure.caption.13}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Illustration of anomalies in two-dimensional data set.\relax }}{4}{figure.caption.14}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Illustration of novelty in image data set.\relax }}{4}{figure.caption.14}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Key components associated with deep learning-based anomaly detection technique.\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Taxonomy based on type of deep learning models for anomaly detection.\relax }}{10}{figure.caption.18}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Deep Hybrid Model Architecture.\relax }}{11}{figure.caption.19}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Deep learning techniques classification based on type of anomaly.\relax }}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Illustration of contextual anomaly detection in two-dimensional temperature data set.\relax }}{13}{figure.caption.21}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Illustration of contextual anomaly detection in system logs.\relax }}{13}{figure.caption.21}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Credit Card Fraud Detection: Illustrating Point and Collective anomaly.\relax }}{13}{figure.caption.22}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Classification of deep learning methods for Intrusion Detection.\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Fraud detection across various application domains.\relax }}{19}{figure.caption.27}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces \textbf {Autoencoder architectures for anomaly detection}. AE: Autoencoders\nobreakspace {}\cite {liou2014autoencoder}, LSTM : Long Short Term Memory Networks\nobreakspace {}\cite {hochreiter1997long} SDAE: Stacked Denoising Autoencoder\nobreakspace {}\cite {vincent2010stacked}, DAE : Denoising Autoencoders\nobreakspace {}\cite {vincent2010stacked} GRU: Gated Recurrent Unit\nobreakspace {}\cite {cho2014learning}, CNN: Convolutional Neural Networks\nobreakspace {}\cite {krizhevsky2012imagenet} CNN-LSTM-AE: Convolution Long Short Term Memory Autoencoders\nobreakspace {}\cite {haque2018image} CAE: Convolutional Autoencoders\nobreakspace {}\cite {masci2011stacked} \relax }}{48}{figure.caption.43}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model architecture of Autoencoder and the proposed one-class neural networks (OC-NN). \relax }}{76}{figure.caption.50}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Decision Score Histogram of anomalous vs normal data points, {\tt synthetic} dataset.\relax }}{77}{figure.caption.52}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces MNIST Most normal and in-class anomalous MNIST digits detected by RCAE. \relax }}{77}{figure.caption.53}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces MNIST Most normal and in-class anomalous MNIST digits detected by OC-NN.\relax }}{77}{figure.caption.54}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces CIFAR-10 Most normal and in-class anomalous CIFAR10 digits detected by RCAE. \relax }}{79}{figure.caption.55}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces CIFAR-10 Most normal and in-class anomalous CIFAR10 digits detected by OC-NN.\relax }}{79}{figure.caption.56}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Most normal (left) and most anomalous (right) in-class examples determined by OCSVM-SVDD for in which OCSVM-SVDD performs best.\relax }}{79}{figure.caption.57}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Most normal and anomalous stop signs detected by RCAE. Adversarial examples are highlighted in green, Normal samples are highlighted in blue\relax }}{80}{figure.caption.60}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Most normal and anomalous stop signs detected by OC-NN. Adversarial examples are highlighted in green, Normal samples are highlighted in blue\relax }}{81}{figure.caption.61}
+\addvspace {10\p@ }
